@@ -794,12 +794,12 @@ boxplot(x,range=0)
 outliers. The default is \texttt{range=1.5}, which will show some outliers.
 \end{frame}
 
-% \begin{frame}
-%   \frametitle{Box-and-Whiskers Display Without Outliers}
-% \begin{figure}[h]
-% \includegraphics[scale=.6]{./box.png}
-% \end{figure}
-% \end{frame}
+\begin{frame}
+  \frametitle{Box-and-Whiskers Display Without Outliers}
+\begin{figure}[h]
+\includegraphics[scale=.6]{./box.png}
+\end{figure}
+\end{frame}
 
 \begin{frame}
   \frametitle{Box-and-Whiskers Display with Outliers}
