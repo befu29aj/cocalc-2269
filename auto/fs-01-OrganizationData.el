@@ -26,6 +26,7 @@
     "CourseInst")
    (LaTeX-add-labels
     "eq:daechuev"
+    "eq:aethecux"
     "eq:eogheivi"
     "eq:uevuemoo"
     "eq:zephahwu"

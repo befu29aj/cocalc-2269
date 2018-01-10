@@ -405,15 +405,16 @@ data set).
     \label{eq:daechuev}
     \mbox{mean}=\frac{\sum{}x}{n}
   \end{equation}
-where $n$ is the number of data points in your quantitative data set
-and $x$ is your random variable. Often, we write $\mu$ for the mean of
-a population and $\bar{x}$ for the mean of a sample.
-
-\bigskip
-
-Example: Find the mean of the following five counts for Chips Ahoy
-chocolate chip cookies: 22 chips, 22, chips, 26 chips, 24 chips, and
-23 chips.
+  where $n$ is the number of data points in your quantitative data set
+  and $x$ is your data set. Mathematically speaking, $x$ is an
+  $n$-dimensional vector $x=(x_{1},{\ldots},x_{n})$ and $\sum{}x$
+  means
+  \begin{equation}
+    \label{eq:aethecux}
+    \sum{}x=x_{1}+{\ldots}x_{n}
+  \end{equation}
+Often, we write $\mu$ for the mean of a
+  population and $\bar{x}$ for the mean of a sample.
 \end{frame}
 
 \begin{frame}
@@ -455,6 +456,20 @@ For the example in the last slide,
 In R, you can also simply use the command \texttt{mean}. Notice that
 \texttt{mean(x)} and \texttt{sum(x)/length(x)} will give you the same
 number.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises}
+  {\ubung} Find the mean of the following five counts for Chips Ahoy
+  chocolate chip cookies: 22 chips, 22, chips, 26 chips, 24 chips, and
+  23 chips.
+
+  \bigskip
+
+  {ubung} Anne measures the temperature in her walk-in freezer. She
+  measures $-23^{\circ}$C once; $-22^{\circ}$C 31 times;
+  $-21^{\circ}$C 13 times; $-0^{\circ}$C 7 times; $-18^{\circ}$C
+  twice. What is the mean temperature given this dataset?
 \end{frame}
 
 \begin{frame}
