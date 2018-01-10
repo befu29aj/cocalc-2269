@@ -16,14 +16,21 @@
     "latex2e"
     "beamer"
     "beamer10"
+    "tikz"
+    "cancel"
     "graphicx"
     "wrapfig"
     "colortbl"
+    "color"
     "alltt")
    (TeX-add-symbols
+    '("ubung" 0)
+    '("beispiel" 1)
     "CourseName"
     "CourseNumber"
-    "CourseInst")
+    "CourseInst"
+    "qeq"
+    "QEQ")
    (LaTeX-add-labels
     "eq:daechuev"
     "eq:aethecux"
@@ -43,7 +50,11 @@
     "eq:beingeip"
     "eq:iefoopoo"
     "eq:phaecoab")
+   (LaTeX-add-counters
+    "expls"
+    "exercise")
    (LaTeX-add-xcolor-definecolors
+    "red"
     "myblue"))
  :latex)
 
