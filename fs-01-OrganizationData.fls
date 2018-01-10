@@ -339,6 +339,9 @@ INPUT ./mbg.png
 INPUT ./histogram.png
 INPUT ./histogram.png
 INPUT ./histogram.png
+INPUT ./box1.png
+INPUT ./box1.png
+INPUT ./box1.png
 INPUT ./bessel.png
 INPUT ./bessel.png
 INPUT ./bessel.png
@@ -348,9 +351,6 @@ INPUT ./percentile.png
 INPUT ./percentile.png
 INPUT ./percentile.png
 INPUT ./percentile.png
-INPUT ./box1.png
-INPUT ./box1.png
-INPUT ./box1.png
 OUTPUT fs-01-OrganizationData.nav
 OUTPUT fs-01-OrganizationData.toc
 OUTPUT fs-01-OrganizationData.snm

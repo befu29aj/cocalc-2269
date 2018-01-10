@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1515446575 "fs-02-ElementaryProbability.tex" "fs-02-ElementaryProbability.pdf" "fs-02-ElementaryProbability" 1515446577
+["pdflatex"] 1515519180 "fs-02-ElementaryProbability.tex" "fs-02-ElementaryProbability.pdf" "fs-02-ElementaryProbability" 1515519184
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -188,9 +188,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1506161354 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
-  "fs-02-ElementaryProbability.aux" 1515446577 3870 c54270bad90231690ae4bcda9172c45d ""
-  "fs-02-ElementaryProbability.nav" 1515446577 2189 8eaabbef92a364058e7cce4a817dc48b ""
-  "fs-02-ElementaryProbability.out" 1515446576 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-02-ElementaryProbability.aux" 1515519184 3870 c54270bad90231690ae4bcda9172c45d ""
+  "fs-02-ElementaryProbability.nav" 1515519184 2189 8eaabbef92a364058e7cce4a817dc48b ""
+  "fs-02-ElementaryProbability.out" 1515519181 0 d41d8cd98f00b204e9800998ecf8427e ""
   "fs-02-ElementaryProbability.tex" 1515446559 9906 ab2b9e44aef7141f9c650df52e6ebf64 ""
   "sam1.png" 1515085833 1833 2a22947f9abffcf72c0a714c9a0facf8 ""
   "sam2.png" 1515085833 3086 0b27fc937414ada9f33b0b5d20bf5146 ""
@@ -200,10 +200,10 @@
   "sam6.png" 1515085833 7136 9dd8c05f1000c4725934bf63f0208a5a ""
   "tree.png" 1515085833 9913 2e580158050e35f6dc4bc5a952deac4f ""
   (generated)
-  "fs-02-ElementaryProbability.pdf"
-  "fs-02-ElementaryProbability.nav"
-  "fs-02-ElementaryProbability.snm"
-  "fs-02-ElementaryProbability.out"
-  "fs-02-ElementaryProbability.aux"
-  "fs-02-ElementaryProbability.toc"
   "fs-02-ElementaryProbability.log"
+  "fs-02-ElementaryProbability.out"
+  "fs-02-ElementaryProbability.snm"
+  "fs-02-ElementaryProbability.aux"
+  "fs-02-ElementaryProbability.nav"
+  "fs-02-ElementaryProbability.pdf"
+  "fs-02-ElementaryProbability.toc"
