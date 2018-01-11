@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  10 JAN 2018 20:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  11 JAN 2018 18:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,30 +1046,29 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 ] [16
 
 ]
-<./xkcd-causation-correlation.png, id=131, 474.77374pt x 202.7575pt>
-File: ./xkcd-causation-correlation.png Graphic file (type png)
+<./diagrams/xkcd-causation-correlation.png, id=131, 474.77374pt x 202.7575pt>
+File: ./diagrams/xkcd-causation-correlation.png Graphic file (type png)
 
-<use ./xkcd-causation-correlation.png>
-Package pdftex.def Info: ./xkcd-causation-correlation.png used on input line 11
-8.
+<use ./diagrams/xkcd-causation-correlation.png>
+Package pdftex.def Info: ./diagrams/xkcd-causation-correlation.png used on inpu
+t line 118.
 (pdftex.def)             Requested size: 142.43321pt x 60.82771pt.
  [17
 
- <./xkcd-causation-correlation.png>]
-File: ./xkcd-causation-correlation.png Graphic file (type png)
-
-<use ./xkcd-causation-correlation.png>
-Package pdftex.def Info: ./xkcd-causation-correlation.png used on input line 11
-8.
+ <./diagrams/xkcd-causation-correlation.png>]
+File: ./diagrams/xkcd-causation-correlation.png Graphic file (type png)
+ <use ./diagrams/xkcd-causation-correlation.png>
+Package pdftex.def Info: ./diagrams/xkcd-causation-correlation.png used on inpu
+t line 118.
 (pdftex.def)             Requested size: 142.43321pt x 60.82771pt.
  [18
 
 ]
-File: ./xkcd-causation-correlation.png Graphic file (type png)
+File: ./diagrams/xkcd-causation-correlation.png Graphic file (type png)
 
-<use ./xkcd-causation-correlation.png>
-Package pdftex.def Info: ./xkcd-causation-correlation.png used on input line 11
-8.
+<use ./diagrams/xkcd-causation-correlation.png>
+Package pdftex.def Info: ./diagrams/xkcd-causation-correlation.png used on inpu
+t line 118.
 (pdftex.def)             Requested size: 142.43321pt x 60.82771pt.
  [19
 
@@ -1103,11 +1102,11 @@ thkerncmss.
 
 ] [25
 
-] <./lineplot2.jpg, id=193, 401.5pt x 400.49625pt>
-File: ./lineplot2.jpg Graphic file (type jpg)
+] <./diagrams/lineplot2.jpg, id=193, 401.5pt x 400.49625pt>
+File: ./diagrams/lineplot2.jpg Graphic file (type jpg)
 
-<use ./lineplot2.jpg>
-Package pdftex.def Info: ./lineplot2.jpg used on input line 256.
+<use ./diagrams/lineplot2.jpg>
+Package pdftex.def Info: ./diagrams/lineplot2.jpg used on input line 256.
 (pdftex.def)             Requested size: 240.90184pt x 240.29959pt.
 
 Overfull \vbox (18.75719pt too high) detected at line 256
@@ -1115,13 +1114,14 @@ Overfull \vbox (18.75719pt too high) detected at line 256
 
 [26
 
- <./lineplot2.jpg>] [27
+ <./diagrams/lineplot2.jpg>] [27
 
-] <./pie.png, id=206, 386.44376pt x 311.1625pt>
-File: ./pie.png Graphic file (type png)
+]
+<./diagrams/pie.png, id=206, 386.44376pt x 311.1625pt>
+File: ./diagrams/pie.png Graphic file (type png)
 
-<use ./pie.png>
-Package pdftex.def Info: ./pie.png used on input line 288.
+<use ./diagrams/pie.png>
+Package pdftex.def Info: ./diagrams/pie.png used on input line 288.
 (pdftex.def)             Requested size: 193.2214pt x 155.58087pt.
 
 Overfull \vbox (8.96765pt too high) detected at line 288
@@ -1129,21 +1129,22 @@ Overfull \vbox (8.96765pt too high) detected at line 288
 
 [28
 
- <./pie.png>] <./barplot.png, id=213, 401.5pt x 296.10625pt>
-File: ./barplot.png Graphic file (type png)
+ <./diagrams/pie.png>]
+<./diagrams/barplot.png, id=213, 401.5pt x 296.10625pt>
+File: ./diagrams/barplot.png Graphic file (type png)
 
-<use ./barplot.png>
-Package pdftex.def Info: ./barplot.png used on input line 301.
+<use ./diagrams/barplot.png>
+Package pdftex.def Info: ./diagrams/barplot.png used on input line 301.
 (pdftex.def)             Requested size: 200.7495pt x 148.05275pt.
  [29
 
- <./barplot.png>] [30
+ <./diagrams/barplot.png>] [30
 
 ]
-<./mbg.png, id=227, 401.5pt x 296.10625pt>
-File: ./mbg.png Graphic file (type png)
- <use ./mbg.png>
-Package pdftex.def Info: ./mbg.png used on input line 329.
+<./diagrams/mbg.png, id=227, 401.5pt x 296.10625pt>
+File: ./diagrams/mbg.png Graphic file (type png)
+ <use ./diagrams/mbg.png>
+Package pdftex.def Info: ./diagrams/mbg.png used on input line 329.
 (pdftex.def)             Requested size: 321.20042pt x 236.88531pt.
 
 Overfull \hbox (13.91055pt too wide) in paragraph at lines 329--329
@@ -1156,13 +1157,14 @@ Overfull \vbox (28.94292pt too high) detected at line 329
 
 [31
 
- <./mbg.png (PNG copy)>] [32
+ <./diagrams/mbg.png (PNG copy)>] [32
 
 ]
-<./histogram.png, id=243, 401.5pt x 296.10625pt>
-File: ./histogram.png Graphic file (type png)
- <use ./histogram.png>
-Package pdftex.def Info: ./histogram.png used on input line 353.
+<./diagrams/histogram.png, id=243, 401.5pt x 296.10625pt>
+File: ./diagrams/histogram.png Graphic file (type png)
+
+<use ./diagrams/histogram.png>
+Package pdftex.def Info: ./diagrams/histogram.png used on input line 353.
 (pdftex.def)             Requested size: 321.20042pt x 236.88531pt.
 
 Overfull \hbox (13.91055pt too wide) in paragraph at lines 353--353
@@ -1175,7 +1177,7 @@ Overfull \vbox (28.94292pt too high) detected at line 353
 
 [33
 
- <./histogram.png>] [34
+ <./diagrams/histogram.png>] [34
 
 ] [35
 
@@ -1191,19 +1193,20 @@ Overfull \vbox (28.94292pt too high) detected at line 353
 
 ] [41
 
-] [42
+]
+[42
 
 ] [43
 
-]
-[44
+] [44
 
 ] [45
 
-] <./box1.png, id=340, 401.5pt x 401.5pt>
-File: ./box1.png Graphic file (type png)
- <use ./box1.png>
-Package pdftex.def Info: ./box1.png used on input line 571.
+] <./diagrams/box1.png, id=340, 401.5pt x 401.5pt>
+File: ./diagrams/box1.png Graphic file (type png)
+
+<use ./diagrams/box1.png>
+Package pdftex.def Info: ./diagrams/box1.png used on input line 571.
 (pdftex.def)             Requested size: 240.90184pt x 240.90184pt.
 
 Overfull \vbox (19.35944pt too high) detected at line 571
@@ -1211,17 +1214,18 @@ Overfull \vbox (19.35944pt too high) detected at line 571
 
 [46
 
- <./box1.png>] [47
+ <./diagrams/box1.png>] [47
 
 ] [48
 
 ] [49
 
 ]
-<./bessel.png, id=373, 490.83376pt x 497.86pt>
-File: ./bessel.png Graphic file (type png)
- <use ./bessel.png>
-Package pdftex.def Info: ./bessel.png used on input line 638.
+<./diagrams/bessel.png, id=373, 490.83376pt x 497.86pt>
+File: ./diagrams/bessel.png Graphic file (type png)
+
+<use ./diagrams/bessel.png>
+Package pdftex.def Info: ./diagrams/bessel.png used on input line 638.
 (pdftex.def)             Requested size: 220.87314pt x 224.03493pt.
 
 Overfull \vbox (2.49252pt too high) detected at line 638
@@ -1229,7 +1233,7 @@ Overfull \vbox (2.49252pt too high) detected at line 638
 
 [50
 
- <./bessel.png>] [51
+ <./diagrams/bessel.png>] [51
 
 ] [52
 
@@ -1266,23 +1270,24 @@ Overfull \hbox (4.5565pt too wide) in paragraph at lines 740--740
 
 ] [60
 
-] <./percentile.png, id=449, 1270.7475pt x 846.16125pt>
-File: ./percentile.png Graphic file (type png)
+]
+<./diagrams/percentile.png, id=449, 1270.7475pt x 846.16125pt>
+File: ./diagrams/percentile.png Graphic file (type png)
 
-<use ./percentile.png>
-Package pdftex.def Info: ./percentile.png used on input line 815.
+<use ./diagrams/percentile.png>
+Package pdftex.def Info: ./diagrams/percentile.png used on input line 815.
 (pdftex.def)             Requested size: 190.6039pt x 126.9187pt.
  [61
 
- <./percentile.png>]
-File: ./percentile.png Graphic file (type png)
- <use ./percentile.png>
-Package pdftex.def Info: ./percentile.png used on input line 825.
+ <./diagrams/percentile.png>]
+File: ./diagrams/percentile.png Graphic file (type png)
+
+<use ./diagrams/percentile.png>
+Package pdftex.def Info: ./diagrams/percentile.png used on input line 825.
 (pdftex.def)             Requested size: 190.6039pt x 126.9187pt.
  [62
 
-]
-[63
+] [63
 
 ]
 \tf@nav=\write6
@@ -1310,8 +1315,8 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 832.
  ) 
 Here is how much of TeX's memory you used:
- 20273 strings out of 493029
- 399938 string characters out of 6136234
+ 20274 strings out of 493029
+ 400273 string characters out of 6136234
  469998 words of memory out of 5000000
  23175 multiletter control sequences out of 15000+600000
  11355 words of font info for 43 fonts, out of 8000000 for 9000
