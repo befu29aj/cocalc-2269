@@ -1,0 +1,11 @@
+./india.pl fs-03-Counting
+./india.pl fs-04-Bayes
+./india.pl fs-05-Binomial
+./india.pl fs-06-PoissonNormal
+./india.pl fs-07-Sampling
+./india.pl fs-08-OneSample
+./india.pl fs-09-hyptest
+./india.pl fs-10-twosamples
+./india.pl fs-11-Correlation
+./india.pl fs-12-GoodnessFit
+./india.pl fs-13-anova

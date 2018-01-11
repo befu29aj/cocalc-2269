@@ -1,0 +1,796 @@
+% fs-11-Correlation.tex
+
+\documentclass[xcolor=dvipsnames]{beamer}
+
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{colortbl}
+\usepackage{enumerate}
+\usepackage{alltt}
+\definecolor{myblue}{rgb}{0.8,0.85,1}
+
+\newif\ifOneOrTwo
+\OneOrTwotrue
+\OneOrTwofalse
+\ifOneOrTwo
+\newcommand{\eibe}{1}
+\newcommand{\ufoj}{481}
+\else
+\newcommand{\eibe}{2}
+\newcommand{\ufoj}{502}
+\fi
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{transparent}
+}
+% \usecolortheme[named=OliveGreen]{structure}
+\setbeamertemplate{navigation symbols}{} 
+\setbeamertemplate{blocks}[rounded][shadow=true] 
+
+\newcounter{expls}
+\setcounter{expls}{0}
+\newcommand{\beispiel}[1]{\refstepcounter{expls}\textbf{Example \arabic{expls}: #1.}}
+
+\newcounter{exercise}
+\setcounter{exercise}{0}
+\newcommand{\ubung}[0]{\refstepcounter{exercise}\textbf{Exercise \arabic{exercise}: }}
+
+\makeatletter
+\newcommand\binomialCoefficient[2]{%
+    % Store values 
+    \c@pgf@counta=#1% n
+    \c@pgf@countb=#2% k
+    %
+    % Take advantage of symmetry if k > n - k
+    \c@pgf@countc=\c@pgf@counta%
+    \advance\c@pgf@countc by-\c@pgf@countb%
+    \ifnum\c@pgf@countb>\c@pgf@countc%
+        \c@pgf@countb=\c@pgf@countc%
+    \fi%
+    %
+    % Recursively compute the coefficients
+    \c@pgf@countc=1% will hold the result
+    \c@pgf@countd=0% counter
+    \pgfmathloop% c -> c*(n-i)/(i+1) for i=0,...,k-1
+        \ifnum\c@pgf@countd<\c@pgf@countb%
+        \multiply\c@pgf@countc by\c@pgf@counta%
+        \advance\c@pgf@counta by-1%
+        \advance\c@pgf@countd by1%
+        \divide\c@pgf@countc by\c@pgf@countd%
+    \repeatpgfmathloop%
+    \the\c@pgf@countc%
+}
+\makeatother
+
+\newif\ifBCITCourse
+\BCITCoursetrue
+% \BCITCoursefalse
+\newif\ifWhichCourse
+\WhichCoursetrue
+% \WhichCoursefalse
+\ifBCITCourse
+\ifWhichCourse
+\newcommand{\CourseName}{Statistics for Food Technology}
+\newcommand{\CourseNumber}{MATH 2441}
+\newcommand{\CourseInst}{BCIT}
+\else
+\newcommand{\CourseName}{Calculus for Geomatics}
+\newcommand{\CourseNumber}{MATH 2511}
+\newcommand{\CourseInst}{BCIT}
+\fi
+\else
+\newcommand{\CourseName}{Philosophy and Literature}
+\newcommand{\CourseNumber}{PHIL 375}
+\newcommand{\CourseInst}{UBC}
+\fi
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[1]{\refstepcounter{aufg}\textbf{Two Samples Exercise \arabic{aufg}. #1.}}
+
+\title{Correlation}
+\subtitle{{\CourseNumber}, BCIT}
+
+\author{\CourseName}
+
+\date{April 24, 2017}
+
+% \begin{figure}[h]
+% \includegraphics[scale=.3]{./diagrams/extrema1.png}
+% \end{figure}
+
+% Command             10pt    11pt    12pt
+% \tiny               5       6       6
+% \scriptsize         7       8       8
+% \footnotesize       8       9       10
+% \small              9       10      10.95
+% \normalsize         10      10.95   12
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  A \alert{correlation} exists between two variables when the values of
+  one variable are somehow associated with the values of the other
+  variable.
+
+  \bigskip
+
+    A \alert{linear correlation} exists between two variables when
+    there is a correlation and the plotted points of paired data
+    result in a pattern that can be approximated by a straight line.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  Have a look at the following table:
+
+  \bigskip
+
+  \begin{tabular}{|l|l|l|}\hline
+    \textbf{Subject} & \textbf{Show Print} & \textbf{Height} \\ \hline
+    Male 1 & 29.7cm & 175.3cm \\ \hline
+    Male 2 & 29.7cm & 177.8cm \\ \hline
+    Male 3 & 31.4cm & 185.4cm \\ \hline
+    Male 4 & 31.8cm & 175.3cm \\ \hline
+    Male 5 & 27.6cm & 172.7cm \\ \hline
+  \end{tabular}
+
+  \bigskip
+
+  Is there a correlation between the two variables?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  Here is a scatterplot of 19 males, showing their height ($y$-axis)
+  and their shoe print ($x$-axis).
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/mshoeprintheight.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  Here is a scatterplot of 21 females, showing their height ($y$-axis)
+  and their shoe print ($x$-axis).
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/fshoeprintheight.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+Here is the combined scatterplot.
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/mfshoeprintheight.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  Let's have a look at a few scatterplots. Is there a correlation or
+  not? Is there a linear correlation? The \alert{linear correlation
+    coefficient} $r$ measures the strength of the linear correlation.
+  It is a sample statistic. The linear correlation coefficient for the
+  population is called $\varrho$ (``rho'' in the Greek alphabet).
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scatterplot Examples}
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/sc01.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scatterplot Examples}
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/sc02.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scatterplot Examples}
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/sc03.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Scatterplot Examples}
+  \begin{figure}[h]
+    \includegraphics[scale=0.35]{./diagrams/sc04.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Notation}
+  To determine whether there is a linear correlation between two
+  variables, first take note of the following notation.
+  \begin{description}
+  \item[$n$] number of pairs of sample data
+  \item[$\sum$] denotes addition of items indicated
+  \item[$\sum{}x$] sum of all $x$-values
+  \item[$\sum{}x^{2}$] sum of all $x^{2}$-values
+  \item[$(\sum{}x)^{2}$] sum of all $x$-values squared
+  \item[$\sum{}xy$] sum of all $x\cdot{}y$-values
+  \item[$r$] linear correlation coefficient for sample data
+  \item[$\varrho$] linear correlation coefficient for population of paired data
+  \end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Requirements}
+  Here are the requirements for the procedure that follows.
+  \begin{enumerate}
+  \item The sample of paired $(x,y)$ data is a simple random sample of
+    quantitative data.
+  \item Visual examination of the scatterplot confirms that the points
+    approximate a straight-line pattern.
+  \item Outliers must be removed if they are known to be errors. The
+    procedure is not robust with respect to erroneous outliers.
+  \end{enumerate}
+  Requirements 2 and 3 are an intuitive summary of a more stringent
+  requirement: the pairs of $(x,y)$ data must have (or approximate) a
+  \alert{bivariate normal distribution}, which means that for a fixed
+  value $x$, the corresponding $y$-values have a normal distribution,
+  and vice versa. Think of the deviation of the actual $y$-value from
+  a perfectly linear corresponding $y$-value as a normally distributed
+  error.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Calculating $r$}
+  Here is a simple formula for $r$ that is difficult to calculate. Let
+  $z_{x}$ be the $z$-score of an individual $x$-value and $z_{y}$ be
+  the $z$-score of an individual $y$-value. Then
+  \begin{equation}
+    \label{eq:eegheela}
+    r=\frac{\sum{}(z_{x}z_{y})}{n-1}
+  \end{equation}
+  Here is a more difficult formula that makes calculation much easier.
+  \begin{equation}
+    \label{eq:jeithoob}
+    r=\frac{n\left(\sum{}xy\right)-\left(\sum{}x\right)\left(\sum{}y\right)}{\sqrt{n\left(\sum{}x^{2}\right)-\left(\sum{}x\right)^{2}}\sqrt{n\left(\sum{}y^{2}\right)-\left(\sum{}y\right)^{2}}}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Calculating $r$ Example}
+  Here are the data for females, shoe prints, and heights.
+\begin{alltt}
+\scriptsize
++-----+-------+------+-----+\newline
+| 24.8|165.1 ||| 28.1|179.1|\newline
++-----+-------+------+-----+\newline
+| 28.6|166.4 ||| 27.6|175.9|\newline
++-----+-------+------+-----+\newline
+| 25.4|177.8 ||| 26.5|166.4|\newline
++-----+-------+------+-----+\newline
+| 26.7|167.6 ||| 26.5|167.6|\newline
++-----+-------+------+-----+\newline
+| 26.7|168.3 ||| 28.4|162.6|\newline
++-----+-------+------+-----+\newline
+| 27.9|165.7 ||| 26.5|167.6|\newline
++-----+-------+------+-----+\newline
+| 27.9|165.1 ||| 26.0|165.1|\newline
++-----+-------+------+-----+\newline
+| 28.9|165.1 ||| 27.0|172.7|\newline
++-----+-------+------+-----+\newline
+| 27.9|165.1 ||| 25.1|157.5|\newline
++-----+-------+------+-----+\newline
+| 25.9|152.4 ||| 27.9|167.6|\newline
++-----+-------+------+-----+\newline
+| 25.4|162.6 |||\newline
++-----+-------+------+-----+
+\end{alltt}
+% 24.8,165.1,28.1,179.1
+% 28.6,166.4,27.6,175.9
+% 25.4,177.8,26.5,166.4
+% 26.7,167.6,26.5,167.6
+% 26.7,168.3,28.4,162.6
+% 27.9,165.7,26.5,167.6
+% 27.9,165.1,26.0,165.1
+% 28.9,165.1,27.0,172.7
+% 27.9,165.1,25.1,157.5
+% 25.9,152.4,27.9,167.6
+% 25.4,162.6,
+\end{frame}
+
+\begin{frame}
+  \frametitle{Calculating $r$ Example}
+  Now calculate the following {\ldots}
+
+  \bigskip
+  
+  \begin{tabular}{|l|r|l|r|}\hline
+    $\sum{}x$ & $565.7$ & $\sum{}y$ & $3503.3$ \\ \hline
+    $\sum{}x^{2}$ & $15268.45$ & $\sum{}y^{2}$ & $585173.7$ \\ \hline
+    $\left(\sum{}x\right)^{2}$ & $320016.5$ & $\left(\sum{}y\right)^{2}$ & $12273111$ \\ \hline
+    $\sum{}xy$ & $94404.95$ & & \\ \hline
+  \end{tabular}
+
+  \bigskip
+  
+  {\ldots} and fill in the formula
+  \begin{equation}
+    \label{eq:igahgued}
+    r=\frac{21\cdot94404.95-565.7\cdot{}3503.3}{\sqrt{21\cdot{}15268.45-320016.5}\sqrt{21\cdot{}585173.7-12273111}}
+  \end{equation}
+
+\bigskip
+
+There are many opportunities here to make an error. It is better
+to use statistics software. In R Statistics, for example, the
+relevant command is \texttt{cor(x,y)}. The result, in either case,
+is $r=0.22122$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing for Correlation}
+  Use the critical values for the Pearson Correlation Coefficient
+  $r$ to determine whether there is a correlation between the two
+  variables or not. In the case of female shoe prints and heights,
+  $n=20$, and therefore, at a significance level $\alpha=0.05$,
+  the critical value is $r=0.444$. The null hypothesis is
+  $\varrho=0$.
+
+  \bigskip
+
+Since our test statistic is
+  only $r^{\ast}=0.221$, we fail to reject the null hypothesis
+  that there is no correlation. There is not enough evidence to
+  show that there is a linear correlation (remember to check the
+  requirements first).
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Hypothesis Testing for Correlation Exercise}
+  {\ubung} The table below lists measured amounts of redshift and
+  the distances (billions of light-years) to randomly selected
+  clusters of galaxies. Is there sufficient evidence to conclude
+  that there is a linear correlation between amounts of redshift
+  and distances to clusters of galaxies?
+  \begin{footnotesize}
+\begin{verbatim}
++----------+----------+
+| Redshift | Distance |
++----------+----------+
+|   0.0233 |     0.32 |
++----------+----------+
+|   0.0539 |     0.75 |
++----------+----------+
+|   0.0718 |     1.00 |
++----------+----------+
+|   0.0395 |     0.55 |
++----------+----------+
+|   0.0438 |     0.61 |
++----------+----------+
+|   0.0103 |     0.14 |
++----------+----------+
+\end{verbatim}
+  \end{footnotesize}
+  % Redshift,Distance
+  % 0.0233,0.32
+  % 0.0539,0.75
+  % 0.0718,1.00
+  % 0.0395,0.55
+  % 0.0438,0.61
+  % 0.0103,0.14
+\end{frame}
+
+\begin{frame}
+  \frametitle{The Regression Line}
+  To find the regression line $\hat{y}=b_{0}+b_{1}x$, use the
+  following formula for the slope $b_{1}$ and the $y$-intercept
+  $b_{0}$:
+  \begin{equation}
+    \label{eq:ohzashur}
+    b_{1}=\frac{n\left(\sum{}xy\right)-\left(\sum{}x\right)\left(\sum{}y\right)}{n\left(\sum{}x^{2}\right)-\left(\sum{}x\right)^{2}}
+  \end{equation}
+  \begin{equation}
+    \label{eq:xuothaba}
+    b_{0}=\frac{\left(\sum{}y\right)\left(\sum{}x^{2}\right)-\left(\sum{}x\right)\left(\sum{}xy\right)}{n\left(\sum{}x^{2}\right)-\left(\sum{}x\right)^{2}}
+  \end{equation}
+ You may wonder where these equations come from. They identify the
+ line equation which best fits the data using the \alert{least
+   squares} method. The least squares method identifies the line
+ that best fits the data by measuring the distance that each data
+ point is away from the line, squaring it, and then adding all of
+ those numbers. The line that scores lowest on this fitness test
+ is the regression line.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Example}
+  \beispiel{Galaxy Distances} It is clear in the hypothesis test
+  that there is a linear correlation between redshift and galaxy
+  distances, even with a small sample size. What is the regression
+  line? How could we predict the distance of a galaxy, knowing its
+  redshift?
+  \begin{equation}
+    \label{eq:ahnuwiez}
+    \begin{array}{rcl}
+      b_{0}&=&-0.004396 \\
+      b_{1}&=&13.999899
+    \end{array}
+  \end{equation}
+  Each thousandth unit of redshift adds fourteen million light-years to
+  the distance.
+
+  \bigskip
+
+  In R Statistics, you can create a scatterplot of data sets
+  \texttt{x} and \texttt{y} using the command \texttt{plot(x,y)}.
+  Adding the command \texttt{abline(lm(y}$\sim$\texttt{x),col="red")} will add
+  the regression line to the plot (in red colour).
+  \texttt{lm(y}$\sim$\texttt{x)} will give you both the $y$-intercept and the
+  slope of the regression line.
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Regression Line Example}
+  Here is some R Statistics code:
+\begin{alltt}
+a<-runif(500,0,1) \newline
+b<-rnorm(500,a,0.2) \newline
+plot(a,b) \newline
+abline(lm(b~a),col="red")
+\end{alltt}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Example}
+  \begin{figure}[h]
+    \includegraphics[scale=0.4]{./diagrams/abline1.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Example}
+  \begin{figure}[h]
+    \includegraphics[scale=0.4]{./diagrams/abline2.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+  {\ubung} Consider the data on the next slide. These are the
+  results for two successive term tests (the names are randomly
+  made up by a computer program, but the grades are real). Answer
+  the following questions:
+  \begin{enumerate}
+  \item Is there a linear correlation between the first and the
+    second term test? Answer the question for a significance level
+    of $\alpha=0.05$. If you were doing this problem with a
+    significance level $\alpha=0.01$, what would be the decision
+    and what type of error (type I or type II) would it make less
+    likely compared to using the higher significance level?
+  \item What is the equation of the regression line?
+  \item If William Jones (again, fake name but real grade) had a
+    score of $85$ on the first term test, what score is the point
+    estimate for the second term test given the linear
+    correlation? His true score for the second term test was $77$.
+  \end{enumerate}
+% Nancy Rogge,83,60,,Arnold Murray,73,82
+% Elizabeth Rushing,98,95,,Ann Coburn,60,52
+% Katy Nunez,68,62,,Kim Lazzari,63,62
+% Michael Preuss,68,90,,Valentina Martinez,68,88
+% Edna Phipps,68,90,,Eric Mumford,78,91
+% George Thompson,45,85,,Alyssa Warner,98,90
+% James Newman,42,20,,Kevin Ellis,65,72
+% Nathan Stowman,108,90,,Susan Ervin,90,80
+% Kimberly Gaitor,83,90,,Albert Gutierrez,55,52
+% Leland Garner,60,65,,Robin Calderon,95,100
+% Bryan Veilleux,53,75,,Jennifer Blackburn,60,57
+% Mary Watts,73,86,,Doris Larkin,83,85
+% Jerry Brown,58,60,,James Miller,63,42
+% Jacob Ludwick,47,52,,Gregory Myklebust,70,87
+% Wayne Vega,100,85,,Rita Swinton,90,90
+% Kathryn Wilson,55,80,,Barbara Richardson,63,82
+% Tony Bateman,20,11,,Ora Tidmore,108,87
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |    Nancy Rogge     | 83 | 60 ||   Arnold Murray    |  73 | 82 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% | Elizabeth Rushing  | 98 | 95 ||     Ann Coburn     |  60 | 52 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |     Katy Nunez     | 68 | 62 ||    Kim Lazzari     |  63 | 62 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Michael Preuss   | 68 | 90 || Valentina Martinez |  68 | 88 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |    Edna Phipps     | 68 | 90 ||    Eric Mumford    |  78 | 91 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |  George Thompson   | 45 | 85 ||   Alyssa Warner    |  98 | 90 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |    James Newman    | 42 | 20 ||    Kevin Ellis     |  65 | 72 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Nathan Stowman   | 08 | 90 ||    Susan Ervin     |  90 | 80 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |  Kimberly Gaitor   | 83 | 90 ||  Albert Gutierrez  |  55 | 52 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Leland Garner    | 60 | 65 ||   Robin Calderon   |  95 | 00 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Bryan Veilleux   | 53 | 75 || Jennifer Blackburn |  60 | 57 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |     Mary Watts     | 73 | 86 ||    Doris Larkin    |  83 | 85 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |    Jerry Brown     | 58 | 60 ||    James Miller    |  63 | 42 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Jacob Ludwick    | 47 | 52 || Gregory Myklebust  |  70 | 87 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |     Wayne Vega     | 00 | 85 ||    Rita Swinton    |  90 | 90 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |   Kathryn Wilson   | 55 | 80 || Barbara Richardson |  63 | 82 | \newline
+% +--------------------+----+----++--------------------+-----+----+ \newline
+% |    Tony Bateman    | 20 | 11 ||    Ora Tidmore     | 108 | 87 | \newline
+% +--------------------+----+----++--------------------+-----+----+
+% This LaTeX table template is generated by emacs 24.5.1
+  \begin{footnotesize}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+Nancy Rogge & 83 & 60 & & Arnold Murray & 73 & 82 \\
+\hline
+Elizabeth Rushing & 98 & 95 & & Ann Coburn & 60 & 52 \\
+\hline
+Katy Nunez & 68 & 62 & & Kim Lazzari & 63 & 62 \\
+\hline
+Michael Preuss & 68 & 90 & & Valentina Martinez & 68 & 88 \\
+\hline
+Edna Phipps & 68 & 90 & & Eric Mumford & 78 & 91 \\
+\hline
+George Thompson & 45 & 85 & & Alyssa Warner & 98 & 90 \\
+\hline
+James Newman & 42 & 20 & & Kevin Ellis & 65 & 72 \\
+\hline
+Nathan Stowman & 108 & 90 & & Susan Ervin & 90 & 80 \\
+\hline
+Kimberly Gaitor & 83 & 90 & & Albert Gutierrez & 55 & 52 \\
+\hline
+Leland Garner & 60 & 65 & & Robin Calderon & 95 & 100 \\
+\hline
+Bryan Veilleux & 53 & 75 & & Jennifer Blackburn & 60 & 57 \\
+\hline
+Mary Watts & 73 & 86 & & Doris Larkin & 83 & 85 \\
+\hline
+Jerry Brown & 58 & 60 & & James Miller & 63 & 42 \\
+\hline
+Jacob Ludwick & 47 & 52 & & Gregory Myklebust & 70 & 87 \\
+\hline
+Wayne Vega & 100 & 85 & & Rita Swinton & 90 & 90 \\
+\hline
+Kathryn Wilson & 55 & 80 & & Barbara Richardson & 63 & 82 \\
+\hline
+Tony Bateman & 20 & 11 & & Ora Tidmore & 108 & 87 \\
+\hline
+\end{tabular}
+  \end{footnotesize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+  \begin{tabular}{|l|r|l|r|}\hline
+    \hspace{.5in} & & & \\
+    $\sum{}x$ & $2496$ & $\sum{}y$ & $2580$ \\
+    \hspace{.5in} & & & \\ \hline
+    \hspace{.5in} & & & \\
+    $\sum{}x^{2}$ & $191344$ & $\sum{}y^{2}$ & $204700$ \\
+    \hspace{.5in} & & & \\ \hline
+    \hspace{.5in} & & & \\
+    $\left(\sum{}x\right)^{2}$ & $6230016$ & $\left(\sum{}y\right)^{2}$ & $6656400$ \\
+    \hspace{.5in} & & & \\ \hline
+    \hspace{.5in} & & & \\
+    $\sum{}xy$ & $193904$ & $n$ & $34$ \\
+    \hspace{.5in} & & & \\ \hline
+  \end{tabular}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+  The solution for the linear correlation coefficient is
+  $r=0.7122366$.
+
+  \bigskip
+
+  The solution for the $y$-intercept and slope of the regression
+  line is $b_{0}=20.7350$ and $b_{1}=0.7429$. The point estimate
+  for William Jones' grade is $83.88$.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+  \begin{figure}[h]
+    \includegraphics[scale=0.4]{./diagrams/grades1.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Regression Line Exercise}
+  \begin{figure}[h]
+    \includegraphics[scale=0.4]{./diagrams/grades2.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linear Correlation Exercise}
+Costs listed below are repair costs (in dollars) for cars crashed
+at 6 mi/h in full-front crash tests and the same cars crashed at 6
+mi/h in full-rear crash tests (based on data from the Insurance
+Institute for Highway Safety). The cars are the Toyota Camry,
+Mazda 6, Volvo S40, Saturn Aura, Subaru Legacy, Hyundai Sonata,
+and Honda Accord. Is there sufficient evidence to conclude that
+there is a linear correlation between the repair costs from
+full-front crashes and full-rear crashes?
+
+\bigskip
+
+% This LaTeX table template is generated by emacs 24.5.1
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Front & 936 & 978 & 2252 & 1032 & 3911 & 4312 & 3469 \\
+\hline
+Rear & 1480 & 1202 & 802 & 3191 & 1122 & 739 & 2767 \\
+\hline
+\end{tabular}
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+% |  Front  |   936   |   978   |  2252   |  1032   |  3911   |  4312   |  3469   |
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+% |  Rear   |  1480   |  1202   |   802   |  3191   |  1122   |   739   |  2767   |
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+
+% Front,936,978,2252,1032,3911,4312,3469
+% Rear,1480,1202,802,3191,1122,739,2767
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linear Correlation Exercise}
+  Listed below are systolic blood pressure measurements (in mm Hg)
+  obtained from the same woman (based on data from ``Consistency of
+  Blood Pressure Differences Between the Left and Right Arms,'' by
+  Eguchi et al., Archives of Internal Medicine, Vol.\ 167). Is there
+  sufficient evidence to conclude that there is a linear correlation
+  between right and left arm systolic blood pressure measurements?
+
+% +---------------+---------------+---------------+---------------+---------------+---------------+
+% |Right Arm      |102            |101            |94             |79             |79             |
+% +---------------+---------------+---------------+---------------+---------------+---------------+
+% |Left Arm       |175            |169            |182            |146            |144            |
+% +---------------+---------------+---------------+---------------+---------------+---------------+
+
+\bigskip
+
+% This LaTeX table template is generated by emacs 24.5.1
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Right Arm & 102 & 101 & 94 & 79 & 79 \\
+\hline
+Left Arm & 175 & 169 & 182 & 146 & 144 \\
+\hline
+\end{tabular}
+
+% Right Arm,102,101,94,79,79
+% Left Arm,175 ,169,182,146,144
+\end{frame}
+
+\begin{frame}
+  \frametitle{Linear Correlation Exercise}
+  One classic application of correlation involves the association
+  between the temperature and the number of times a cricket chirps in
+  a minute. Listed below are the numbers of chirps in one minute and the
+  corresponding temperatures in $^{\circ}$F (based on data from ``The Song of
+  Insects'' by George W. Pierce, Harvard University Press). Is there
+  sufficient evidence to conclude that there is a linear correlation
+  between the number of chirps in one minute and the temperature?
+
+% This LaTeX table template is generated by emacs 24.5.1
+\bigskip
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+Chirps & 882 & 1188 & 1104 & 864 & 1200 & 1032 & 960 & 900 \\
+\hline
+$^{\circ}$F & 69.7 & 93.3 & 84.3 & 76.3 & 88 6 & 82.6 & 71.6 & 79.6 \\
+\hline
+\end{tabular}
+
+% +---------+---------+---------+---------+---------+---------+---------+---------+---------+
+% |000      |882      |1188     |1104     |864      |1200     |1032     |960      |900      |
+% +---------+---------+---------+---------+---------+---------+---------+---------+---------+
+% |000      |69.7     |93.3     |84.3     |76.3     |88 6     |82.6     |71.6     |79.6     |
+% +---------+---------+---------+---------+---------+---------+---------+---------+---------+
+\end{frame}
+
+% 25.	Gas Prices Gas prices have been very volatile in recent years. The table below lists gas prices (dollars per gallon) at randomly selected Connecticut stations at the time of this writing (based on data from AOL Autos). Is there sufficient evidence to conclude that there is a linear correlation between prices of regular gas and prices of premium gas? For the gas stations that sometimes post only the price of regular gas, can you use those prices to get a good sense of the price of premium gas?
+% Regular	2.77	2.77	2.79	2.81	2.78	2.86	2.75	2.77
+% Mid-Grade	3.00	2.77	2.89	2.93	2 93	2.96	2.86	2.91
+% Premium	3.07	3.09	3.00	3.06	3.03 	—	3.06	3.02	3.03
+
+% 26.	Gas Prices Repeat the preceding exercise using the prices of regular gas and the prices of mid-grade gas.
+
+% 27.	Sports Diameters (cm), circumferences (cm), and volumes (cm3) from balls used in different sports are listed in the table below. Is there sufficient evidence to conclude that there is a linear correlation between diameters and circumferences? Docs the scattcrplot confirm a linear association?
+
+\begin{frame}
+  \frametitle{Linear Correlation Exercise}
+  Lemons and Car Crashes. Find the best predicted crash fatality rate
+  for a year in which there are 500 metric tons of lemon imports.
+
+% +---------+---------+---------+---------+---------+---------+
+% |000      |230      |265      |358      |480      |530      |
+% +---------+---------+---------+---------+---------+---------+
+% |000      |15.9     |15.7     |15.4     |15.3     |14.9     |
+% +---------+---------+---------+---------+---------+---------+
+
+  \bigskip
+
+% This LaTeX table template is generated by emacs 24.5.1
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+Lemon Imports & 230 & 265 & 358 & 480 & 530 \\
+\hline
+Crash Fatality Rate & 15.9 & 15.7 & 15.4 & 15.3 & 14.9 \\
+\hline
+\end{tabular}
+\end{frame}
+
+% 14.	PSAT and SAT Scores One subject not included in the given table had a PSAT score of 229. Find the best predicted SAT score for this student. Is the result close to the reported value of 2400? Given that the data arc from volunteered responses, are the results valid?
+% PSAT	183	207	167	206	197	142	193	176
+% SAT	2200	2040	1890	2380	2290	2070	2370	1980
+
+% 15.	Campus Crime Find the best predicted number of burglaries for Ohio State, which had an enrollment of 51,800 students. Is the predicted value close to 329, which was the actual number of burglaries?
+% Enrollment	32	31	53	28	27	36	I 42 I	30	34	46
+% Burgla'ies	103	103	86	57	32	131	: 157 j	20	27	161
+
+\begin{frame}
+  \frametitle{Linear Correlation Exercise}
+  Altitude and Temperature. At 6327 ft (or 6.327 thousand feet), Mario
+  Triola, the author of many of these exercises, recorded the
+  temperature. Find the best predicted temperature at that altitude.
+  How does the result compare to the actual recorded value of 48$^{\circ}$F?
+
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+% |000      |3        |10       |14       |22       |28       |31       |33       |
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+% |000      |57       |37       |24       |-5       |-30      |-41      |-54      |
+% +---------+---------+---------+---------+---------+---------+---------+---------+
+
+  \bigskip
+
+% This LaTeX table template is generated by emacs 24.5.1
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Altitude & 3 & 10 & 14 & 22 & 28 & 31 & 33 \\
+\hline
+Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
+\hline
+\end{tabular}
+% Altitude	3	10	14	22	28	31	33
+% Temperature	57	37	24	-5	-30	-41	-54
+\end{frame}
+
+
+% 17. Town Courts The court for the town of Beckman had income of $83,941 (or $83,941 thousand). Find the best predicted salary for the justice. Is the result close to the actual salary of $26,088?
+% Court Income	65	404	1567	1131	272	252	111	154	32
+% Justice Salary	30	j 44	92	56	46	61	25	26	18
+
+% 18. Auction Bids An item not included in the table is a pair of New York Knicks tickets. The auctioneer started the bidding at $300. Find the best predicted winning bid. Is the result close to the actual winning bid of $250?
+% Opening Bid	1500	500	500	400	j 300
+% Winning Bid	650	175	125	275	125
+
+\begin{frame}
+  \frametitle{End of Lesson}
+Next Lesson: Goodness of Fit
+\end{frame}
+
+\end{document}
+
