@@ -11,7 +11,7 @@
 \date{January 8, 2018}
 
 % \begin{figure}[h]
-% \includegraphics[scale=.3]{./diagrams/extrema1.png}
+% \includegraphics[scale=.3]{./extrema1.png}
 % \end{figure}
 
 % Command             10pt    11pt    12pt
@@ -188,7 +188,7 @@ a boy is 50\%?
   \frametitle{Tree Diagrams}
 You can use independence and mutual exclusion to draw tree diagrams.
 \begin{figure}[h]
-\includegraphics[scale=.5]{./diagrams/tree.png}
+\includegraphics[scale=.5]{./tree.png}
 \end{figure}
 \end{frame}
 
@@ -206,42 +206,42 @@ probability that Sam (rather than Alex) will coach your team today is
 \begin{frame}
   \frametitle{Sam and Alex I}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam1.png}
+\includegraphics[scale=\sam]{./sam1.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sam and Alex II}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam2.png}
+\includegraphics[scale=\sam]{./sam2.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sam and Alex III}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam3.png}
+\includegraphics[scale=\sam]{./sam3.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sam and Alex IV}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam4.png}
+\includegraphics[scale=\sam]{./sam4.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sam and Alex V}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam5.png}
+\includegraphics[scale=\sam]{./sam5.png}
 \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Sam and Alex VI}
 \begin{figure}[h]
-\includegraphics[scale=\sam]{./diagrams/sam6.png}
+\includegraphics[scale=\sam]{./sam6.png}
 \end{figure}
 \end{frame}
 
