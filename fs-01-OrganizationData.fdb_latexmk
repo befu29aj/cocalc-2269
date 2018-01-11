@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1515614928 "fs-01-OrganizationData.tex" "fs-01-OrganizationData.pdf" "fs-01-OrganizationData" 1515614930
+["pdflatex"] 1515615111 "fs-01-OrganizationData.tex" "fs-01-OrganizationData.pdf" "fs-01-OrganizationData" 1515615114
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -213,9 +213,9 @@
   "barplot.png" 1515085833 5024 0d622c1ec2823a9c88e688537f7e2cbf ""
   "bessel.png" 1515085833 39419 4d51d7d0fa4d84e314f222dcb8d66c9d ""
   "box1.png" 1515085833 2949 e3a2b07531a72b1ec645641f4e776a8d ""
-  "fs-01-OrganizationData.aux" 1515614930 9529 34e3d2ff2fc97e05006eac5bff7dfc44 ""
-  "fs-01-OrganizationData.nav" 1515614930 5074 59d0b3df8dfe4611dbd504b4a423514e ""
-  "fs-01-OrganizationData.out" 1515614929 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-01-OrganizationData.aux" 1515615114 9529 34e3d2ff2fc97e05006eac5bff7dfc44 ""
+  "fs-01-OrganizationData.nav" 1515615114 5074 59d0b3df8dfe4611dbd504b4a423514e ""
+  "fs-01-OrganizationData.out" 1515615112 0 d41d8cd98f00b204e9800998ecf8427e ""
   "fs-01-OrganizationData.tex" 1515614881 27642 0f693a33b9e4b8de746e92a69f1239a6 ""
   "histogram.png" 1515085833 4252 a8a4d98f671fe5d033a8f3dc46ddbcea ""
   "lineplot2.jpg" 1515085833 15102 d9d43f94871d32dbe53ec57fcb97181c ""
@@ -225,10 +225,10 @@
   "teachbeamer.sty" 1515611328 1591 3fa32860b06b1270afb7c21dbcf413a2 ""
   "xkcd-causation-correlation.png" 1515085833 37865 01e1b6d502dbb36f02cc8c92a85159d7 ""
   (generated)
-  "fs-01-OrganizationData.out"
-  "fs-01-OrganizationData.log"
-  "fs-01-OrganizationData.snm"
-  "fs-01-OrganizationData.aux"
-  "fs-01-OrganizationData.nav"
-  "fs-01-OrganizationData.pdf"
   "fs-01-OrganizationData.toc"
+  "fs-01-OrganizationData.out"
+  "fs-01-OrganizationData.nav"
+  "fs-01-OrganizationData.aux"
+  "fs-01-OrganizationData.snm"
+  "fs-01-OrganizationData.log"
+  "fs-01-OrganizationData.pdf"
