@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  11 JAN 2018 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  15 JAN 2018 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,7 +1063,7 @@ thkerncmss.
 ] [16
 
 ]
-<./diagrams/tree.png, id=141, 598.235pt x 209.78375pt>
+<./diagrams/tree.png, id=140, 598.235pt x 209.78375pt>
 File: ./diagrams/tree.png Graphic file (type png)
 
 <use ./diagrams/tree.png>
@@ -1074,7 +1074,7 @@ Package pdftex.def Info: ./diagrams/tree.png used on input line 193.
  <./diagrams/tree.png>] [18
 
 ]
-<./diagrams/sam1.png, id=156, 137.51375pt x 100.375pt>
+<./diagrams/sam1.png, id=155, 137.51375pt x 100.375pt>
 File: ./diagrams/sam1.png Graphic file (type png)
 
 <use ./diagrams/sam1.png>
@@ -1083,7 +1083,7 @@ Package pdftex.def Info: ./diagrams/sam1.png used on input line 211.
  [19
 
  <./diagrams/sam1.png>]
-<./diagrams/sam2.png, id=165, 255.95625pt x 123.46124pt>
+<./diagrams/sam2.png, id=164, 255.95625pt x 123.46124pt>
 File: ./diagrams/sam2.png Graphic file (type png)
 
 <use ./diagrams/sam2.png>
@@ -1092,7 +1092,7 @@ Package pdftex.def Info: ./diagrams/sam2.png used on input line 218.
  [20
 
  <./diagrams/sam2.png>]
-<./diagrams/sam3.png, id=173, 259.97125pt x 149.55875pt>
+<./diagrams/sam3.png, id=172, 259.97125pt x 149.55875pt>
 File: ./diagrams/sam3.png Graphic file (type png)
 
 <use ./diagrams/sam3.png>
@@ -1101,7 +1101,7 @@ Package pdftex.def Info: ./diagrams/sam3.png used on input line 225.
  [21
 
  <./diagrams/sam3.png>]
-<./diagrams/sam4.png, id=181, 454.69875pt x 164.615pt>
+<./diagrams/sam4.png, id=180, 454.69875pt x 164.615pt>
 File: ./diagrams/sam4.png Graphic file (type png)
 
 <use ./diagrams/sam4.png>
@@ -1110,7 +1110,7 @@ Package pdftex.def Info: ./diagrams/sam4.png used on input line 232.
  [22
 
  <./diagrams/sam4.png>]
-<./diagrams/sam5.png, id=189, 465.74pt x 150.5625pt>
+<./diagrams/sam5.png, id=188, 465.74pt x 150.5625pt>
 File: ./diagrams/sam5.png Graphic file (type png)
  <use ./diagrams/sam5.png>
 Package pdftex.def Info: ./diagrams/sam5.png used on input line 239.
@@ -1119,7 +1119,7 @@ Package pdftex.def Info: ./diagrams/sam5.png used on input line 239.
 [23
 
  <./diagrams/sam5.png>]
-<./diagrams/sam6.png, id=197, 437.635pt x 157.58875pt>
+<./diagrams/sam6.png, id=196, 437.635pt x 157.58875pt>
 File: ./diagrams/sam6.png Graphic file (type png)
 
 <use ./diagrams/sam6.png>
@@ -1168,7 +1168,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
 Here is how much of TeX's memory you used:
  20097 strings out of 493029
  398380 string characters out of 6136234
- 468297 words of memory out of 5000000
+ 469297 words of memory out of 5000000
  23086 multiletter control sequences out of 15000+600000
  11040 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1179,13 +1179,12 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on fs-02-ElementaryProbability.pdf (30 pages, 164497 bytes).
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb>
+Output written on fs-02-ElementaryProbability.pdf (30 pages, 156991 bytes).
 PDF statistics:
- 288 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
+ 284 PDF objects out of 1000 (max. 8388607)
+ 212 compressed objects within 3 object streams
  62 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
