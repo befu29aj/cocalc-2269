@@ -120,12 +120,29 @@ equivalent to saying that $P(A|B)=P(A)$ and $P(B|A)P(B)$.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Exercises I}
-  \begin{block}{Always remember {\ldots}}
-  {\ldots} when $A$ and $B$ are \emph{disjoint}, then
-  $P(A\cup{}B)=P(A)+P(B)$; when $A$ and $B$ are \emph{independent},
-  then $P(A\cap{}B)=P(A)\cdot{}P(B)$.
-  \end{block}
+  \frametitle{Rules}
+  \begin{block}{Addition Rule}
+    When $A$ and $B$ are \emph{disjoint}, then
+    $P(A\cup{}B)=P(A)+P(B)$; otherwise use
+    $P(A\cup{}B)=P(A)+P(B)-P(A\cap{}B)$
+\end{block}
+\bigskip
+\begin{block}{Multiplication Rule}
+  When $A$ and $B$ are \emph{independent}, then
+  $P(A\cap{}B)=P(A)\cdot{}P(B)$; otherwise use
+  $P(A\cap{}B)=P(A|B)\cdot{}P(B)$
+\end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Mendel's Law of Separation}
+\begin{figure}[h]
+\includegraphics[scale=1]{./diagrams/mendel.jpg}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exercises}
 {\ubung} Your friend tosses two coins. You don't see the
 coins, but your friend tells you that at least one of them landed
 heads. What is the probability that they both landed heads?
@@ -139,7 +156,7 @@ is the probability of choosing a person at random who is a smoker?
 \end{frame}
 
 \begin{frame}
-  \frametitle{Exercises II}
+  \frametitle{Exercises}
 {\ubung} A game show host asks you a multiple choice
 question with four answers A, B, C, and D. If you make a random guess,
 what is your probability of getting the correct answer?
