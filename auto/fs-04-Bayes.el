@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "fs-03-Counting"
+ "fs-04-Bayes"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("beamer" "xcolor=dvipsnames")))
@@ -18,9 +18,14 @@
     "beamer10"
     "teachbeamer")
    (LaTeX-add-labels
-    "eq:adeiquah"
-    "eq:iepeejae"
-    "eq:eahaikee"
-    "eq:aibireik"))
+    "eq:ragheidu"
+    "eq:mohghunu"
+    "eq:yoobaegh"
+    "eq:aefengah"
+    "eq:uwahiamo"
+    "eq:siecafoo"
+    "eq:ohyeweeb"
+    "eq:maifiepu"
+    "eq:ohrughai"))
  :latex)
 
