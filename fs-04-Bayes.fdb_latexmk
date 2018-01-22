@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1516653523 "fs-04-Bayes.tex" "fs-04-Bayes.pdf" "fs-04-Bayes" 1516653524
+["pdflatex"] 1516653748 "fs-04-Bayes.tex" "fs-04-Bayes.pdf" "fs-04-Bayes" 1516653750
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -209,16 +209,16 @@
   "diagrams/triola_bayes2.png" 1515691629 45898 7edb860523e15027f34935667c3067ef ""
   "diagrams/triola_bayes3.png" 1515691629 27293 8e11ff5b9411e429ba02edc421c7f6e2 ""
   "diagrams/xkcd_bayes1.png" 1515691629 128641 78303900976336efc2eb624f3ddd5718 ""
-  "fs-04-Bayes.aux" 1516653524 6680 c750bfc0d92380b23b0216bad5c929e0 ""
-  "fs-04-Bayes.nav" 1516653524 3659 64e618b34b86acc55f7247583333c150 ""
-  "fs-04-Bayes.out" 1516653523 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-04-Bayes.tex" 1516653497 14875 b45fd02b791f8a62907e066d78b6f6d5 ""
+  "fs-04-Bayes.aux" 1516653750 6680 c750bfc0d92380b23b0216bad5c929e0 ""
+  "fs-04-Bayes.nav" 1516653750 3659 64e618b34b86acc55f7247583333c150 ""
+  "fs-04-Bayes.out" 1516653749 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-04-Bayes.tex" 1516653719 14897 07155259d9b81abf1c7222755a4f9577 ""
   "teachbeamer.sty" 1516048325 1592 783894965b63c76086f4cfd54cd2640e ""
   (generated)
-  "fs-04-Bayes.out"
-  "fs-04-Bayes.nav"
-  "fs-04-Bayes.pdf"
-  "fs-04-Bayes.toc"
   "fs-04-Bayes.snm"
   "fs-04-Bayes.aux"
+  "fs-04-Bayes.toc"
+  "fs-04-Bayes.nav"
+  "fs-04-Bayes.pdf"
+  "fs-04-Bayes.out"
   "fs-04-Bayes.log"
