@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1516214699 "fs-02-ElementaryProbability.tex" "fs-02-ElementaryProbability.pdf" "fs-02-ElementaryProbability" 1516214700
+["pdflatex"] 1516654134 "fs-02-ElementaryProbability.tex" "fs-02-ElementaryProbability.pdf" "fs-02-ElementaryProbability" 1516654135
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -210,16 +210,16 @@
   "diagrams/sam5.png" 1515691629 6999 f7ccfdde11576697bb9ef9fe0a6349d4 ""
   "diagrams/sam6.png" 1515691629 7136 9dd8c05f1000c4725934bf63f0208a5a ""
   "diagrams/tree.png" 1515691629 9913 2e580158050e35f6dc4bc5a952deac4f ""
-  "fs-02-ElementaryProbability.aux" 1516214700 4128 a93661261a53f1b99e29eb7150f8e98f ""
-  "fs-02-ElementaryProbability.nav" 1516214700 2375 d14c8896f1713af015b1dd13d918ca2f ""
-  "fs-02-ElementaryProbability.out" 1516214699 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-02-ElementaryProbability.tex" 1516214698 9265 efea2f7f3357217f824ab4cc4b896ffe ""
+  "fs-02-ElementaryProbability.aux" 1516654135 4128 a93661261a53f1b99e29eb7150f8e98f ""
+  "fs-02-ElementaryProbability.nav" 1516654135 2375 d14c8896f1713af015b1dd13d918ca2f ""
+  "fs-02-ElementaryProbability.out" 1516654134 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-02-ElementaryProbability.tex" 1516654122 9255 79a401e2292918f69119eebed4d62800 ""
   "teachbeamer.sty" 1516048325 1592 783894965b63c76086f4cfd54cd2640e ""
   (generated)
-  "fs-02-ElementaryProbability.toc"
-  "fs-02-ElementaryProbability.log"
-  "fs-02-ElementaryProbability.pdf"
   "fs-02-ElementaryProbability.aux"
-  "fs-02-ElementaryProbability.snm"
-  "fs-02-ElementaryProbability.nav"
   "fs-02-ElementaryProbability.out"
+  "fs-02-ElementaryProbability.pdf"
+  "fs-02-ElementaryProbability.snm"
+  "fs-02-ElementaryProbability.log"
+  "fs-02-ElementaryProbability.toc"
+  "fs-02-ElementaryProbability.nav"
