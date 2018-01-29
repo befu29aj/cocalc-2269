@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1517258662 "fs-05-Binomial.tex" "fs-05-Binomial.pdf" "fs-05-Binomial" 1517258663
+["pdflatex"] 1517259096 "fs-05-Binomial.tex" "fs-05-Binomial.pdf" "fs-05-Binomial" 1517259098
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -35,7 +35,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/share/texlive/texmf-dist/tex/generic/oberdiek/atbegshi.sty" 1335995445 24460 92f559a71aac869021852c227c704b38 ""
@@ -210,16 +209,16 @@
   "diagrams/boys.png" 1515691628 3388 7143263f79e2a4ca6b6f808d18981fe6 ""
   "diagrams/calvin_hobbes_binomial_edited.jpg" 1515691628 134114 bbb1cf8dbce5266818343e285fd0c17c ""
   "diagrams/vanlang.png" 1515691629 8104 12cd2c87b2ec585c9e1382dece2896b1 ""
-  "fs-05-Binomial.aux" 1517258663 5997 e8e6d2fe398c08b168d2883eb258eab2 ""
-  "fs-05-Binomial.nav" 1517258663 3101 a9a02839f63b732be43117f24e3a9d2c ""
-  "fs-05-Binomial.out" 1517258662 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-05-Binomial.tex" 1517258646 14084 e20efb59a40552acd8ac0868b0fcbc93 ""
+  "fs-05-Binomial.aux" 1517259098 4965 747e198862e449adce28eab6184ac697 ""
+  "fs-05-Binomial.nav" 1517259098 2357 457364d7d21e600adb10bfdff33a270d ""
+  "fs-05-Binomial.out" 1517259097 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-05-Binomial.tex" 1517259086 14220 ce4ff410b711cb149abf826a244285c4 ""
   "teachbeamer.sty" 1516048325 1592 783894965b63c76086f4cfd54cd2640e ""
   (generated)
-  "fs-05-Binomial.log"
+  "fs-05-Binomial.toc"
   "fs-05-Binomial.out"
+  "fs-05-Binomial.log"
+  "fs-05-Binomial.pdf"
   "fs-05-Binomial.snm"
   "fs-05-Binomial.nav"
-  "fs-05-Binomial.pdf"
-  "fs-05-Binomial.toc"
   "fs-05-Binomial.aux"
