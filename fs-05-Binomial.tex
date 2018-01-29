@@ -1,58 +1,14 @@
 % fs-05-Binomial.tex
 
 \documentclass[xcolor=dvipsnames]{beamer}
-
-\usepackage{graphicx}
-\usepackage{wrapfig}
-\usepackage{colortbl}
-\usepackage{alltt}
-\definecolor{myblue}{rgb}{0.8,0.85,1}
-
-\mode<presentation>
-{
-  \usetheme{Warsaw}
-  \setbeamercovered{transparent}
-}
-% \usecolortheme[named=OliveGreen]{structure}
-\setbeamertemplate{navigation symbols}{} 
-\setbeamertemplate{blocks}[rounded][shadow=true] 
-
-\newcounter{expls}
-\setcounter{expls}{0}
-\newcommand{\beispiel}[1]{\refstepcounter{expls}\textbf{Example \arabic{expls}: #1.}}
-
-\newcounter{exercise}
-\setcounter{exercise}{0}
-\newcommand{\ubung}[0]{\refstepcounter{exercise}\textbf{Exercise \arabic{exercise}: }}
-
-\newif\ifBCITCourse
-\BCITCoursetrue
-% \BCITCoursefalse
-\newif\ifWhichCourse
-\WhichCoursetrue
-% \WhichCoursefalse
-\ifBCITCourse
-\ifWhichCourse
-\newcommand{\CourseName}{Statistics for Food Technology}
-\newcommand{\CourseNumber}{MATH 2441}
-\newcommand{\CourseInst}{BCIT}
-\else
-\newcommand{\CourseName}{Calculus for Geomatics}
-\newcommand{\CourseNumber}{MATH 2511}
-\newcommand{\CourseInst}{BCIT}
-\fi
-\else
-\newcommand{\CourseName}{Philosophy and Literature}
-\newcommand{\CourseNumber}{PHIL 375}
-\newcommand{\CourseInst}{UBC}
-\fi
+\usepackage{teachbeamer}
 
 \title{The Binomial Distribution}
 \subtitle{{\CourseNumber}, BCIT}
 
 \author{\CourseName}
 
-\date{February 6, 2017}
+\date{January 31, 2018}
 
 % \begin{figure}[h]
 % \includegraphics[scale=.3]{./diagrams/extrema1.png}
