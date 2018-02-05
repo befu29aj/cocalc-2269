@@ -11,6 +11,7 @@
     "color"
     "alltt")
    (TeX-add-symbols
+    '("binomialCoefficient" 2)
     '("ubung" 0)
     '("beispiel" 1)
     "CourseName"
