@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1517259096 "fs-05-Binomial.tex" "fs-05-Binomial.pdf" "fs-05-Binomial" 1517259098
+["pdflatex"] 1517423777 "fs-05-Binomial.tex" "fs-05-Binomial.pdf" "fs-05-Binomial" 1517423779
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -209,16 +209,16 @@
   "diagrams/boys.png" 1515691628 3388 7143263f79e2a4ca6b6f808d18981fe6 ""
   "diagrams/calvin_hobbes_binomial_edited.jpg" 1515691628 134114 bbb1cf8dbce5266818343e285fd0c17c ""
   "diagrams/vanlang.png" 1515691629 8104 12cd2c87b2ec585c9e1382dece2896b1 ""
-  "fs-05-Binomial.aux" 1517259098 4965 747e198862e449adce28eab6184ac697 ""
-  "fs-05-Binomial.nav" 1517259098 2357 457364d7d21e600adb10bfdff33a270d ""
-  "fs-05-Binomial.out" 1517259097 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-05-Binomial.aux" 1517423779 4965 747e198862e449adce28eab6184ac697 ""
+  "fs-05-Binomial.nav" 1517423779 2357 457364d7d21e600adb10bfdff33a270d ""
+  "fs-05-Binomial.out" 1517423778 0 d41d8cd98f00b204e9800998ecf8427e ""
   "fs-05-Binomial.tex" 1517259086 14220 ce4ff410b711cb149abf826a244285c4 ""
   "teachbeamer.sty" 1516048325 1592 783894965b63c76086f4cfd54cd2640e ""
   (generated)
-  "fs-05-Binomial.toc"
-  "fs-05-Binomial.out"
-  "fs-05-Binomial.log"
   "fs-05-Binomial.pdf"
-  "fs-05-Binomial.snm"
-  "fs-05-Binomial.nav"
+  "fs-05-Binomial.toc"
+  "fs-05-Binomial.log"
+  "fs-05-Binomial.out"
   "fs-05-Binomial.aux"
+  "fs-05-Binomial.nav"
+  "fs-05-Binomial.snm"
