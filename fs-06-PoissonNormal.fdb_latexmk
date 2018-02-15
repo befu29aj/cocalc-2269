@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1517863952 "fs-06-PoissonNormal.tex" "fs-06-PoissonNormal.pdf" "fs-06-PoissonNormal" 1517863953
+["pdflatex"] 1518722312 "fs-06-PoissonNormal.tex" "fs-06-PoissonNormal.pdf" "fs-06-PoissonNormal" 1518722313
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -217,16 +217,16 @@
   "diagrams/triola4.png" 1515691629 538231 57547801fa18f71e9e11bb785db2408c ""
   "diagrams/triola5.png" 1515691629 565331 6e68888e48738c463744fe30a0e46d61 ""
   "diagrams/triola6.png" 1515691629 570713 8d72f4a582f4089931f3c74fb51b938e ""
-  "fs-06-PoissonNormal.aux" 1517863953 6369 842cc78dabd705adf0e4371790ba6ab1 ""
-  "fs-06-PoissonNormal.nav" 1517863953 3008 d51e4e453f8b9ddfc1f7558e09cb8e6e ""
-  "fs-06-PoissonNormal.out" 1517863953 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-06-PoissonNormal.tex" 1517863842 14168 6e5c09f8ff4783f5ca027bbce3e879d8 ""
+  "fs-06-PoissonNormal.aux" 1518722313 6498 f2b55ee5599c0d0e79f63a6cf7162f39 ""
+  "fs-06-PoissonNormal.nav" 1518722313 3101 db9c2929fe860c007c849f508bf60df0 ""
+  "fs-06-PoissonNormal.out" 1518722312 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-06-PoissonNormal.tex" 1518722299 14377 559de06dcf858636c78584dfdb59340b ""
   "teachbeamer.sty" 1517863944 2369 0b563521c98df72adbc143b0a782f617 ""
   (generated)
   "fs-06-PoissonNormal.nav"
-  "fs-06-PoissonNormal.pdf"
-  "fs-06-PoissonNormal.snm"
   "fs-06-PoissonNormal.aux"
+  "fs-06-PoissonNormal.pdf"
   "fs-06-PoissonNormal.out"
-  "fs-06-PoissonNormal.toc"
   "fs-06-PoissonNormal.log"
+  "fs-06-PoissonNormal.toc"
+  "fs-06-PoissonNormal.snm"
