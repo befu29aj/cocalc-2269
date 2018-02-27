@@ -421,6 +421,38 @@ complete sentence to answer the question.
 \end{frame}
 
 \begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial}
+  Situations in which $n$ is large and $p$ is very small:
+  \begin{enumerate}
+  \item I cannot use the binomial formula because my calculator cannot
+    handle $n!$.
+  \item I cannot use the normal distribution to approximate the
+    binomial distribution because $n\cdot{}p<5$.
+  \end{enumerate}
+  The Poisson distribution can be used to approximate the binomial
+  distribution. The larger the $n$ and the smaller the $p$, the better
+  the approximation.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial}
+    \begin{figure}[h]
+    \includegraphics[scale=.7]{./diagrams/poisdist.gif}
+  \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial}
+  \beispiel{Manufacturing Tires} Suppose 8\% of the tires manufactured
+  at a particular plant are defective. Estimate the probability of obtaining
+  exactly one defective tire from a sample of twenty.
+  \begin{equation}
+    \label{eq:eikaiche}
+    P(X=1)^{\mbox{\tiny binomial}}=\choose{20}{1}0.08^{1}\cdot0.92^{19}=0.3281623\approx{}P(X=1)^{\mbox{\tiny poisson}}\frac{e^{-1.6}(1.6)^{1}}{1!}=0.3230344
+  \end{equation}
+\end{frame}
+
+\begin{frame}
   \frametitle{End of Lesson}
 Next Lesson: Sampling Distributions
 \end{frame}
