@@ -381,6 +381,9 @@ INPUT ./diagrams/triola5.png
 INPUT ./diagrams/triola6.png
 INPUT ./diagrams/triola6.png
 INPUT ./diagrams/triola6.png
+INPUT ./diagrams/poisdist.png
+INPUT ./diagrams/poisdist.png
+INPUT ./diagrams/poisdist.png
 OUTPUT fs-06-PoissonNormal.nav
 OUTPUT fs-06-PoissonNormal.toc
 OUTPUT fs-06-PoissonNormal.snm
