@@ -33,6 +33,7 @@
     "eq:aethohph"
     "eq:aedecaba"
     "eq:oolojuth"
-    "eq:eikaiche"))
+    "eq:eikaiche"
+    "eq:aihuroot"))
  :latex)
 

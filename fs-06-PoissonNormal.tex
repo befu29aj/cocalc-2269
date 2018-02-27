@@ -422,6 +422,7 @@ complete sentence to answer the question.
 
 \begin{frame}
   \frametitle{Using Poisson to Approximate Binomial}
+% http://courses.wcupa.edu/rbove/Berenson/10th%20ed%20CD-ROM%20topics/section5_6.pdf
   Situations in which $n$ is large and $p$ is very small:
   \begin{enumerate}
   \item I cannot use the binomial formula because my calculator cannot
@@ -431,7 +432,8 @@ complete sentence to answer the question.
   \end{enumerate}
   The Poisson distribution can be used to approximate the binomial
   distribution. The larger the $n$ and the smaller the $p$, the better
-  the approximation.
+  the approximation. We use the Poisson distribution for which
+  $\lambda=np$.
 \end{frame}
 
 \begin{frame}
@@ -448,8 +450,50 @@ complete sentence to answer the question.
   exactly one defective tire from a sample of twenty.
   \begin{equation}
     \label{eq:eikaiche}
-    P(X=1)^{\mbox{\tiny binomial}}={20\choose{}1}0.08^{1}\cdot0.92^{19}=0.3281623\approx{}P(X=1)^{\mbox{\tiny poisson}}\frac{e^{-1.6}(1.6)^{1}}{1!}=0.3230344
+    P(X=1)^{\mbox{\tiny binomial}}={20\choose{}1}0.08^{1}\cdot0.92^{19}=0.3281623
   \end{equation}
+  is approximately
+  \begin{equation}
+    \label{eq:aihuroot}
+    P(X=1)^{\mbox{\tiny poisson}}\frac{e^{-1.6}(1.6)^{1}}{1!}=0.3230344
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial Exercises}
+  {\ubung} Based upon past experience, 1\% of the telephone bills
+  mailed to households are incorrect. If a sample of twenty bills is
+  selected, find the probability that at least one bill will be
+  incorrect. Do this using two probability distributions (the binomial
+  and the Poisson) and compare your results.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial Exercises}
+  {\ubung} A computer manufacturing company conducts acceptance
+  sampling for incoming computer chips. After receiving a huge
+  shipment of computer chips, the company randomly selects 800 chips.
+  If three or fewer nonconforming chips are found, the entire lot is
+  accepted without inspecting the remaining chips in the lot. If four
+  or more chips are nonconforming, every chip in the entire lot is
+  carefully inspected at the supplier's expense. Assume that the true
+  proportion of nonconforming computer chips being supplied is 0.001.
+  What is the probability the lot will be accepted?
+\end{frame}
+
+\begin{frame}
+  \frametitle{Using Poisson to Approximate Binomial Exercises}
+  {\ubung} Last month your company sold ten thousand new watches. Past
+experience indicates that the probability that a new watch
+will  need  repair  during  its  warranty  period  is  0.002.
+
+Compute the probability that:
+\begin{enumerate}
+\item zero watches will need warranty work
+\item no more than 5 watches will need warranty work
+\item no more than 10 watches will need warranty work
+\item no more than 20 watches will need warranty work
+\end{enumerate}
 \end{frame}
 
 \begin{frame}
