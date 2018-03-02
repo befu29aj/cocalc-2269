@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  27 FEB 2018 01:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  2 MAR 2018 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1124,80 +1124,46 @@ Overfull \hbox (2.77098pt too wide) in paragraph at lines 366--366
 
 ] [28
 
-]
-<./diagrams/triola1.png, id=234, 375.804pt x 78.7743pt>
-File: ./diagrams/triola1.png Graphic file (type png)
+] [29
 
-<use ./diagrams/triola1.png>
-Package pdftex.def Info: ./diagrams/triola1.png used on input line 408.
-(pdftex.def)             Requested size: 263.061pt x 55.14163pt.
+] [30
 
-<./diagrams/triola2.png, id=235, 369.2997pt x 68.6565pt>
-File: ./diagrams/triola2.png Graphic file (type png)
+] [31
 
-<use ./diagrams/triola2.png>
-Package pdftex.def Info: ./diagrams/triola2.png used on input line 408.
-(pdftex.def)             Requested size: 258.50801pt x 48.0592pt.
+] [32
 
-<./diagrams/triola3.png, id=236, 373.6359pt x 93.2283pt>
-File: ./diagrams/triola3.png Graphic file (type png)
+] [33
 
-<use ./diagrams/triola3.png>
-Package pdftex.def Info: ./diagrams/triola3.png used on input line 408.
-(pdftex.def)             Requested size: 261.54333pt x 65.25935pt.
- [29
-
- <./diagrams/triola1.png (PNG copy)> <./diagrams/triola2.png (PNG copy)> <./dia
-grams/triola3.png (PNG copy)>]
-<./diagrams/triola4.png, id=243, 372.9132pt x 54.2025pt>
-File: ./diagrams/triola4.png Graphic file (type png)
-
-<use ./diagrams/triola4.png>
-Package pdftex.def Info: ./diagrams/triola4.png used on input line 421.
-(pdftex.def)             Requested size: 261.03745pt x 37.94148pt.
-
-<./diagrams/triola5.png, id=244, 383.031pt x 54.2025pt>
-File: ./diagrams/triola5.png Graphic file (type png)
-
-<use ./diagrams/triola5.png>
-Package pdftex.def Info: ./diagrams/triola5.png used on input line 421.
-(pdftex.def)             Requested size: 268.11986pt x 37.94148pt.
-
-<./diagrams/triola6.png, id=245, 380.1402pt x 56.3706pt>
-File: ./diagrams/triola6.png Graphic file (type png)
-
-<use ./diagrams/triola6.png>
-Package pdftex.def Info: ./diagrams/triola6.png used on input line 421.
-(pdftex.def)             Requested size: 266.09631pt x 39.45914pt.
- [30
-
- <./diagrams/triola4.png (PNG copy)> <./diagrams/triola5.png (PNG copy)> <./dia
-grams/triola6.png (PNG copy)>] [31
+] [34
 
 ]
-<./diagrams/poisdist.png, id=259, 473.77pt x 350.30875pt>
+[35
+
+] [36
+
+] <./diagrams/poisdist.png, id=284, 473.77pt x 350.30875pt>
 File: ./diagrams/poisdist.png Graphic file (type png)
 
 <use ./diagrams/poisdist.png>
-Package pdftex.def Info: ./diagrams/poisdist.png used on input line 444.
+Package pdftex.def Info: ./diagrams/poisdist.png used on input line 508.
 (pdftex.def)             Requested size: 293.73436pt x 217.18918pt.
- [32
+ [37
 
  <./diagrams/poisdist.png>]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 460.
+(amsmath)                 on input line 524.
 
-[33
+[38
 
-] [34
+] [39
 
-] [35
+] [40
 
-] [36
+] [41
 
-] [37
+] [42
 
 ]
 \tf@nav=\write6
@@ -1209,11 +1175,11 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 \tf@snm=\write8
 \openout8 = `fs-06-PoissonNormal.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 504.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 504.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 568.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 568.
  (./fs-06-PoissonNormal.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 504.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 504.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 568.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 568.
 Package rerunfilecheck Info: File `fs-06-PoissonNormal.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1221,13 +1187,13 @@ Package rerunfilecheck Info: File `fs-06-PoissonNormal.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 504.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 568.
  ) 
 Here is how much of TeX's memory you used:
- 20237 strings out of 493029
- 400224 string characters out of 6136234
- 478801 words of memory out of 5000000
- 23190 multiletter control sequences out of 15000+600000
+ 20227 strings out of 493029
+ 399691 string characters out of 6136234
+ 478802 words of memory out of 5000000
+ 23176 multiletter control sequences out of 15000+600000
  11208 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,72p,423b,658s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1243,10 +1209,10 @@ blic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on fs-06-PoissonNormal.pdf (37 pages, 4647560 bytes).
+Output written on fs-06-PoissonNormal.pdf (42 pages, 389360 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 92 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 104 words of extra memory for PDF output out of 10000 (max. 10000000)
 
