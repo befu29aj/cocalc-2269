@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1519680086 "fs-07-Sampling.tex" "fs-07-Sampling.pdf" "fs-07-Sampling" 1519680089
+["pdflatex"] 1520284411 "fs-07-Sampling.tex" "fs-07-Sampling.pdf" "fs-07-Sampling" 1520284413
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -229,16 +229,16 @@
   "diagrams/an-unqp.png" 1515691628 34688 29e81c677df2063dc38bf0aea514c4ae ""
   "diagrams/triola-281.png" 1515691629 42033 3d22425e9c8d787bd750d326b532cb72 ""
   "diagrams/triola-284.png" 1515691629 46213 8aeb81d888fabf0d27af23b10c9867cc ""
-  "fs-07-Sampling.aux" 1519680089 8172 f44648310179b308c5144b0e1b1bc4d7 ""
-  "fs-07-Sampling.nav" 1519680089 4589 5fe6e7cfc790d3aa69cb468bdf8e4385 ""
-  "fs-07-Sampling.out" 1519680087 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-07-Sampling.tex" 1519325957 26423 e1b8fb7ef2d833e650bbe4d7a6783b70 ""
+  "fs-07-Sampling.aux" 1520284413 8172 95b73e7817de99f6a40a050fdb82cb2a ""
+  "fs-07-Sampling.nav" 1520284413 4589 0838648f54c9cb68736ee4f80cd6eb3e ""
+  "fs-07-Sampling.out" 1520284411 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-07-Sampling.tex" 1520284400 26428 e1a8d3e4fb8893fced2d3fc6cba88da1 ""
   "teachbeamer.sty" 1517863944 2369 0b563521c98df72adbc143b0a782f617 ""
   (generated)
-  "fs-07-Sampling.toc"
-  "fs-07-Sampling.pdf"
   "fs-07-Sampling.snm"
-  "fs-07-Sampling.aux"
-  "fs-07-Sampling.log"
-  "fs-07-Sampling.nav"
+  "fs-07-Sampling.pdf"
   "fs-07-Sampling.out"
+  "fs-07-Sampling.toc"
+  "fs-07-Sampling.aux"
+  "fs-07-Sampling.nav"
+  "fs-07-Sampling.log"

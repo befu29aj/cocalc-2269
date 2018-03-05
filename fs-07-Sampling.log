@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  26 FEB 2018 21:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  5 MAR 2018 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1047,13 +1047,13 @@ thkerncmss.
 ] [8
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 186
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 187
 .
  (/usr/share/texmf/tex/latex/R/tex/latex/omscmtt.fd
 File: omscmtt.fd 
 )
 LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 186.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
 [9
 
 ] [10
@@ -1078,7 +1078,7 @@ ed-to.pdf>
 (epstopdf)                    size: 15279 bytes
 (epstopdf)             Command: <repstopdf --outfile=./diagrams/CentralLimitThe
 orem-eps-converted-to.pdf ./diagrams/CentralLimitTheorem.eps>
-(epstopdf)             \includegraphics on input line 263.
+(epstopdf)             \includegraphics on input line 264.
 Package epstopdf Info: Output file is already uptodate.
 
 <./diagrams/CentralLimitTheorem-eps-converted-to.pdf, id=142, 461.725pt x 585.1
@@ -1087,15 +1087,15 @@ File: ./diagrams/CentralLimitTheorem-eps-converted-to.pdf Graphic file (type pd
 f)
  <use ./diagrams/CentralLimitTheorem-eps-converted-to.pdf>
 Package pdftex.def Info: ./diagrams/CentralLimitTheorem-eps-converted-to.pdf us
-ed on input line 263.
+ed on input line 264.
 (pdftex.def)             Requested size: 323.20529pt x 409.62758pt.
 
-Overfull \hbox (15.91542pt too wide) in paragraph at lines 263--263
+Overfull \hbox (15.91542pt too wide) in paragraph at lines 264--264
  [] 
  []
 
 
-Overfull \vbox (201.68518pt too high) detected at line 263
+Overfull \vbox (201.68518pt too high) detected at line 264
  []
 
 [16
@@ -1117,7 +1117,7 @@ Overfull \vbox (201.68518pt too high) detected at line 263
 File: ./diagrams/triola-281.png Graphic file (type png)
 
 <use ./diagrams/triola-281.png>
-Package pdftex.def Info: ./diagrams/triola-281.png used on input line 361.
+Package pdftex.def Info: ./diagrams/triola-281.png used on input line 362.
 (pdftex.def)             Requested size: 297.02896pt x 203.25887pt.
  [23
 
@@ -1126,24 +1126,24 @@ Package pdftex.def Info: ./diagrams/triola-281.png used on input line 361.
 ] [25
 
 ]
-[26
-
-] [27
-
-] <./diagrams/triola-284.png, id=265, 368.577pt x 278.2395pt>
+<./diagrams/triola-284.png, id=253, 368.577pt x 278.2395pt>
 File: ./diagrams/triola-284.png Graphic file (type png)
 
 <use ./diagrams/triola-284.png>
-Package pdftex.def Info: ./diagrams/triola-284.png used on input line 407.
+Package pdftex.def Info: ./diagrams/triola-284.png used on input line 408.
 (pdftex.def)             Requested size: 276.43205pt x 208.67911pt.
- [28
+ [26
 
- <./diagrams/triola-284.png>] [29
+ <./diagrams/triola-284.png>] [27
+
+] [28
+
+]
+[29
 
 ] [30
 
-]
-[31
+] [31
 
 ] [32
 
@@ -1155,147 +1155,123 @@ Package pdftex.def Info: ./diagrams/triola-284.png used on input line 407.
 
 ] [36
 
-] [37
-
-] [38
-
-] [39
-
-] [40
-
-] [41
-
-] [42
-
-] [43
-
-] [44
-
-] [45
-
 ]
-[46
-
-] [47
-
-] [48
-
-] <./diagrams/an-hist.png, id=398, 638.385pt x 560.0925pt>
+<./diagrams/an-hist.png, id=324, 638.385pt x 560.0925pt>
 File: ./diagrams/an-hist.png Graphic file (type png)
 
 <use ./diagrams/an-hist.png>
-Package pdftex.def Info: ./diagrams/an-hist.png used on input line 603.
+Package pdftex.def Info: ./diagrams/an-hist.png used on input line 604.
 (pdftex.def)             Requested size: 255.34947pt x 224.03302pt.
 
-Overfull \vbox (2.49062pt too high) detected at line 603
+Overfull \vbox (2.49062pt too high) detected at line 604
  []
 
-[49
+[37
 
  <./diagrams/an-hist.png>]
-<./diagrams/an-box.png, id=406, 607.26875pt x 522.95375pt>
+<./diagrams/an-box.png, id=332, 607.26875pt x 522.95375pt>
 File: ./diagrams/an-box.png Graphic file (type png)
 
 <use ./diagrams/an-box.png>
-Package pdftex.def Info: ./diagrams/an-box.png used on input line 610.
+Package pdftex.def Info: ./diagrams/an-box.png used on input line 611.
 (pdftex.def)             Requested size: 242.9032pt x 209.1778pt.
- [50
+ [38
 
  <./diagrams/an-box.png>]
-<./diagrams/an-nqp.png, id=413, 666.49pt x 651.43375pt>
+<./diagrams/an-nqp.png, id=339, 666.49pt x 651.43375pt>
 File: ./diagrams/an-nqp.png Graphic file (type png)
 
 <use ./diagrams/an-nqp.png>
-Package pdftex.def Info: ./diagrams/an-nqp.png used on input line 617.
+Package pdftex.def Info: ./diagrams/an-nqp.png used on input line 618.
 (pdftex.def)             Requested size: 233.275pt x 228.00522pt.
 
-Overfull \vbox (6.46281pt too high) detected at line 617
+Overfull \vbox (6.46281pt too high) detected at line 618
  []
 
-[51
+[39
 
- <./diagrams/an-nqp.png>] [52
+ <./diagrams/an-nqp.png>] [40
 
-] [53
+] [41
 
 ]
-<./diagrams/an-histunif.png, id=432, 632.3625pt x 543.02875pt>
+<./diagrams/an-histunif.png, id=358, 632.3625pt x 543.02875pt>
 File: ./diagrams/an-histunif.png Graphic file (type png)
 
 <use ./diagrams/an-histunif.png>
-Package pdftex.def Info: ./diagrams/an-histunif.png used on input line 653.
+Package pdftex.def Info: ./diagrams/an-histunif.png used on input line 654.
 (pdftex.def)             Requested size: 252.94052pt x 217.20764pt.
- [54
+ [42
 
  <./diagrams/an-histunif.png>]
-<./diagrams/an-unif.png, id=440, 641.39626pt x 647.41875pt>
+<./diagrams/an-unif.png, id=365, 641.39626pt x 647.41875pt>
 File: ./diagrams/an-unif.png Graphic file (type png)
 
 <use ./diagrams/an-unif.png>
-Package pdftex.def Info: ./diagrams/an-unif.png used on input line 660.
+Package pdftex.def Info: ./diagrams/an-unif.png used on input line 661.
 (pdftex.def)             Requested size: 224.49205pt x 226.59995pt.
 
-Overfull \vbox (5.05754pt too high) detected at line 660
+Overfull \vbox (5.05754pt too high) detected at line 661
  []
 
-[55
+[43
 
  <./diagrams/an-unif.png>]
-<./diagrams/an-uhist.png, id=448, 622.325pt x 538.01pt>
+<./diagrams/an-uhist.png, id=373, 622.325pt x 538.01pt>
 File: ./diagrams/an-uhist.png Graphic file (type png)
 
 <use ./diagrams/an-uhist.png>
-Package pdftex.def Info: ./diagrams/an-uhist.png used on input line 667.
+Package pdftex.def Info: ./diagrams/an-uhist.png used on input line 668.
 (pdftex.def)             Requested size: 248.92558pt x 215.20018pt.
- [56
+ [44
 
  <./diagrams/an-uhist.png>]
-<./diagrams/an-unqp.png, id=455, 644.4075pt x 651.43375pt>
+<./diagrams/an-unqp.png, id=380, 644.4075pt x 651.43375pt>
 File: ./diagrams/an-unqp.png Graphic file (type png)
 
 <use ./diagrams/an-unqp.png>
-Package pdftex.def Info: ./diagrams/an-unqp.png used on input line 674.
+Package pdftex.def Info: ./diagrams/an-unqp.png used on input line 675.
 (pdftex.def)             Requested size: 225.546pt x 228.00522pt.
 
-Overfull \vbox (6.46281pt too high) detected at line 674
+Overfull \vbox (6.46281pt too high) detected at line 675
  []
 
-[57
+[45
 
  <./diagrams/an-unqp.png>]
-<./diagrams/an-2phist.png, id=462, 631.35875pt x 525.965pt>
+<./diagrams/an-2phist.png, id=387, 631.35875pt x 525.965pt>
 File: ./diagrams/an-2phist.png Graphic file (type png)
 
 <use ./diagrams/an-2phist.png>
-Package pdftex.def Info: ./diagrams/an-2phist.png used on input line 681.
+Package pdftex.def Info: ./diagrams/an-2phist.png used on input line 682.
 (pdftex.def)             Requested size: 252.53902pt x 210.38226pt.
- [58
+ [46
 
  <./diagrams/an-2phist.png>]
-<./diagrams/an-2pnqp.png, id=469, 653.44125pt x 639.38875pt>
+<./diagrams/an-2pnqp.png, id=394, 653.44125pt x 639.38875pt>
 File: ./diagrams/an-2pnqp.png Graphic file (type png)
 
 <use ./diagrams/an-2pnqp.png>
-Package pdftex.def Info: ./diagrams/an-2pnqp.png used on input line 688.
+Package pdftex.def Info: ./diagrams/an-2pnqp.png used on input line 689.
 (pdftex.def)             Requested size: 228.70786pt x 223.78941pt.
 
-Overfull \vbox (2.24701pt too high) detected at line 688
+Overfull \vbox (2.24701pt too high) detected at line 689
  []
 
-[59
+[47
 
  <./diagrams/an-2pnqp.png>]
-<./diagrams/an-jb.png, id=476, 541.02126pt x 486.81876pt>
+<./diagrams/an-jb.png, id=401, 541.02126pt x 486.81876pt>
 File: ./diagrams/an-jb.png Graphic file (type png)
 
 <use ./diagrams/an-jb.png>
-Package pdftex.def Info: ./diagrams/an-jb.png used on input line 696.
+Package pdftex.def Info: ./diagrams/an-jb.png used on input line 697.
 (pdftex.def)             Requested size: 216.40466pt x 194.72404pt.
- [60
+ [48
 
- <./diagrams/an-jb.png>] [61
+ <./diagrams/an-jb.png>] [49
 
-] [62
+] [50
 
 ]
 \tf@nav=\write6
@@ -1307,12 +1283,12 @@ Package pdftex.def Info: ./diagrams/an-jb.png used on input line 696.
 \tf@snm=\write8
 \openout8 = `fs-07-Sampling.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 716.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 716.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 717.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 717.
 
 (./fs-07-Sampling.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 716.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 716.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 717.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 717.
 Package rerunfilecheck Info: File `fs-07-Sampling.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1320,11 +1296,11 @@ Package rerunfilecheck Info: File `fs-07-Sampling.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 716.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 717.
  ) 
 Here is how much of TeX's memory you used:
- 20281 strings out of 493029
- 400430 string characters out of 6136234
+ 20257 strings out of 493029
+ 400202 string characters out of 6136234
  478563 words of memory out of 5000000
  23178 multiletter control sequences out of 15000+600000
  13845 words of font info for 51 fonts, out of 8000000 for 9000
@@ -1343,10 +1319,10 @@ onts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fs-07-Sampling.pdf (62 pages, 584138 bytes).
+Output written on fs-07-Sampling.pdf (50 pages, 565137 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 431 compressed objects within 5 object streams
- 136 named destinations out of 1000 (max. 500000)
+ 489 PDF objects out of 1000 (max. 8388607)
+ 365 compressed objects within 4 object streams
+ 112 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
