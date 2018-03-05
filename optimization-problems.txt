@@ -1,0 +1,43 @@
+The cost of fuel for running a train is proportional to the square of the speed maintained, and is $50 per hr when the speed is 20 mph. Other charges, such as labor, for example, are $200 per hr. What should be the speed for a 500-mile trip in order that the total cost shall be as little as possible?
+
+Find the dimensions of the largest rectangle that has its perimeter equal to 64 in.
+
+Find the dimensions Of the rectangle of smallest perimeter that has its area equal to 400 sq in.
+
+Find two positive numbers having the least sum if the product is 100. Do the same if the product is k.
+
+The product of the concentration of hydrogen ions, Ch., and hydroxyl ions, Coh-, in any aqueous solution is a constant 10—14. At what concentration of hydrogen ions will the sum of hydrogen ions and hydroxyl ions be a minimum ?
+
+The product of the concentration of hydrogen ions, $C_{h^{+}}$, and hydroxyl ions, $C_{oh^{-}}$, in any aqueous solution is a constant $=10^{-14}$. At what concentration of hydrogen ions will the sum of hydrogen ions and hydroxyl ions be a minimum ?
+
+Find two numbers whose sum is 15, such that the product of one by the square of the other is a maximum.
+
+Find the positive number such that the sum of the number and its reciprocal is least.
+
+Find the number that exceeds its square by the greatest amount.
+
+A rectangular garden is to be surrounded by a fence and divided into two equal parts by a fence parallel to one side. If the area is to be 600 sq ft, what should be the dimensions in order to require the least amount of fencing?
+
+Find the dimensions of the largest rectangle that can be inscribed in a circle of radius 6 in.
+
+An open rectangular box with a square base is to be made from a piece of cardboard 18 in. on a side by cutting out equal squares from the corners and turning up the sides (Fig. 12). Find the dimensions of the box of maximum capacity that can be constructed in this way.
+
+A closed box, whose base is a rectangle twice as long as it is wide, is to have a total surface area of 108 sq in. What is the greatest capacity the box can have?
+
+One side of a farm is bounded by a straight railroad. The farmer wishes to fence off a rectangular field of 20 acres, letting the fence along the railroad track sewe as one boundary. What should be the dimensions of the rectangle requiring the least length of new fence, and how much fencing is needed (1 acre 160 sq rods)?
+
+Postal regulations limit the size of a package that can be sent by parcel post, by requiring that the sum of the length and the girth be not more than 84 in. Find the dimensions of the package of greatest volume with a square cross section that can be mailed. Find the volume of this package.
+
+Using the limitation given in Exercise 13, find the dimensions and volume of the largest package with a circular cross section that can be mailed. 15. A rectangular box with open top and square base is to have a capacity of 32 cu ft. At 5 cents per sq ft for a metal lining, what should be the dimensions in order that the cost of lining shall be as little as possible?
+
+If, in Exercise 15, it is desired to line the sides with zinc at 8 cents per sq ft, and the bottom with copper at 16 cents per sq ft, what should be the dimensions for a minimum cost?
+
+A box in the form of a rectangular parallelopiped with square ends is to be divided into two equal com- partments by a partition parallel to one end. If the box is to contain 2592 cu. in., find the dimensions to require the least amount of lumber, assuming all parts to have the same thickness.
+
+Find the ratio of the height to the diameter of a cylindrical tin can in order that the least amount of tin shall be used for a given capacity.
+
+Find the dimensions (height and radius) of the largest (in volume) right circular cylinder that can be inscribed in a sphere 6 inches in diameter (Fig. 13).
+
+A window is to have the shape of a rectangle surmounted by an equilateral triangle. If the perimeter is fixed, find the ratio of the height to the width of the rectangle in order that the greatest amount of light shall be admitted, i.e., the window shall have the maximum area.
+
+If, in Exercise 20, the window has the shape of a rectangle surmounted by a semicircle, find the ratio of the height of the rectangle to its width in order to admit the greatest amount of light.
