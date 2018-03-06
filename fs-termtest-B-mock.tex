@@ -1,0 +1,169 @@
+% fs-termtest-B-mock.tex
+
+\documentclass[11pt]{article}
+\usepackage{alltt}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+
+% testing overleaf
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[1]{\refstepcounter{aufg}\textbf{(\arabic{aufg})} [#1 points]}
+
+\newcounter{preps}
+\setcounter{preps}{0}
+\newcommand{\prepprob}[0]{\refstepcounter{preps}\textbf{Test Example \arabic{preps}.}}
+
+\begin{document}
+
+All material covered so far in this course will be on Term Test B,
+excluding the Central Limit Theorem. For test examples 7, 8, and 10
+below you need the Central Limit Theorem for your solution. Such a
+question will NOT be on Term Test B; it's still good practice for the
+term test to do these examples because they require skill with the
+normal distribution. Solutions are on D2L.
+
+\textbf{Term Test B Preparation}
+
+{\prepprob} The mean number of patients admitted per day to the
+emergency room of a small hospital is 2. If, on any given day, there
+are only 3 beds available for new patients, what is the probability
+that the hospital will not have enough beds to accommodate its newly
+admitted patients?
+
+{\prepprob} The number of accidents that occur at a busy intersection
+is distributed with a mean of 3.4 per week. Find the probability of
+the following events. (a) No accidents occur in one week. (b) 3 or
+more accidents occur in a week. (c) One accident occurs today. 
+
+{\prepprob} Use normal approximation to estimate the probability of
+getting at least 57 girls in 100 births. Assume that boys and girls
+are equally likely.
+
+{\prepprob} Based upon past experience, 40\% of all customers at
+Miller's Automotive Service Station pay for their purchases with a
+credit card. If a random sample of three customers is selected, what
+is the probability that (a) none pay with a credit card? (b) two pay
+with a credit card? (c) at least two pay with a credit card? (d) not
+more than two pay with a credit card? If a random sample of 200
+customers is selected, what is the approximate probability that (e) at
+least 75 pay with a credit card? (f) not more than 70 pay with a credit
+card? (g) between 70 and 75 customers, inclusive, pay with a credit
+card?
+
+\newpage
+
+{\prepprob} Suppose a consultant was investigating the time it took
+factory workers in an automobile plant to assemble a particular part
+after the workers had been trained to perform the task using an
+individual learning approach. The consultant determined that the time
+in seconds to assemble the part for workers trained with this method
+was normally distributed with a mean $\mu=75$ seconds and a standard
+deviation $\sigma=6$ seconds.
+\begin{enumerate}
+\item What is the probability that a randomly selected factory worker
+  can assemble the part in under 75 seconds or in over 81 seconds?
+\item What is the probability that a randomly selected factory worker
+  can assemble the part in 69 to 81 seconds?
+\item What is the probability that a randomly selected factory worker
+  can assemble the part in under 62 seconds?
+\item What is the probability that a randomly selected factory worker
+  can assemble the part in 62 to 69 seconds?
+\item How many seconds must elapse before 50\% of the factory workers
+  assemble the part?
+\item How many seconds must elapse before 10\% of the factory workers
+  assemble the part?
+\item What is the interquartile range (in seconds) expected for
+  factory workers to assemble the part? (The interquartile range is
+  the centre 50\%, i.e.\ such that one quarter of the workers is
+  slower and one quarter of workers is faster than the workers in the
+  interquartile range.)
+\end{enumerate}
+
+{\prepprob} Historically, 93\% of the deliveries of an overnight mail
+service arrive before 10:30 the following morning. If random samples
+of 500 deliveries are selected, what proportion of the samples will
+have (a) between 93\% and 95\% of the deliveries arriving before 10:30
+the following morning? (b) more than 95\% of the deliveries arriving
+before 10:30 the following morning?
+
+\newpage
+
+{\prepprob} According to the web site \texttt{www.torchmate.com},
+``manhole covers must be a minimum of 22in in diameter, but can be as
+much as 60in in diameter.'' Assume that a manhole is constructed to
+have a circular opening with a diameter of 22 in. Men have shoulder
+breadths that are normally distributed with a mean of 18.2in and a
+standard deviation of 1.0in (based on data from the National Health
+and Nutrition Examination Survey).
+\begin{enumerate}
+\item What percentage of men will fit into the manhole?
+\item Assume that the Connecticut Light and Power company employs
+  36 men who work in manholes. If 36 men are randomly selected, what
+  is the probability that their mean shoulder breadth is less than
+  18.5in?
+\end{enumerate}
+
+{\prepprob} Passengers died when a water taxi sank in Baltimore's
+Inner Harbor. Men are typically heavier than women and children, so
+when loading a water taxi, assume a worst-case scenario in which all
+passengers are men. Assume that weights of men are normally
+distributed with a mean of 182.9lb and a standard deviation of 40.8lb.
+The water taxi that sank had a stated capacity of 25 passengers, and
+the boat was rated for a load limit of 3500 lb.
+  \begin{enumerate}
+  \item Given that the water taxi that sank was rated for a load
+    limit of 3500 lb, what is the mean weight of the passengers if the
+    boat is filled to the stated capacity of 25 passengers?
+  \item If the water taxi is filled with 25 randomly selected men,
+    what is the probability that their mean weight exceeds the value?
+  \item After the water taxi sank, the weight assumptions were
+    revised so that the new capacity became 20 passengers. If the
+    water taxi is filled with 20 randomly selected men, what is the
+    probability that their mean weight exceeds 175lb, which is the
+    maximum mean weight that does not cause the total load to exceed
+    3500lb?
+  \item Is the new capacity of 20 passengers safe?
+  \end{enumerate}
+
+\newpage
+
+{\prepprob} Loading M\&M Packages M\&M plain candies have a mean weight
+  of 0.8565g and a standard deviation of 0.0518g. The M\&M candies
+  used in a data set came from a package containing 465 candies, and
+  the package label stated that the net weight is 396.9g. (If every
+  package has 465 candies, the mean weight of the candies must exceed
+  $396.9/465=0.8535g$ for the net contents to weigh at least 396.9g.)
+  \begin{enumerate}
+  \item If 1 M\&M plain candy is randomly selected, find the
+    probability that it weighs more than 0.8535g.
+  \item If 465 M\&M plain candies are randomly selected, find the
+    probability that their mean weight is at least 0.8535g.
+  \item Given these results, does it seem that the Mars Company is
+    providing M\&M consumers with the amount claimed on the label?
+  \end{enumerate}
+
+  {\prepprob} A ski gondola in Vail, Colorado, carries skiers to the top
+  of a mountain. It bears a plaque stating that the maximum capacity
+  is 12 people or 2004lb. That capacity will be exceeded if 12 people
+  have weights with a mean greater than $2004/12=167$lb. Because men
+  tend to weigh more than women, a worst-case scenario involves 12
+  passengers who are all men. Assume that weights of men are normally
+  distributed with a mean of 182.9 lb and a standard deviation of
+  40.8lb.
+  \begin{enumerate}
+  \item Find the probability that if an individual man is randomly
+    selected, his weight will be greater than 167lb.
+  \item Find the probability that twelve randomly selected men
+    will have a mean weight that is greater than 167lb (so that their
+    total weight is greater than the gondola maximum capacity of
+    2004lb).
+  \item Does the gondola appear to have the correct weight limit?
+    Why or why not?
+  \end{enumerate}
+
+\end{document}
+
