@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  7 MAR 2018 16:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  8 MAR 2018 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fs-07-Sampling.tex
-(./fs-07-Sampling.tex
+**fs-08-OneSample.tex
+(./fs-08-OneSample.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -828,8 +828,8 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ))
 \c@expls=\count163
 \c@exercise=\count164
-) (./fs-07-Sampling.aux)
-\openout1 = `fs-07-Sampling.aux'.
+) (./fs-08-OneSample.aux)
+\openout1 = `fs-08-OneSample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
 LaTeX Font Info:    ... okay on input line 24.
@@ -924,9 +924,9 @@ LaTeX Info: Redefining \ref on input line 24.
 LaTeX Info: Redefining \pageref on input line 24.
 LaTeX Info: Redefining \nameref on input line 24.
 
-(./fs-07-Sampling.out) (./fs-07-Sampling.out)
+(./fs-08-OneSample.out) (./fs-08-OneSample.out)
 \@outlinefile=\write5
-\openout5 = `fs-07-Sampling.out'.
+\openout5 = `fs-08-OneSample.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 24.
@@ -1007,7 +1007,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 24.
 
-(./fs-07-Sampling.nav)
+(./fs-08-OneSample.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 28.
@@ -1015,18 +1015,18 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 52.
+LaTeX Font Info:    Try loading font information for U+msa on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 52.
+LaTeX Font Info:    Try loading font information for U+msb on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 52.
+line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1036,25 +1036,54 @@ thkerncmss.
 
 ] [3
 
-] [4
+] <./diagrams/triola-321.png, id=51, 286.9119pt x 174.1707pt>
+File: ./diagrams/triola-321.png Graphic file (type png)
 
-] [5
+<use ./diagrams/triola-321.png>
+Package pdftex.def Info: ./diagrams/triola-321.png used on input line 72.
+(pdftex.def)             Requested size: 286.91118pt x 174.17027pt.
+ [4
 
-] [6
+ <./diagrams/triola-321.png>]
+<./diagrams/triola-320.png, id=60, 371.4678pt x 221.8689pt>
+File: ./diagrams/triola-320.png Graphic file (type png)
 
-] [7
+<use ./diagrams/triola-320.png>
+Package pdftex.def Info: ./diagrams/triola-320.png used on input line 79.
+(pdftex.def)             Requested size: 297.17464pt x 177.49535pt.
+ [5
 
-] [8
+ <./diagrams/triola-320.png>] [6
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 187
-.
- (/usr/share/texmf/tex/latex/R/tex/latex/omscmtt.fd
-File: omscmtt.fd 
-)
-LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 187.
-[9
+<./diagrams/triola-323a.png, id=75, 323.0469pt x 187.902pt>
+File: ./diagrams/triola-323a.png Graphic file (type png)
+
+<use ./diagrams/triola-323a.png>
+Package pdftex.def Info: ./diagrams/triola-323a.png used on input line 103.
+(pdftex.def)             Requested size: 323.04611pt x 187.90154pt.
+
+Overfull \hbox (15.75624pt too wide) in paragraph at lines 103--103
+ [] 
+ []
+
+[7
+
+ <./diagrams/triola-323a.png>]
+<./diagrams/triola-323b.png, id=84, 314.3745pt x 85.2786pt>
+File: ./diagrams/triola-323b.png Graphic file (type png)
+
+<use ./diagrams/triola-323b.png>
+Package pdftex.def Info: ./diagrams/triola-323b.png used on input line 110.
+(pdftex.def)             Requested size: 314.37372pt x 85.27837pt.
+
+Overfull \hbox (7.08385pt too wide) in paragraph at lines 110--110
+ [] 
+ []
+
+[8
+
+ <./diagrams/triola-323b.png>] [9
 
 ] [10
 
@@ -1068,46 +1097,16 @@ LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <10.95> not available
 
 ] [15
 
+] [16
+
 ]
-Package epstopdf Info: Source file: <./diagrams/CentralLimitTheorem.eps>
-(epstopdf)                    date: 2018-01-11 17:27:08
-(epstopdf)                    size: 81957 bytes
-(epstopdf)             Output file: <./diagrams/CentralLimitTheorem-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2018-02-26 21:21:22
-(epstopdf)                    size: 15279 bytes
-(epstopdf)             Command: <repstopdf --outfile=./diagrams/CentralLimitThe
-orem-eps-converted-to.pdf ./diagrams/CentralLimitTheorem.eps>
-(epstopdf)             \includegraphics on input line 264.
-Package epstopdf Info: Output file is already uptodate.
-
-<./diagrams/CentralLimitTheorem-eps-converted-to.pdf, id=142, 461.725pt x 585.1
-8625pt>
-File: ./diagrams/CentralLimitTheorem-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ./diagrams/CentralLimitTheorem-eps-converted-to.pdf>
-Package pdftex.def Info: ./diagrams/CentralLimitTheorem-eps-converted-to.pdf us
-ed on input line 264.
-(pdftex.def)             Requested size: 323.20529pt x 409.62758pt.
-
-Overfull \hbox (15.91542pt too wide) in paragraph at lines 264--264
- [] 
- []
-
-
-Overfull \vbox (201.68518pt too high) detected at line 264
- []
-
-[16
-
- <./diagrams/CentralLimitTheorem-eps-converted-to.pdf>] [17
+[17
 
 ] [18
 
 ] [19
 
-]
-[20
+] [20
 
 ] [21
 
@@ -1115,38 +1114,39 @@ Overfull \vbox (201.68518pt too high) detected at line 264
 
 ] [23
 
-]
-<./diagrams/triola-281.png, id=239, 396.0396pt x 271.0125pt>
-File: ./diagrams/triola-281.png Graphic file (type png)
+] [24
 
-<use ./diagrams/triola-281.png>
-Package pdftex.def Info: ./diagrams/triola-281.png used on input line 385.
-(pdftex.def)             Requested size: 297.02896pt x 203.25887pt.
- [24
-
- <./diagrams/triola-281.png>] [25
+] [25
 
 ] [26
 
-]
-<./diagrams/triola-284.png, id=261, 368.577pt x 278.2395pt>
-File: ./diagrams/triola-284.png Graphic file (type png)
-
-<use ./diagrams/triola-284.png>
-Package pdftex.def Info: ./diagrams/triola-284.png used on input line 431.
-(pdftex.def)             Requested size: 276.43205pt x 208.67911pt.
- [27
-
- <./diagrams/triola-284.png>] [28
-
-] [29
+] [27
 
 ]
-[30
+<./diagrams/quakes.png, id=227, 641.39626pt x 592.2125pt>
+File: ./diagrams/quakes.png Graphic file (type png)
+
+<use ./diagrams/quakes.png>
+Package pdftex.def Info: ./diagrams/quakes.png used on input line 443.
+(pdftex.def)             Requested size: 192.42035pt x 177.66512pt.
+
+Overfull \vbox (12.6519pt too high) detected at line 443
+ []
+
+[28
+
+ <./diagrams/quakes.png>] [29
+
+] [30
 
 ] [31
 
-] [32
+]
+Overfull \hbox (8.17702pt too wide) in paragraph at lines 497--497
+[][]  
+ []
+
+[32
 
 ] [33
 
@@ -1156,176 +1156,103 @@ Package pdftex.def Info: ./diagrams/triola-284.png used on input line 431.
 
 ] [36
 
-] [37
+]
+<./diagrams/chisqu.jpg, id=284, 351.3125pt x 225.84375pt>
+File: ./diagrams/chisqu.jpg Graphic file (type jpg)
+
+<use ./diagrams/chisqu.jpg>
+Package pdftex.def Info: ./diagrams/chisqu.jpg used on input line 797.
+(pdftex.def)             Requested size: 175.6558pt x 112.92159pt.
+ [37
+
+ <./diagrams/chisqu.jpg>] [38
+
+] [39
+
+] [40
 
 ]
-<./diagrams/an-hist.png, id=333, 638.385pt x 560.0925pt>
-File: ./diagrams/an-hist.png Graphic file (type png)
-
-<use ./diagrams/an-hist.png>
-Package pdftex.def Info: ./diagrams/an-hist.png used on input line 627.
-(pdftex.def)             Requested size: 255.34947pt x 224.03302pt.
-
-Overfull \vbox (2.49062pt too high) detected at line 627
+Overfull \hbox (8.17702pt too wide) in paragraph at lines 857--857
+[][]  
  []
 
-[38
-
- <./diagrams/an-hist.png>]
-<./diagrams/an-box.png, id=340, 607.26875pt x 522.95375pt>
-File: ./diagrams/an-box.png Graphic file (type png)
-
-<use ./diagrams/an-box.png>
-Package pdftex.def Info: ./diagrams/an-box.png used on input line 634.
-(pdftex.def)             Requested size: 242.9032pt x 209.1778pt.
- [39
-
- <./diagrams/an-box.png>]
-<./diagrams/an-nqp.png, id=347, 666.49pt x 651.43375pt>
-File: ./diagrams/an-nqp.png Graphic file (type png)
-
-<use ./diagrams/an-nqp.png>
-Package pdftex.def Info: ./diagrams/an-nqp.png used on input line 641.
-(pdftex.def)             Requested size: 233.275pt x 228.00522pt.
-
-Overfull \vbox (6.46281pt too high) detected at line 641
- []
-
-[40
-
- <./diagrams/an-nqp.png>] [41
+[41
 
 ] [42
 
+] [43
+
+] [44
+
 ]
-<./diagrams/an-histunif.png, id=366, 632.3625pt x 543.02875pt>
-File: ./diagrams/an-histunif.png Graphic file (type png)
+<./diagrams/onesample.pdf, id=339, 1278.7775pt x 871.255pt>
+File: ./diagrams/onesample.pdf Graphic file (type pdf)
 
-<use ./diagrams/an-histunif.png>
-Package pdftex.def Info: ./diagrams/an-histunif.png used on input line 677.
-(pdftex.def)             Requested size: 252.94052pt x 217.20764pt.
- [43
+<use ./diagrams/onesample.pdf>
+Package pdftex.def Info: ./diagrams/onesample.pdf used on input line 899.
+(pdftex.def)             Requested size: 326.0937pt x 222.17374pt.
 
- <./diagrams/an-histunif.png>]
-<./diagrams/an-unif.png, id=374, 641.39626pt x 647.41875pt>
-File: ./diagrams/an-unif.png Graphic file (type png)
-
-<use ./diagrams/an-unif.png>
-Package pdftex.def Info: ./diagrams/an-unif.png used on input line 684.
-(pdftex.def)             Requested size: 224.49205pt x 226.59995pt.
-
-Overfull \vbox (5.05754pt too high) detected at line 684
+Overfull \hbox (18.80383pt too wide) in paragraph at lines 899--899
+ [] 
  []
 
-[44
 
- <./diagrams/an-unif.png>]
-<./diagrams/an-uhist.png, id=381, 622.325pt x 538.01pt>
-File: ./diagrams/an-uhist.png Graphic file (type png)
-
-<use ./diagrams/an-uhist.png>
-Package pdftex.def Info: ./diagrams/an-uhist.png used on input line 691.
-(pdftex.def)             Requested size: 248.92558pt x 215.20018pt.
- [45
-
- <./diagrams/an-uhist.png>]
-<./diagrams/an-unqp.png, id=388, 644.4075pt x 651.43375pt>
-File: ./diagrams/an-unqp.png Graphic file (type png)
-
-<use ./diagrams/an-unqp.png>
-Package pdftex.def Info: ./diagrams/an-unqp.png used on input line 698.
-(pdftex.def)             Requested size: 225.546pt x 228.00522pt.
-
-Overfull \vbox (6.46281pt too high) detected at line 698
+Overfull \vbox (14.23134pt too high) detected at line 899
  []
 
-[46
+[45
 
- <./diagrams/an-unqp.png>]
-<./diagrams/an-2phist.png, id=395, 631.35875pt x 525.965pt>
-File: ./diagrams/an-2phist.png Graphic file (type png)
-
-<use ./diagrams/an-2phist.png>
-Package pdftex.def Info: ./diagrams/an-2phist.png used on input line 705.
-(pdftex.def)             Requested size: 252.53902pt x 210.38226pt.
- [47
-
- <./diagrams/an-2phist.png>]
-<./diagrams/an-2pnqp.png, id=402, 653.44125pt x 639.38875pt>
-File: ./diagrams/an-2pnqp.png Graphic file (type png)
-
-<use ./diagrams/an-2pnqp.png>
-Package pdftex.def Info: ./diagrams/an-2pnqp.png used on input line 712.
-(pdftex.def)             Requested size: 228.70786pt x 223.78941pt.
-
-Overfull \vbox (2.24701pt too high) detected at line 712
- []
-
-[48
-
- <./diagrams/an-2pnqp.png>]
-<./diagrams/an-jb.png, id=409, 541.02126pt x 486.81876pt>
-File: ./diagrams/an-jb.png Graphic file (type png)
-
-<use ./diagrams/an-jb.png>
-Package pdftex.def Info: ./diagrams/an-jb.png used on input line 720.
-(pdftex.def)             Requested size: 216.40466pt x 194.72404pt.
- [49
-
- <./diagrams/an-jb.png>] [50
-
-] [51
+ <./diagrams/onesample.pdf>] [46
 
 ]
 \tf@nav=\write6
-\openout6 = `fs-07-Sampling.nav'.
+\openout6 = `fs-08-OneSample.nav'.
 
 \tf@toc=\write7
-\openout7 = `fs-07-Sampling.toc'.
+\openout7 = `fs-08-OneSample.toc'.
 
 \tf@snm=\write8
-\openout8 = `fs-07-Sampling.snm'.
+\openout8 = `fs-08-OneSample.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 740.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 740.
-
-(./fs-07-Sampling.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 740.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 740.
-Package rerunfilecheck Info: File `fs-07-Sampling.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 907.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 907.
+ (./fs-08-OneSample.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 907.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 907.
+Package rerunfilecheck Info: File `fs-08-OneSample.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 740.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 907.
  ) 
 Here is how much of TeX's memory you used:
- 20265 strings out of 493029
- 400287 string characters out of 6136234
- 478613 words of memory out of 5000000
- 23182 multiletter control sequences out of 15000+600000
- 13845 words of font info for 51 fonts, out of 8000000 for 9000
+ 20207 strings out of 493029
+ 399351 string characters out of 6136234
+ 470516 words of memory out of 5000000
+ 23151 multiletter control sequences out of 15000+600000
+ 14956 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,16n,72p,418b,684s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,16n,72p,419b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fs-07-Sampling.pdf (51 pages, 566990 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on fs-08-OneSample.pdf (46 pages, 556817 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 373 compressed objects within 4 object streams
- 116 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 104 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
