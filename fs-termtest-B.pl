@@ -15,15 +15,15 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "\\aufgabe{5} In a meat manufacturing plant, $v003[$i1] cattle are processed per hour at a work station. $v004[$i1]\\\% of the processed cattle create problems that cause an interruption in the work flow. Calculate the probability that a work station will experience strictly less than four interruptions on a given work day (eight hours).\n";
+    print termtest "In a meat manufacturing plant, cattle are processed at a work station. On average, $v004[$i1] cattle per hour create problems that cause an interruption in the work flow. Calculate the probability that a work station will experience strictly less than four interruptions on a given work day (eight hours).\n";
 };
 
 $aufgabe[2]=sub {
-    print termtest "\\aufgabe{5} A factory worker produces a mean of $v005[$i1] units of a food product per hour with a standard deviation of $v006[$i1] units. The distribution is normal. What is the probability that the worker produces more than $v007[$i1] units in a day (where one work day has eight hours). Assume that hourly outputs on a given day are independent of each other (unlikely in real life). Hint: Treat the production per day as a sample of eight hourly outputs and use the Central Limit Theorem.\n";
+    print termtest "\\aufgabe{5} A factory worker produces a mean of $v005[$i1] units of a food product per hour with a standard deviation of $v006[$i1] units. The distribution is normal. Determine the missing number \$x\$ in the following statement: $v007[$i1]\\\% of the time, the factory worker produces more than \$x\$ units in an hour.\n";
 };
 
 $aufgabe[3]=sub {
-    print termtest "\\aufgabe{5} A company that makes processed foods receives an ingredient in single units from a supplier. $v008[$i1]\\\% of the ingredients are A-grade quality, $v009[$i1]\\\% are B-grade quality, and the rest is spoiled. On Tuesday, the supplier drops off $v010[$i1] units. Estimate the probability that $v011[$i1] or more units are spoiled.\n";
+    print termtest "\\aufgabe{5} A company that makes processed foods receives an ingredient in single units from a supplier. $v008[$i1]\\\% of the ingredients are A-grade quality, $v009[$i1]\\\% are B-grade quality, and the rest is spoiled. On Tuesday, the supplier drops off $v010[$i1] units. Estimate (!) the probability that $v011[$i1] or more units are spoiled.\n";
 };
 
 $aufgabe[4]=sub {
@@ -51,10 +51,10 @@ $vn[1]="2";
 $v001[0]="8";
 $v002[0]="11";
 $v003[0]="40";
-$v004[0]="3";
+$v004[0]="0.72";
 $v005[0]="96.5";
 $v006[0]="4.7";
-$v007[0]="780";
+$v007[0]="92";
 $v008[0]="19.2";
 $v009[0]="78.3";
 $v010[0]="600";
@@ -66,10 +66,10 @@ $v014[0]="95";
 $v001[1]="9";
 $v002[1]="13";
 $v003[1]="30";
-$v004[1]="4";
+$v004[1]="0.66";
 $v005[1]="91.1";
 $v006[1]="5.8";
-$v007[1]="735";
+$v007[1]="79";
 $v008[1]="22.7";
 $v009[1]="76.1";
 $v010[1]="800";
