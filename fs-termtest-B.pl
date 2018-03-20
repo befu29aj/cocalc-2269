@@ -15,7 +15,7 @@ $aufgabe[0]=sub {
 };
 
 $aufgabe[1]=sub {
-    print termtest "In a meat manufacturing plant, cattle are processed at a work station. On average, $v004[$i1] cattle per hour create problems that cause an interruption in the work flow. Calculate the probability that a work station will experience strictly less than four interruptions on a given work day (eight hours).\n";
+    print termtest "\\aufgabe{5} In a meat manufacturing plant, cattle are processed at a work station. On average, $v004[$i1] cattle per hour create problems that cause an interruption in the work flow. Calculate the probability that a work station will experience strictly less than four interruptions on a given work day (eight hours).\n";
 };
 
 $aufgabe[2]=sub {
