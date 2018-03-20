@@ -1,0 +1,36 @@
+% fs-termtest-B.tex
+
+\documentclass[11pt]{article}
+\usepackage{alltt}
+\usepackage{enumerate}
+\usepackage{syllogism} 
+\usepackage{october}
+\usepackage[table]{xcolor}
+\pagestyle{empty}
+
+\newcounter{aufg}
+\setcounter{aufg}{0}
+\newcommand{\aufgabe}[1]{\refstepcounter{aufg}\textbf{(\arabic{aufg})}[#1 points]}
+
+\begin{document}
+
+\textbf{Term Test B version 2}
+
+\aufgabe{5} A factory worker produces a mean of 91.1 units of a food product per hour with a standard deviation of 5.8 units. The distribution is normal. What is the probability that the worker produces more than 735 units in a day (where one work day has eight hours). Assume that hourly outputs on a given day are independent of each other (unlikely in real life). Hint: Treat the production per day as a sample of eight hourly outputs and use the Central Limit Theorem.
+
+\aufgabe{5} A bakery product maintains its quality for a mean of 140 hours after production with a standard deviation of 12 hours. The distribution is normal. The ``best before'' date is chosen such that 90\% of the product maintain their quality by that date. How many hours after production should the ``best before'' date be set?
+
+\aufgabe{5} A company that makes processed foods receives an ingredient in single units from a supplier. 22.7\% of the ingredients are A-grade quality, 76.1\% are B-grade quality, and the rest is spoiled. On Tuesday, the supplier drops off 800 units. Estimate the probability that 12 or more units are spoiled.
+
+\aufgabe{5} A production cycle requires good weather. In September, based on many years of experience, 9 out of 13 days have good enough weather for the production cycle. Calculate the probability that on exactly four out of these five days the weather was good enough for the production cycle:
+\begin{tabular}{l}
+  September 5, 2011 \\
+  September 5, 2012 \\
+  September 5, 2013 \\
+  September 5, 2014 \\
+  September 5, 2015 \\
+\end{tabular}
+
+\aufgabe{5} In a meat manufacturing plant, 30 cattle are processed per hour at a work station. 4\% of the processed cattle create problems that cause an interruption in the work flow. Calculate the probability that a work station will experience strictly less than four interruptions on a given work day (eight hours).
+
+\end{document}
