@@ -386,6 +386,9 @@ INPUT ./diagrams/chisqu.jpg
 INPUT ./diagrams/onesample.pdf
 INPUT ./diagrams/onesample.pdf
 INPUT ./diagrams/onesample.pdf
+INPUT ./diagrams/fs-OneSample-summary.png
+INPUT ./diagrams/fs-OneSample-summary.png
+INPUT ./diagrams/fs-OneSample-summary.png
 OUTPUT fs-08-OneSample.nav
 OUTPUT fs-08-OneSample.toc
 OUTPUT fs-08-OneSample.snm
