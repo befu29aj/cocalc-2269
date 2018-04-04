@@ -1,0 +1,11 @@
+\frametitle{Hypothesis Testing: Variance/Standard Deviation}
+  {\ubung} Highway Speeds Listed below are speeds (mi/h) measured
+  from southbound traffic on 1-280 near Cupertino, California
+  (based on data from SigAlert). This simple random sample was
+  obtained at 3:30 P.M. on a weekday. Use a 0.05 significance
+  level to test the claim of the highway engineer that the
+  standard deviation of speeds is equal to 5.0 mi/h. Assume that
+  the population is normally distributed.
+\begin{alltt}
+62 61 61 57 61 54 59 58 59 69 60 67
+\end{alltt}
