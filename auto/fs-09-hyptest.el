@@ -15,7 +15,8 @@
    (TeX-run-style-hooks
     "latex2e"
     "beamer"
-    "beamer10")
+    "beamer10"
+    "teachbeamer")
    (LaTeX-add-labels
     "eq:bahhixie"
     "eq:aegaasee"))
