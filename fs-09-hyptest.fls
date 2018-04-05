@@ -359,6 +359,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT ./diagrams/error.jpg
 INPUT ./diagrams/error.jpg
 INPUT ./diagrams/error.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 OUTPUT fs-09-hyptest.vrb
 INPUT fs-09-hyptest.vrb
 INPUT fs-09-hyptest.vrb
@@ -389,6 +390,7 @@ OUTPUT fs-09-hyptest.snm
 INPUT fs-09-hyptest.aux
 INPUT ./fs-09-hyptest.out
 INPUT ./fs-09-hyptest.out
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
