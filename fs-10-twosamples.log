@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  11 APR 2018 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  11 APR 2018 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1082,18 +1082,6 @@ Package pdftex.def Info: ./diagrams/triola-455.png used on input line 278.
 [18
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Brain Volumes of Twins} L...
-l.342 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Overfull \hbox (7.70738pt too wide) in paragraph at lines 342--342
 []\OT1/cmtt/m/n/10 First Born 1005 1035 1281 1051 1034 1079 1104 1439 1029 1160
 
@@ -1106,160 +1094,31 @@ Overfull \hbox (7.70738pt too wide) in paragraph at lines 342--342
 
 [19
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Proctored and Nonproctore...
-l.360 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [20
 
-[20
+] [21
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Dreaming in Black and Whi...
-l.373 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [22
 
-[21
+] [23
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Cardiac Arrest at Day and...
-l.384 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [24
 
-[22
+] [25
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {IQ and Lead Exposure} A d...
-l.402 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+] [26
 
-[23
+] [27
 
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Ginkgo for Dementia} The ...
-l.433 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[24
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Are Seat Belts Effective?...
-l.446 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[25
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Body Mass Index} We know ...
-l.473 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[26
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Do Men Talk Less Than Wom...
-l.497 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[27
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Body Temperatures} Listed...
-l.516 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[28
+] [28
 
 ]
 \openout4 = `fs-10-twosamples.vrb'.
 
- (./fs-10-twosamples.vrb
-! Undefined control sequence.
-l.2 \aufgabe
-            {Longevity} Listed below are the numbers of years that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ (./fs-10-twosamples.vrb)
+[29
 
-) [29
-
-]
-! Undefined control sequence.
-\beamer@doifinframe ...title {Exercises} \aufgabe 
-                                                  {Speaking Couples} Listed ...
-l.606 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[30
+] [30
 
 ]
 Overfull \hbox (9.71034pt too wide) in paragraph at lines 626--626
@@ -1270,18 +1129,7 @@ Overfull \hbox (9.71034pt too wide) in paragraph at lines 626--626
 
 ]
 ! Undefined control sequence.
-\beamer@doifinframe ...le {Term Test C} \aufgabex 
-                                                  {5} A sample of {\ufoj } h...
-l.680 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\beamer@doifinframe ...bex {5} A sample of {\ufoj 
+\beamer@doifinframe ...ubung } A sample of {\ufoj 
                                                   } historians responded to ...
 l.680 \end{frame}
                  
@@ -1327,17 +1175,6 @@ and I'll forget about whatever was undefined.
 [32
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...le {Term Test C} \aufgabex 
-                                                  {5} An accountant wants to...
-l.691 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ! Undefined control sequence.
 \beamer@doifinframe ...ccounts is equal to {\jief 
                                                   } (dollars squared) versus...
@@ -1397,17 +1234,6 @@ and I'll forget about whatever was undefined.
 
 ]
 ! Undefined control sequence.
-\beamer@doifinframe ...le {Term Test C} \aufgabex 
-                                                  {5} A company believes its...
-l.700 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
 \beamer@doifinframe ...rket share is about {\uphe 
                                                   }\%. Find the minimum requ...
 l.700 \end{frame}
@@ -1443,17 +1269,6 @@ and I'll forget about whatever was undefined.
 [34
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...le {Term Test C} \aufgabex 
-                                                  {5} The average weekly ear...
-l.712 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ! Undefined control sequence.
 \beamer@doifinframe ...re reported to be \${\aiza 
                                                   }. Suppose that you want t...
@@ -1501,17 +1316,6 @@ and I'll forget about whatever was undefined.
 [35
 
 ]
-! Undefined control sequence.
-\beamer@doifinframe ...le {Term Test C} \aufgabex 
-                                                  {5} A wine importer needs ...
-l.723 \end{frame}
-                 
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ! Undefined control sequence.
 \beamer@doifinframe ...andard deviation is {\usha 
                                                   }\%. The importer randomly...
@@ -1585,10 +1389,10 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 730.
  ) 
 Here is how much of TeX's memory you used:
- 20178 strings out of 493029
- 398621 string characters out of 6136234
+ 20176 strings out of 493029
+ 398606 string characters out of 6136234
  471675 words of memory out of 5000000
- 23133 multiletter control sequences out of 15000+600000
+ 23131 multiletter control sequences out of 15000+600000
  14681 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,72p,931b,604s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1605,7 +1409,7 @@ msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pf
 b>
-Output written on fs-10-twosamples.pdf (37 pages, 392181 bytes).
+Output written on fs-10-twosamples.pdf (37 pages, 393295 bytes).
 PDF statistics:
  356 PDF objects out of 1000 (max. 8388607)
  286 compressed objects within 3 object streams
