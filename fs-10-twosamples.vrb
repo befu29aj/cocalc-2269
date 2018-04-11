@@ -1,0 +1,21 @@
+\frametitle{Exercises}
+\aufgabe{Longevity} Listed below are the numbers of years that
+popes and British monarchs (since 1690) lived after their election
+or coronation. Treat the values as simple random samples from a
+larger population. Use a 0.01 significance level to test the claim
+that the mean longevity for popes is less than the mean for
+British monarchs after coronation.
+
+\bigskip
+
+\begin{alltt}
+Popes: 2 9 21 3 6 10 18 11 6 25 23
+ 6 2 15 32 25 11 8 17 19 5 15 0 26
+\end{alltt}
+
+\bigskip
+
+\begin{alltt}
+Kings and Queens: 17 6 13 12 13 33
+             59 10 7 63 9 25 36 15
+\end{alltt}
