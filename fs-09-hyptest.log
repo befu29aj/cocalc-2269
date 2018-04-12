@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  12 APR 2018 15:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  12 APR 2018 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,9 +1237,9 @@ File: ./diagrams/rfunctions.png Graphic file (type png)
 
 <use ./diagrams/rfunctions.png>
 Package pdftex.def Info: ./diagrams/rfunctions.png used on input line 678.
-(pdftex.def)             Requested size: 352.37172pt x 187.25237pt.
+(pdftex.def)             Requested size: 322.17018pt x 171.2031pt.
 
-Overfull \hbox (45.08185pt too wide) in paragraph at lines 678--678
+Overfull \hbox (14.88031pt too wide) in paragraph at lines 678--678
  [] 
  []
 
@@ -1293,7 +1293,7 @@ public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt10.pfb>
-Output written on fs-09-hyptest.pdf (43 pages, 466742 bytes).
+Output written on fs-09-hyptest.pdf (43 pages, 466740 bytes).
 PDF statistics:
  372 PDF objects out of 1000 (max. 8388607)
  296 compressed objects within 3 object streams
