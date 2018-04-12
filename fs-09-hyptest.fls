@@ -384,6 +384,9 @@ INPUT fs-09-hyptest.vrb
 OUTPUT fs-09-hyptest.vrb
 INPUT fs-09-hyptest.vrb
 INPUT fs-09-hyptest.vrb
+INPUT ./diagrams/rfunctions.png
+INPUT ./diagrams/rfunctions.png
+INPUT ./diagrams/rfunctions.png
 OUTPUT fs-09-hyptest.nav
 OUTPUT fs-09-hyptest.toc
 OUTPUT fs-09-hyptest.snm
