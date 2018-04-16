@@ -1,0 +1,8 @@
+\frametitle{Regression Line Example}
+  Here is some R Statistics code:
+\begin{alltt}
+a<-runif(500,0,1) \newline
+b<-rnorm(500,a,0.2) \newline
+plot(a,b) \newline
+abline(lm(b~a),col="red")
+\end{alltt}
