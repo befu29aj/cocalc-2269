@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  17 APR 2018 17:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  17 APR 2018 17:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -344,12 +344,12 @@ Here is how much of TeX's memory you used:
  8340 multiletter control sequences out of 15000+600000
  8596 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,5n,40p,608b,122s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,5n,40p,614b,122s stack positions out of 5000i,500n,10000p,200000b,80000s
 </
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on fs-termtest-C2.pdf (1 page, 44286 bytes).
+Output written on fs-termtest-C2.pdf (1 page, 44143 bytes).
 PDF statistics:
  20 PDF objects out of 1000 (max. 8388607)
  13 compressed objects within 1 object stream
