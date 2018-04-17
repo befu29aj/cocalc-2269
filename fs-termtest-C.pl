@@ -59,7 +59,7 @@ srand($seed[0]);
 
 # Devore Peck, 407
 $aufgabe[0]=sub {
-    print termtest "A sample of $v001[$i1] historians responded to questions about the performance of various U.S. presidents, and the results were presented at the annual conference of the Organization of American Historians (Associated Press, March 28, 1991). Of the {\ufoj} surveyed, $v002[$i1] responded that Ronald Reagan lacked the proper intellect for the presidency. Construct a $v003[$i1]\\\% confidence interval for the true proportion of all historians who believe that Ronald Reagan lacked the proper interval for the presidency. Assume that the sample is a random sample of all historians.\n";
+    print termtest "A sample of $v001[$i1] historians responded to questions about the performance of various U.S. presidents, and the results were presented at the annual conference of the Organization of American Historians (Associated Press, March 28, 1991). Of the $v001[$i1] surveyed, $v002[$i1] responded that Ronald Reagan lacked the proper intellect for the presidency. Construct a $v003[$i1]\\\% confidence interval for the true proportion of all historians who believe that Ronald Reagan lacked the proper intellect for the presidency. Assume that the sample is a simple random sample of all historians.\n";
 };
 
 # Aczel, 279
