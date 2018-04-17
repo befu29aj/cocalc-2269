@@ -1,0 +1,11 @@
+# Fdb version 3
+["pdflatex"] 1523985692 "fs-termtest-C.pl" "fs-termtest-C.pdf" "fs-termtest-C" 1523985692
+  "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
+  "fs-termtest-C.aux" 1523985692 8 a94a2480d3289e625eea47cd1b285758 ""
+  "fs-termtest-C.pl" 1523924573 5034 cccda67fb71576c7027d884e0be49cc2 ""
+  (generated)
+  "fs-termtest-C.log"
+  "fs-termtest-C.pdf"
