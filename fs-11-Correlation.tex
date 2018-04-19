@@ -79,7 +79,7 @@
   \frametitle{Correlation}
   In the previous slide, you can see the data from 20 test subjects.
   In the following slide, you can see the data from 250 test subjects. It appears that there is a
-  relationship between weight and body fat.
+  relationship between waist and body fat.
 \end{frame}
 
 \begin{frame}
@@ -93,6 +93,43 @@
   \frametitle{Correlation}
 \begin{figure}[h]
 \includegraphics[scale=.35]{./diagrams/bf-03.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  The red line is called the regression line. We will learn how to
+  calculate it later. Here is its equation:
+\begin{equation}
+  \label{eq:chuitohf}
+  b=1.7w-42.73
+\end{equation}
+The regression line minimizes the mean square distance of the data
+points to the line (all other lines have a greater mean square
+distance from the data points). Have a look at three of the 250 test
+subjects.
+\begin{tabular}{|l|r|r|}\hline
+  & waist & body fat (actual) & body fat (predicted) & error \\ \hline
+  test subject 1 & 33.54 & 12.3 & 14.29 & 1.9936 \\ \hline
+  test subject 2 & 32.68 & 6.1 & 12.82 & 6.7212 \\ \hline
+  test subject 3 & 34.61 & 25.3 & 16.10 & -9.1993 \\ \hline
+\end{tabular}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+  It appears that the error is normally distributed (perhaps not quite
+  on the margins).
+% hist(bfc[[16]],main="histogram of error",xlab="error",breaks=seq(-13,12,2))
+\begin{figure}[h]
+\includegraphics[scale=.3]{./diagrams/bf-04.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Correlation}
+\begin{figure}[h]
+\includegraphics[scale=.35]{./diagrams/bf-05.png}
 \end{figure}
 \end{frame}
 

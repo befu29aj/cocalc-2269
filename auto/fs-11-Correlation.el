@@ -18,6 +18,7 @@
     "beamer10"
     "teachbeamer")
    (LaTeX-add-labels
+    "eq:chuitohf"
     "eq:eegheela"
     "eq:jeithoob"
     "eq:igahgued"
