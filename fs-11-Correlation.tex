@@ -385,7 +385,8 @@ Since our test statistic is
   \item[Step 2] The test statistic is $r=-0.3130899$ (calculated using
     R Statistics).
   \item[Step 3] The critical value of the Pearson Correlation
-    Coefficient $r$ is approximately $0.256$ at $\alpha=0.01$ and $n=98$.
+    Coefficient $r$ is approximately $0.256$ at $\alpha=0.01$ and
+    $n=98$ (consult the table).
   \end{description}
   Decision: reject the null hypothesis. The data supports the
   hypothesis that there is a linear correlation between years after
@@ -394,29 +395,28 @@ Since our test statistic is
   linear rather than some other correlation). 
 \end{frame}
 
-\begin{frame}[fragile]
+\begin{frame}[fragile,fragile]
   \frametitle{Hypothesis Testing for Correlation Example}
   Here is how you can do the hypothesis testing in R Statistics.
   Let $y$ be the years after 1900 and $d$ be the days after January 1
   when the tripod breaks the ice. Try the command
   \textrm{summary(lm(d~y))}. Here is the output
-\begin{alltt}
-Residuals:\newline
-     Min       1Q   Median       3Q      Max \newline
--15.2035  -3.6805  -0.2056   4.0684  18.7533 \newline
-\newline
-Coefficients:\newline
-             Estimate Std. Error t value Pr(>|t|)    \newline
-(Intercept) 128.58108    1.50954   85.18   <2e-16 ***\newline
-y       -0.06834    0.02116   -3.23   0.0017 ** \newline
----\newline
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1\newline
-\newline
-Residual standard error: 5.925 on 96 degrees of freedom\newline
-Multiple R-squared:  0.09803,	Adjusted R-squared:  0.08863 \newline
-F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695\newline
-\end{alltt}
-  
+\begin{verbatim}
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-15.2035  -3.6805  -0.2056   4.0684  18.7533 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 128.58108    1.50954   85.18   <2e-16 ***
+y            -0.06834    0.02116   -3.23   0.0017 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.925 on 96 degrees of freedom
+Multiple R-squared:  0.09803,	Adjusted R-squared:  0.08863 
+F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
+\end{verbatim}
 \end{frame}
 
 \begin{frame}[fragile]
