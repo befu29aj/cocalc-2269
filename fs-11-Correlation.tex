@@ -430,9 +430,11 @@ F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
   \alert{residuals} are the errors of our predictions using the
   regression line. For each $x$-value (independent variable), there is
   a $y$-value (dependent variable) and a $\hat{y}$-value (prediction
-  using the regression line. The residual is $\hat{y}-y$. The residual
-  standard deviation $s_{e}$ is a measure how much the data scatters
-  along the regression line:
+  using the regression line. The residual is $\hat{y}-y$ (in R
+  Statistics, the residuals are in \texttt{z[[3]]} for
+  \texttt{z<-summary(lm(d~y))}). The residual standard deviation
+  $s_{e}$ is a measure how much the data scatters along the regression
+  line:
   \begin{equation}
     \label{eq:eilokaqu}
     s_{e}=\sqrt{\frac{\sum(\hat{y}-y)^{2}}{n-2}}
@@ -451,6 +453,11 @@ F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
   correlation accounts for $r^{2}$ of the variation in the $y$-values.
   In the Nenana example, which year it is accounts for 9.8\% of the
   variation in the number of days it takes for the ice to break.
+
+  \bigskip
+
+  Some statisticians prefer ``Adjusted R-squared'' which penalizes
+  larger numbers of parameters.
 \end{frame}
 
 \begin{frame}
@@ -461,15 +468,27 @@ F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
     \frac{b_{1}-\beta_{1}}{\frac{s_{e}}{s_{x}\sqrt{n-1}}}
   \end{equation}
   is distributed according to a $t$-distribution with degree of
-  freedom $df=n-2$. $b_{1}$ is the slope of the regression line
-  calculated from the sample; $\beta_{1}$ is the slope of the
-  regression line hypothesized for the population. The R summary tells
-  us that the slope of the regression line for the sample is
-  $b_{1}=-0.06834$ and the $p$-value for the hypothesis that
-  $\beta_{1}=0$ is $0.0017$ (two-tailed). We reject the hypothesis
-  that $\beta_{1}=0$, which is similar to rejecting the hypothesis
-  that $r=0$. It is usually not interesting to investigate the
-  hypothesis that the $y$-intercept is zero.
+  freedom $df=n-2$. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing in R}
+  $s_{x}$ is the standard deviation of the $x$-values. $s_{e}$ is the
+  residual standard deviation. $b_{1}$ is the slope of the regression
+  line calculated from the sample; $\beta_{1}$ is the slope of the
+  regression line hypothesized for the population.
+
+  \bigskip
+  
+  The R summary tells us that the slope of the regression line for the
+  sample is $b_{1}=-0.06834$ and the $p$-value for the hypothesis that
+  $\beta_{1}=0$ is $0.0017$ (two-tailed) (you can check this by
+  looking at the $t$-distribution with degree of freedom $df=96$ and
+  the result of the formula on the last slide, which is
+  $t^{\ast}=-3.23$). We reject the hypothesis that $\beta_{1}=0$,
+  which is similar to rejecting the hypothesis that $r=0$. It is
+  usually not interesting to investigate the hypothesis that the
+  $y$-intercept is zero.
 \end{frame}
 
 \begin{frame}
