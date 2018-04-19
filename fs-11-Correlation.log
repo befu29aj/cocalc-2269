@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  19 APR 2018 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  19 APR 2018 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1048,18 +1048,18 @@ Package pdftex.def Info: ./diagrams/bf-03.png used on input line 97.
  [7
 
  <./diagrams/bf-03.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 117.
+LaTeX Font Info:    Try loading font information for U+msa on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 117.
+LaTeX Font Info:    Try loading font information for U+msb on input line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 117.
+line 118.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
@@ -1068,7 +1068,7 @@ thkerncmss.
 ! Extra alignment tab has been changed to \cr.
 <template> ... width\arrayrulewidth }\endtemplate 
                                                   
-l.117 \end{frame}
+l.118 \end{frame}
                  
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1077,7 +1077,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> ... width\arrayrulewidth }\endtemplate 
                                                   
-l.117 \end{frame}
+l.118 \end{frame}
                  
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1086,7 +1086,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> ... width\arrayrulewidth }\endtemplate 
                                                   
-l.117 \end{frame}
+l.118 \end{frame}
                  
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1095,7 +1095,7 @@ So I'll assume that you meant to type \cr instead.
 ! Extra alignment tab has been changed to \cr.
 <template> ... width\arrayrulewidth }\endtemplate 
                                                   
-l.117 \end{frame}
+l.118 \end{frame}
                  
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -1107,7 +1107,7 @@ So I'll assume that you meant to type \cr instead.
 File: ./diagrams/bf-04.png Graphic file (type png)
 
 <use ./diagrams/bf-04.png>
-Package pdftex.def Info: ./diagrams/bf-04.png used on input line 127.
+Package pdftex.def Info: ./diagrams/bf-04.png used on input line 128.
 (pdftex.def)             Requested size: 187.00006pt x 177.06287pt.
  [9
 
@@ -1116,10 +1116,10 @@ Package pdftex.def Info: ./diagrams/bf-04.png used on input line 127.
 File: ./diagrams/bf-05.png Graphic file (type png)
 
 <use ./diagrams/bf-05.png>
-Package pdftex.def Info: ./diagrams/bf-05.png used on input line 134.
+Package pdftex.def Info: ./diagrams/bf-05.png used on input line 135.
 (pdftex.def)             Requested size: 224.84337pt x 224.49205pt.
 
-Overfull \vbox (2.94965pt too high) detected at line 134
+Overfull \vbox (2.94965pt too high) detected at line 135
  []
 
 [10
@@ -1131,11 +1131,11 @@ Overfull \vbox (2.94965pt too high) detected at line 134
 File: ./diagrams/mshoeprintheight.png Graphic file (type png)
 
 <use ./diagrams/mshoeprintheight.png>
-Package pdftex.def Info: ./diagrams/mshoeprintheight.png used on input line 163
+Package pdftex.def Info: ./diagrams/mshoeprintheight.png used on input line 164
 .
 (pdftex.def)             Requested size: 213.6012pt x 201.30507pt.
 
-Overfull \vbox (9.70016pt too high) detected at line 163
+Overfull \vbox (9.70016pt too high) detected at line 164
  []
 
 [12
@@ -1145,11 +1145,11 @@ Overfull \vbox (9.70016pt too high) detected at line 163
 File: ./diagrams/fshoeprintheight.png Graphic file (type png)
 
 <use ./diagrams/fshoeprintheight.png>
-Package pdftex.def Info: ./diagrams/fshoeprintheight.png used on input line 172
+Package pdftex.def Info: ./diagrams/fshoeprintheight.png used on input line 173
 .
 (pdftex.def)             Requested size: 214.65514pt x 198.84584pt.
 
-Overfull \vbox (7.24094pt too high) detected at line 172
+Overfull \vbox (7.24094pt too high) detected at line 173
  []
 
 [13
@@ -1160,7 +1160,7 @@ File: ./diagrams/mfshoeprintheight.png Graphic file (type png)
 
 <use ./diagrams/mfshoeprintheight.png>
 Package pdftex.def Info: ./diagrams/mfshoeprintheight.png used on input line 18
-0.
+1.
 (pdftex.def)             Requested size: 211.49329pt x 197.7919pt.
  [14
 
@@ -1171,7 +1171,7 @@ Package pdftex.def Info: ./diagrams/mfshoeprintheight.png used on input line 18
 File: ./diagrams/sc01.png Graphic file (type png)
 
 <use ./diagrams/sc01.png>
-Package pdftex.def Info: ./diagrams/sc01.png used on input line 196.
+Package pdftex.def Info: ./diagrams/sc01.png used on input line 197.
 (pdftex.def)             Requested size: 212.19592pt x 209.7367pt.
  [16
 
@@ -1180,7 +1180,7 @@ Package pdftex.def Info: ./diagrams/sc01.png used on input line 196.
 File: ./diagrams/sc02.png Graphic file (type png)
 
 <use ./diagrams/sc02.png>
-Package pdftex.def Info: ./diagrams/sc02.png used on input line 203.
+Package pdftex.def Info: ./diagrams/sc02.png used on input line 204.
 (pdftex.def)             Requested size: 216.76306pt x 210.43933pt.
  [17
 
@@ -1189,7 +1189,7 @@ Package pdftex.def Info: ./diagrams/sc02.png used on input line 203.
 File: ./diagrams/sc03.png Graphic file (type png)
 
 <use ./diagrams/sc03.png>
-Package pdftex.def Info: ./diagrams/sc03.png used on input line 210.
+Package pdftex.def Info: ./diagrams/sc03.png used on input line 211.
 (pdftex.def)             Requested size: 214.65514pt x 215.35779pt.
  [18
 
@@ -1198,7 +1198,7 @@ Package pdftex.def Info: ./diagrams/sc03.png used on input line 210.
 File: ./diagrams/sc04.png Graphic file (type png)
 
 <use ./diagrams/sc04.png>
-Package pdftex.def Info: ./diagrams/sc04.png used on input line 217.
+Package pdftex.def Info: ./diagrams/sc04.png used on input line 218.
 (pdftex.def)             Requested size: 215.00647pt x 210.43933pt.
  [19
 
@@ -1209,7 +1209,7 @@ Package pdftex.def Info: ./diagrams/sc04.png used on input line 217.
 ] [22
 
 ]
-Overfull \vbox (5.5576pt too high) detected at line 311
+Overfull \vbox (5.5576pt too high) detected at line 312
  []
 
 [23
@@ -1238,10 +1238,10 @@ Overfull \vbox (5.5576pt too high) detected at line 311
 File: ./diagrams/abline1.png Graphic file (type png)
 
 <use ./diagrams/abline1.png>
-Package pdftex.def Info: ./diagrams/abline1.png used on input line 460.
+Package pdftex.def Info: ./diagrams/abline1.png used on input line 461.
 (pdftex.def)             Requested size: 248.5241pt x 230.45691pt.
 
-Overfull \vbox (8.9145pt too high) detected at line 460
+Overfull \vbox (8.9145pt too high) detected at line 461
  []
 
 [30
@@ -1251,10 +1251,10 @@ Overfull \vbox (8.9145pt too high) detected at line 460
 File: ./diagrams/abline2.png Graphic file (type png)
 
 <use ./diagrams/abline2.png>
-Package pdftex.def Info: ./diagrams/abline2.png used on input line 467.
+Package pdftex.def Info: ./diagrams/abline2.png used on input line 468.
 (pdftex.def)             Requested size: 248.5241pt x 231.2599pt.
 
-Overfull \vbox (9.7175pt too high) detected at line 467
+Overfull \vbox (9.7175pt too high) detected at line 468
  []
 
 [31
@@ -1272,10 +1272,10 @@ Overfull \vbox (9.7175pt too high) detected at line 467
 File: ./diagrams/grades1.png Graphic file (type png)
 
 <use ./diagrams/grades1.png>
-Package pdftex.def Info: ./diagrams/grades1.png used on input line 621.
+Package pdftex.def Info: ./diagrams/grades1.png used on input line 622.
 (pdftex.def)             Requested size: 252.13753pt x 228.44945pt.
 
-Overfull \vbox (6.90704pt too high) detected at line 621
+Overfull \vbox (6.90704pt too high) detected at line 622
  []
 
 [36
@@ -1285,10 +1285,10 @@ Overfull \vbox (6.90704pt too high) detected at line 621
 File: ./diagrams/grades2.png Graphic file (type png)
 
 <use ./diagrams/grades2.png>
-Package pdftex.def Info: ./diagrams/grades2.png used on input line 628.
+Package pdftex.def Info: ./diagrams/grades2.png used on input line 629.
 (pdftex.def)             Requested size: 248.92558pt x 233.66885pt.
 
-Overfull \vbox (12.12645pt too high) detected at line 628
+Overfull \vbox (12.12645pt too high) detected at line 629
  []
 
 [37
@@ -1315,12 +1315,12 @@ Overfull \vbox (12.12645pt too high) detected at line 628
 \tf@snm=\write8
 \openout8 = `fs-11-Correlation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 800.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 800.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 801.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 801.
 
 (./fs-11-Correlation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 800.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 800.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 801.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 801.
 Package rerunfilecheck Info: File `fs-11-Correlation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1328,7 +1328,7 @@ Package rerunfilecheck Info: File `fs-11-Correlation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 800.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 801.
  ) 
 Here is how much of TeX's memory you used:
  20240 strings out of 493029
@@ -1352,7 +1352,7 @@ ts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fs-11-Correlation.pdf (43 pages, 578629 bytes).
+Output written on fs-11-Correlation.pdf (43 pages, 578602 bytes).
 PDF statistics:
  404 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
