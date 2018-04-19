@@ -365,16 +365,6 @@ INPUT ./diagrams/bf-04.png
 INPUT ./diagrams/bf-05.png
 INPUT ./diagrams/bf-05.png
 INPUT ./diagrams/bf-05.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
-INPUT ./diagrams/mshoeprintheight.png
-INPUT ./diagrams/mshoeprintheight.png
-INPUT ./diagrams/mshoeprintheight.png
-INPUT ./diagrams/fshoeprintheight.png
-INPUT ./diagrams/fshoeprintheight.png
-INPUT ./diagrams/fshoeprintheight.png
-INPUT ./diagrams/mfshoeprintheight.png
-INPUT ./diagrams/mfshoeprintheight.png
-INPUT ./diagrams/mfshoeprintheight.png
 INPUT ./diagrams/sc01.png
 INPUT ./diagrams/sc01.png
 INPUT ./diagrams/sc01.png
@@ -405,6 +395,7 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmss
 OUTPUT fs-11-Correlation.vrb
 INPUT fs-11-Correlation.vrb
 INPUT fs-11-Correlation.vrb
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt9.tfm
 OUTPUT fs-11-Correlation.vrb
