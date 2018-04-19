@@ -393,6 +393,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmss
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
+INPUT ./diagrams/nenana-01.png
+INPUT ./diagrams/nenana-01.png
+INPUT ./diagrams/nenana-01.png
 OUTPUT fs-11-Correlation.vrb
 INPUT fs-11-Correlation.vrb
 INPUT fs-11-Correlation.vrb
