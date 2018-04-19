@@ -370,7 +370,7 @@ Since our test statistic is
   \texttt{http://www.nenanaakiceclassic.com/}. Is there a correlation?
   (Might it support the theory that the Earth is warming?)
   \begin{figure}[h]
-    \includegraphics[scale=0.3]{./diagrams/nenana-01.png}
+    \includegraphics[scale=0.28]{./diagrams/nenana-01.png}
   \end{figure}
 \end{frame}
 
@@ -400,7 +400,12 @@ Since our test statistic is
   Here is how you can do the hypothesis testing in R Statistics.
   Let $y$ be the years after 1900 and $d$ be the days after January 1
   when the tripod breaks the ice. Try the command
-  \textrm{summary(lm(d~y))}. Here is the output
+  \textrm{summary(lm(d~y))}. The output is on the next slide. Notice
+  the $p$-value. It clearly suggests that we should reject $H_{0}$.
+\end{frame}
+
+\begin{frame}[fragile,fragile]
+  \frametitle{Hypothesis Testing for Correlation Example}
 \begin{verbatim}
 Residuals:
      Min       1Q   Median       3Q      Max 
