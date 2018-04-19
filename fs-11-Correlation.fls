@@ -329,6 +329,12 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 INPUT ./diagrams/bf-01.png
 INPUT ./diagrams/bf-01.png
 INPUT ./diagrams/bf-01.png
+INPUT ./diagrams/bf-02.png
+INPUT ./diagrams/bf-02.png
+INPUT ./diagrams/bf-02.png
+INPUT ./diagrams/bf-03.png
+INPUT ./diagrams/bf-03.png
+INPUT ./diagrams/bf-03.png
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
