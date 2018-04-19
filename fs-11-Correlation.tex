@@ -364,7 +364,7 @@ Since our test statistic is
 \end{frame}
 
 \begin{frame}
-  \frametitle{Hypothesis Testing for Correlation Example}
+  \frametitle{Hypothesis Testing in R}
   % de Veaux Velleman Bock, page 701
   \beispiel{Nenana Tripod Ice Break} Have a look at
   \texttt{http://www.nenanaakiceclassic.com/}. Is there a correlation?
@@ -375,7 +375,7 @@ Since our test statistic is
 \end{frame}
 
 \begin{frame}
-  \frametitle{Hypothesis Testing for Correlation Example}
+  \frametitle{Hypothesis Testing in R}
   \begin{description}
   \item[Step 1] The null hypothesis is $\varrho=0$. The alternative
     hypothesis is $\varrho<0$ (the Earth is warming, therefore the
@@ -396,7 +396,7 @@ Since our test statistic is
 \end{frame}
 
 \begin{frame}[fragile,fragile]
-  \frametitle{Hypothesis Testing for Correlation Example}
+  \frametitle{Hypothesis Testing in R}
   Here is how you can do the hypothesis testing in R Statistics.
   Let $y$ be the years after 1900 and $d$ be the days after January 1
   when the tripod breaks the ice. Try the command
@@ -405,7 +405,7 @@ Since our test statistic is
 \end{frame}
 
 \begin{frame}[fragile,fragile]
-  \frametitle{Hypothesis Testing for Correlation Example}
+  \frametitle{Hypothesis Testing in R}
 \begin{verbatim}
 Residuals:
      Min       1Q   Median       3Q      Max 
@@ -422,6 +422,69 @@ Residual standard error: 5.925 on 96 degrees of freedom
 Multiple R-squared:  0.09803,	Adjusted R-squared:  0.08863 
 F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
 \end{verbatim}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing in R}
+  Let's have a closer look at the summary on the last slide. The
+  \alert{residuals} are the errors of our predictions using the
+  regression line. For each $x$-value (independent variable), there is
+  a $y$-value (dependent variable) and a $\hat{y}$-value (prediction
+  using the regression line. The residual is $\hat{y}-y$. The residual
+  standard deviation $s_{e}$ is a measure how much the data scatters
+  along the regression line:
+  \begin{equation}
+    \label{eq:eilokaqu}
+    s_{e}=\sqrt{\frac{\sum(\hat{y}-y)^{2}}{n-2}}
+  \end{equation}
+  The residual standard deviation for the Nenana data is large, 5.925
+  days, because even if you know the regression line it's hard to
+  predict the date when the ice will be broken in a particular year.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing in R}
+  $s_{e}$ is one measure of the relationship between $x$-values and
+  $y$-values. The correlation coefficient $r$ is another one. In the R
+  summary it is called ``Multiple R-squared'' and equals $r^{2}$. The
+  reason why it is squared is because one could say that the
+  correlation accounts for $r^{2}$ of the variation in the $y$-values.
+  In the Nenana example, which year it is accounts for 9.8\% of the
+  variation in the number of days it takes for the ice to break.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing in R}
+  A theorem in statistics tells us that
+  \begin{equation}
+    \label{eq:aekeeque}
+    \frac{b_{1}-\beta_{1}}{\frac{s_{e}}{s_{x}\sqrt{n-1}}}
+  \end{equation}
+  is distributed according to a $t$-distribution with degree of
+  freedom $df=n-2$. $b_{1}$ is the slope of the regression line
+  calculated from the sample; $\beta_{1}$ is the slope of the
+  regression line hypothesized for the population. The R summary tells
+  us that the slope of the regression line for the sample is
+  $b_{1}=-0.06834$ and the $p$-value for the hypothesis that
+  $\beta_{1}=0$ is $0.0017$ (two-tailed). We reject the hypothesis
+  that $\beta_{1}=0$, which is similar to rejecting the hypothesis
+  that $r=0$. It is usually not interesting to investigate the
+  hypothesis that the $y$-intercept is zero.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Hypothesis Testing in R}
+  Here is yet another hypothesis test whether there is a linear
+  correlation or not. A relatively complicated formula gives us the
+  \alert{F-statistic} of the regression analysis. The F-distribution
+  (named after Ronald Fisher) looks similar to the chi-squared
+  distribution. It has two degrees of freedom. In R Statistics,
+  \texttt{qf(0.95,5,2)} gives you the F-statistic for which 95\% of
+  the area under the curve is to the left of the F-statistic, with
+  degrees of freedom 5 and 2. \texttt{pf(19.29641,5,2)} is the reverse
+  procedure which gives you the area under the curve to the left of
+  the F-statistic $19.29641$. We will meet this distribution again
+  when we cover ANOVA.
 \end{frame}
 
 \begin{frame}[fragile]

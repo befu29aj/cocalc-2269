@@ -22,6 +22,8 @@
     "eq:eegheela"
     "eq:jeithoob"
     "eq:igahgued"
+    "eq:eilokaqu"
+    "eq:aekeeque"
     "eq:ohzashur"
     "eq:xuothaba"
     "eq:ahnuwiez"))
