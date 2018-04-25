@@ -1,5 +1,5 @@
 (TeX-add-style-hook
- "fs-11-Correlation"
+ "fs-12-GoodnessFit"
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("beamer" "xcolor=dvipsnames")))
@@ -18,14 +18,8 @@
     "beamer10"
     "teachbeamer")
    (LaTeX-add-labels
-    "eq:chuitohf"
-    "eq:eegheela"
-    "eq:jeithoob"
-    "eq:igahgued"
-    "eq:eilokaqu"
-    "eq:aekeeque"
-    "eq:ohzashur"
-    "eq:xuothaba"
-    "eq:ahnuwiez"))
+    "eq:aihuwoob"
+    "eq:eikaecee"
+    "eq:anairieb"))
  :latex)
 
