@@ -32,6 +32,8 @@
     "eq:eiheelut"
     "eq:gaeyiegh"
     "eq:eevievuo"
-    "eq:sahshixu"))
+    "eq:sahshixu"
+    "eq:thaejola"
+    "eq:suquiequ"))
  :latex)
 

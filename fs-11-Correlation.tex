@@ -1025,6 +1025,26 @@ is $(10.60859,10.85061)$
 \end{frame}
 
 \begin{frame}
+  \frametitle{Prediction Interval for Linear Regression}
+  We already know how to predict the dependent variable (in this case,
+  the waiting time for the next geyser) if we know the independent
+  variable (in this case, the eruption time). For example, if the
+  eruption time is four minutes (which happens to be the median of the
+  data set), then the point estimate for the waiting time is
+  \begin{equation}
+    \label{eq:thaejola}
+    \hat{y}=33.4744+10.7296\cdot{}4=76.3928
+  \end{equation}
+What is the confidence interval around this point estimate, again at a
+confidence level of $1-\alpha=0.95$? The error in this case is
+\begin{equation}
+  \label{eq:suquiequ}
+  E=t_{\frac{\alpha}{2}}s_{e}\sqrt{1+\frac{1}{n}+\frac{(x-\bar{x})^{2}}{\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}}}
+\end{equation}
+
+\end{frame}
+
+\begin{frame}
   \frametitle{Flow Chart for Linear Regression Hypothesis Testing}
 \begin{figure}[h]
 \includegraphics[scale=.24]{./diagrams/linear-regression.png}
