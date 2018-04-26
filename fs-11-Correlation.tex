@@ -414,7 +414,7 @@ Since our test statistic is
   Here is how you can do the hypothesis testing in R Statistics.
   Let $y$ be the years after 1900 and $d$ be the days after January 1
   when the tripod breaks the ice. Try the command
-  \textrm{summary(lm(d~y))}. The output is on the next slide. Notice
+  \textrm{summary(lm(d\~y))}. The output is on the next slide. Notice
   the $p$-value. It clearly suggests that we should reject $H_{0}$.
 \end{frame}
 
@@ -446,7 +446,7 @@ F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
   a $y$-value (dependent variable) and a $\hat{y}$-value (prediction
   using the regression line. The residual is $\hat{y}-y$ (in R
   Statistics, the residuals are in \texttt{z[[3]]} for
-  \texttt{z<-summary(lm(d~y))}). The residual standard deviation
+  \texttt{z<-summary(lm(d\~y))}). The residual standard deviation
   $s_{e}$ is a measure how much the data scatters along the regression
   line:
   \begin{equation}
@@ -987,7 +987,7 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
 \begin{frame}
   \frametitle{Confidence Interval for Regression Line Slope}
 \begin{figure}[h]
-\includegraphics[scale=.4]{./diagrams/faithful.png}
+\includegraphics[scale=.35]{./diagrams/faithful.png}
 \end{figure}
 \end{frame}
 
@@ -1000,7 +1000,7 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
     \hat{y}=33.4744+10.7296x
   \end{equation}
 These numbers were gathered from the R Statistics command
-\texttt{summary(lm(faithful[[2]]~faithful[[1]]))}. 
+\texttt{summary(lm(faithful[[2]]\~faithful[[1]]))}. 
 \end{frame}
 
 \begin{frame}
@@ -1009,8 +1009,13 @@ These numbers were gathered from the R Statistics command
   of 
 \begin{equation}
   \label{eq:gaeyiegh}
-E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}=1.968789\cdot\frac{5.914\cdot{}60.51297}{\sqrt{272}\cdot\left(3661.819-\frac{899988.1}{272}\right)}=0.12101
+E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}=\notag
 \end{equation}
+\begin{equation}
+  \label{eq:eevievuo}
+  1.968789\cdot\frac{5.914\cdot{}60.51297}{\sqrt{272}\cdot\left(3661.819-\frac{899988.1}{272}\right)}=0.12101
+\end{equation}
+
 Consequently, the confidence interval
 \begin{equation}
   \label{eq:sahshixu}

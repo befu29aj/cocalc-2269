@@ -31,6 +31,7 @@
     "eq:ongiemas"
     "eq:eiheelut"
     "eq:gaeyiegh"
+    "eq:eevievuo"
     "eq:sahshixu"))
  :latex)
 
