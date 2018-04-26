@@ -956,9 +956,44 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
 % Winning Bid	650	175	125	275	125
 
 \begin{frame}
+  \frametitle{Confidence Interval for Regression Line Slope}
+  If the regression line slope for a sample of size $n$ is $b_{1}$,
+  then a confidence interval for the regression line slope $\beta_{1}$
+  of the population is (the confidence level being $1-\alpha$)
+  \begin{equation}
+    \label{eq:ooghiech}
+    b_{1}-E<\beta_{1}<b_{1}+E
+  \end{equation}
+  with
+  \begin{equation}
+    \label{eq:ongiemas}
+    E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}
+  \end{equation}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Confidence Interval for Regression Line Slope}
+  The data on the next slide shows observations of the Old Faithful
+  geyser in the USA Yellowstone National Park. There are two
+  observation variables in the data set. The first one, called
+  eruptions, is the duration of the geyser eruptions. The second one,
+  called waiting, is the length of waiting period until the next
+  eruption. It turns out there is a correlation between the two
+  variables. The data is available on R Statistics in the dataframe
+  called \texttt{faithful}.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Confidence Interval for Regression Line Slope}
+\begin{figure}[h]
+\includegraphics[scale=.5]{./diagrams/faithful.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}
   \frametitle{Flow Chart for Linear Regression Hypothesis Testing}
 \begin{figure}[h]
-\includegraphics[scale=.3]{./diagrams/linear-regression.png}
+\includegraphics[scale=.24]{./diagrams/linear-regression.png}
 \end{figure}
 \end{frame}
 
