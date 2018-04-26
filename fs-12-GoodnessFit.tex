@@ -62,30 +62,6 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Kolmogorov-Smirnov Test}
-  The Kolmogorov-Smirnov test statistic is the maximum by which the
-  categorical distribution deviates from the continuous distribution
-  to which we compare it.
-\begin{figure}[h]
-\includegraphics[scale=.3]{./diagrams/KS_Example.png}
-\end{figure}
-\end{frame}
-
-\begin{frame}[fragile]
-  \frametitle{Kolmogorov-Smirnov Test}
-  The Kolmogorov-Smirnov test statistic has a complicated
-  distribution. Software usually helps us to evaluate whether the null
-  hypothesis (which is always: yes, the data was generated from the
-  continuous distribution under investigation) passes the test. If the
-  IQ results on the next page are in the data set \texttt{iq}, then
-  the command in R Statistics to perform the Kolmogorov-Smirnov test
-  is
-\begin{alltt}
-ks.test((iq-mean(iq))/sd(iq),pnorm)
-\end{alltt}
-\end{frame}
-
-\begin{frame}
   \frametitle{Assessing Normality}
 \begin{footnotesize}
 \begin{tabular}{|rrrrrrrrrr|}\hline
@@ -111,6 +87,48 @@ ks.test((iq-mean(iq))/sd(iq),pnorm)
 94  & 119 & 84  & 87  & 94  & 92  & 93  & 86  & 104 & 113 \\ \hline
 \end{tabular}
 \end{footnotesize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Kolmogorov-Smirnov Test}
+  The Kolmogorov-Smirnov test statistic is the maximum by which the
+  categorical distribution deviates from the continuous distribution
+  to which we compare it.
+\begin{figure}[h]
+\includegraphics[scale=.5]{./diagrams/KS_Example.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Kolmogorov-Smirnov Test}
+  The Kolmogorov-Smirnov test statistic has a complicated
+  distribution. Software usually helps us to evaluate whether the null
+  hypothesis (which is always: yes, the data was generated from the
+  continuous distribution under investigation) passes the test. If the
+  IQ results on the next page are in the data set \texttt{iq}, then
+  the command in R Statistics to perform the Kolmogorov-Smirnov test
+  is
+\begin{alltt}
+ks.test((iq-mean(iq))/sd(iq),pnorm)
+\end{alltt}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Kolmogorov-Smirnov Test}
+  Here is the output for the command on the last slide:
+\begin{alltt}
+ks.test((iq-mean(iq))/sd(iq),pnorm) \newline \newline
+
+	One-sample Kolmogorov-Smirnov test \newline \newline
+
+data:  (iq - mean(iq))/sd(iq) \newline
+D = 0.044518, p-value = 0.8229 \newline
+alternative hypothesis: two-sided \newline \newline
+
+Warning message: \newline
+In ks.test((iq - mean(iq))/sd(iq), pnorm) : \newline
+  ties should not be present for the Kolmogorov-Smirnov test
+\end{alltt}
 \end{frame}
 
 \begin{frame}
