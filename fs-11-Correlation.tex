@@ -969,6 +969,7 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
     \label{eq:ongiemas}
     E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}
   \end{equation}
+  The degree of freedom for $t_{\frac{\alpha}{2}}$ is $n-2$.
 \end{frame}
 
 \begin{frame}
@@ -978,16 +979,44 @@ Temperature & 57 & 37 & 24 & -5 & -30 & -41 & -54 \\
   observation variables in the data set. The first one, called
   eruptions, is the duration of the geyser eruptions. The second one,
   called waiting, is the length of waiting period until the next
-  eruption. It turns out there is a correlation between the two
-  variables. The data is available on R Statistics in the dataframe
-  called \texttt{faithful}.
+  eruption (all in minutes). It turns out there is a correlation
+  between the two variables. The data is available on R Statistics in
+  the dataframe called \texttt{faithful}.
 \end{frame}
 
 \begin{frame}
   \frametitle{Confidence Interval for Regression Line Slope}
 \begin{figure}[h]
-\includegraphics[scale=.5]{./diagrams/faithful.png}
+\includegraphics[scale=.4]{./diagrams/faithful.png}
 \end{figure}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Confidence Interval for Regression Line Slope}
+  For the data on the last slide, the residual standard error
+  $s_{e}=5.914$. The regression line for the sample is
+  \begin{equation}
+    \label{eq:eiheelut}
+    \hat{y}=33.4744+10.7296x
+  \end{equation}
+These numbers were gathered from the R Statistics command
+\texttt{summary(lm(faithful[[2]]~faithful[[1]]))}. 
+\end{frame}
+
+\begin{frame}
+  \frametitle{Confidence Interval for Regression Line Slope}
+  The error for the 95\% confidence interval is
+  of 
+\begin{equation}
+  \label{eq:gaeyiegh}
+E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}=1.968789\cdot\frac{5.914\cdot{}60.51297}{\sqrt{272}\cdot\left(3661.819-\frac{899988.1}{272}\right)}=0.12101
+\end{equation}
+Consequently, the confidence interval
+\begin{equation}
+  \label{eq:sahshixu}
+  b_{1}-E<\beta_{1}<b_{1}+E
+\end{equation}
+is $(10.60859,10.85061)$
 \end{frame}
 
 \begin{frame}

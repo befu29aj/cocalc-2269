@@ -28,6 +28,9 @@
     "eq:xuothaba"
     "eq:ahnuwiez"
     "eq:ooghiech"
-    "eq:ongiemas"))
+    "eq:ongiemas"
+    "eq:eiheelut"
+    "eq:gaeyiegh"
+    "eq:sahshixu"))
  :latex)
 
