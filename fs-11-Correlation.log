@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  26 APR 2018 21:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  26 APR 2018 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1317,36 +1317,24 @@ File: ./diagrams/faithful.png Graphic file (type png)
 
 <use ./diagrams/faithful.png>
 Package pdftex.def Info: ./diagrams/faithful.png used on input line 992.
-(pdftex.def)             Requested size: 308.74802pt x 313.56595pt.
+(pdftex.def)             Requested size: 270.16335pt x 274.37918pt.
 
-Overfull \hbox (1.45815pt too wide) in paragraph at lines 992--992
- [] 
- []
-
-
-Overfull \vbox (105.62355pt too high) detected at line 992
+Overfull \vbox (52.83678pt too high) detected at line 992
  []
 
 [51
 
  <./diagrams/faithful.png>] [52
 
+] [53
+
 ]
-Overfull \hbox (69.08812pt too wide) detected at line 1020
-[][][]\OT1/mathkerncmss/m/sl/10.95 E \OT1/cmss/m/n/10.95 = \OT1/mathkerncmss/m/
-sl/10.95 t[][] \OT1/cmss/m/n/10.95 = 1\OML/cmm/m/it/10.95 :\OT1/cmss/m/n/10.95 
-968789 \OMS/cmsy/m/n/10.95 ^^A [] \OT1/cmss/m/n/10.95 = 0\OML/cmm/m/it/10.95 :\
-OT1/cmss/m/n/10.95 12101
- []
-
-[53
-
-] <./diagrams/linear-regression.png, id=404, 1087.06125pt x 887.315pt>
+<./diagrams/linear-regression.png, id=405, 1087.06125pt x 887.315pt>
 File: ./diagrams/linear-regression.png Graphic file (type png)
 
 <use ./diagrams/linear-regression.png>
 Package pdftex.def Info: ./diagrams/linear-regression.png used on input line 10
-27.
+32.
 (pdftex.def)             Requested size: 260.90002pt x 212.95995pt.
  [54
 
@@ -1362,11 +1350,11 @@ Package pdftex.def Info: ./diagrams/linear-regression.png used on input line 10
 \tf@snm=\write8
 \openout8 = `fs-11-Correlation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1034.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1034.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1039.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1039.
  (./fs-11-Correlation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1034.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1034.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1039.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1039.
 
 Package rerunfilecheck Info: File `fs-11-Correlation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1375,13 +1363,13 @@ Package rerunfilecheck Info: File `fs-11-Correlation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1034.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1039.
  ) 
 Here is how much of TeX's memory you used:
- 20306 strings out of 493029
- 400593 string characters out of 6136234
- 473607 words of memory out of 5000000
- 23203 multiletter control sequences out of 15000+600000
+ 20308 strings out of 493029
+ 400617 string characters out of 6136234
+ 473632 words of memory out of 5000000
+ 23204 multiletter control sequences out of 15000+600000
  18284 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,16n,72p,527b,603s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1403,10 +1391,10 @@ share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on fs-11-Correlation.pdf (55 pages, 856061 bytes).
+Output written on fs-11-Correlation.pdf (55 pages, 856253 bytes).
 PDF statistics:
- 507 PDF objects out of 1000 (max. 8388607)
- 398 compressed objects within 4 object streams
- 125 named destinations out of 1000 (max. 500000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 399 compressed objects within 4 object streams
+ 126 named destinations out of 1000 (max. 500000)
  159 words of extra memory for PDF output out of 10000 (max. 10000000)
 
