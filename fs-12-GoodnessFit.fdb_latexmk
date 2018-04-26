@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1524764332 "fs-12-GoodnessFit.tex" "fs-12-GoodnessFit.pdf" "fs-12-GoodnessFit" 1524764334
+["pdflatex"] 1524764680 "fs-12-GoodnessFit.tex" "fs-12-GoodnessFit.pdf" "fs-12-GoodnessFit" 1524764682
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -220,17 +220,17 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1506161382 3853855 dd36e9f5f71c93ae6ae957293c5815c4 ""
   "diagrams/KS_Example.png" 1524760032 11356 7587e63a4f9b8d4eafb21e7a083f5e17 ""
   "diagrams/conttable.png" 1515691628 70053 6f1227aa42fccb32f922c8312c681beb ""
-  "fs-12-GoodnessFit.aux" 1524764334 5723 33526db2b711e0308ded215812cabd21 ""
-  "fs-12-GoodnessFit.nav" 1524764334 3380 17fe513ea6768354c0728a178ddfa1d2 ""
-  "fs-12-GoodnessFit.out" 1524764332 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-12-GoodnessFit.tex" 1524764330 60852 d9fe195b13ff168614f6366f36ef1c8c ""
+  "fs-12-GoodnessFit.aux" 1524764682 5723 33526db2b711e0308ded215812cabd21 ""
+  "fs-12-GoodnessFit.nav" 1524764682 3380 17fe513ea6768354c0728a178ddfa1d2 ""
+  "fs-12-GoodnessFit.out" 1524764681 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-12-GoodnessFit.tex" 1524764680 61000 b236d652a1e63f4555a5c7d497351ca7 ""
   "teachbeamer.sty" 1517863944 2369 0b563521c98df72adbc143b0a782f617 ""
   (generated)
-  "fs-12-GoodnessFit.aux"
-  "fs-12-GoodnessFit.vrb"
-  "fs-12-GoodnessFit.out"
-  "fs-12-GoodnessFit.snm"
-  "fs-12-GoodnessFit.nav"
   "fs-12-GoodnessFit.pdf"
   "fs-12-GoodnessFit.toc"
+  "fs-12-GoodnessFit.snm"
+  "fs-12-GoodnessFit.out"
+  "fs-12-GoodnessFit.nav"
   "fs-12-GoodnessFit.log"
+  "fs-12-GoodnessFit.aux"
+  "fs-12-GoodnessFit.vrb"
