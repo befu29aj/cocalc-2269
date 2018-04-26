@@ -28,6 +28,92 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Kolmogorov-Smirnov Test}
+  A while ago, we learned how to assess normality informally:
+  \begin{description}
+\item[Histogram] Construct a histogram. If the histogram departs
+  dramatically from a bell shape, conclude that the data does not
+  have a normal distribution.
+\item[Outliers] Use a boxplot to identify outliers. If there is
+  more than one outlier present, conclude that the data does not
+  have a normal distribution.
+\item[NQP] If the data passes the first two
+  tests, use technology to generate a \alert{normal quantile
+    plot}. The population is probably not normally distributed if
+  either one of the following two conditions apply:
+  \begin{enumerate}
+  \item The points do not lie reasonably close to a straight line.
+  \item The points show some systematic pattern that is not a
+    straight-line pattern.
+  \end{enumerate}
+\end{description}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Kolmogorov-Smirnov Test}
+  Now that we know how to do a hypothesis test, we can formalize these
+  requirements. Consider a collection of data, for example the IQ test
+  results on the following slide. Is the data normally distributed?
+  Did another distribution generate the data? How good is the fit with
+  a certain distribution? We will learn a goodness of fit procedure
+  for categorical distributions in a moment. First, however, we will
+  have a look at the Kolmogorov-Smirnov test, which tests the goodness
+  of fit with respect to a continuous distribution.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Kolmogorov-Smirnov Test}
+  The Kolmogorov-Smirnov test statistic is the maximum by which the
+  categorical distribution deviates from the continuous distribution
+  to which we compare it.
+\begin{figure}[h]
+\includegraphics[scale=.3]{./diagrams/KS_Example.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Kolmogorov-Smirnov Test}
+  The Kolmogorov-Smirnov test statistic has a complicated
+  distribution. Software usually helps us to evaluate whether the null
+  hypothesis (which is always: yes, the data was generated from the
+  continuous distribution under investigation) passes the test. If the
+  IQ results on the next page are in the data set \texttt{iq}, then
+  the command in R Statistics to perform the Kolmogorov-Smirnov test
+  is
+\begin{alltt}
+ks.test((iq-mean(iq))/sd(iq),pnorm)
+\end{alltt}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Assessing Normality}
+\begin{footnotesize}
+\begin{tabular}{|rrrrrrrrrr|}\hline
+104 & 127 & 91  & 91  & 87  & 113 & 112 & 100 & 97  & 87  \\
+78  & 99  & 87  & 88  & 103 & 95  & 102 & 104 & 114 & 87  \\
+63  & 93  & 106 & 110 & 82  & 97  & 102 & 100 & 107 & 91  \\
+105 & 109 & 103 & 115 & 95  & 95  & 128 & 92  & 120 & 107 \\
+121 & 81  & 101 & 102 & 105 & 119 & 82  & 105 & 73  & 115 \\
+116 & 95  & 85  & 119 & 113 & 108 & 160 & 128 & 101 & 69  \\
+87  & 104 & 78  & 85  & 93  & 95  & 128 & 85  & 83  & 82  \\
+124 & 67  & 106 & 126 & 106 & 103 & 105 & 98  & 76  & 128 \\
+104 & 122 & 105 & 90  & 110 & 86  & 82  & 87  & 100 & 108 \\
+83  & 118 & 102 & 109 & 80  & 78  & 112 & 89  & 113 & 92  \\
+107 & 79  & 111 & 111 & 102 & 84  & 101 & 82  & 93  & 87  \\
+108 & 113 & 131 & 108 & 87  & 89  & 83  & 92  & 117 & 95  \\
+85  & 104 & 114 & 113 & 78  & 120 & 102 & 114 & 74  & 97  \\
+103 & 88  & 90  & 124 & 92  & 120 & 81  & 91  & 139 & 115 \\
+142 & 99  & 119 & 87  & 109 & 73  & 94  & 95  & 91  & 101 \\
+101 & 122 & 89  & 107 & 118 & 108 & 97  & 109 & 123 & 125 \\
+107 & 89  & 117 & 105 & 122 & 92  & 91  & 44  & 106 & 74  \\
+133 & 125 & 95  & 111 & 128 & 74  & 97  & 112 & 79  & 107 \\
+127 & 104 & 98  & 109 & 99  & 101 & 104 & 121 & 99  & 119 \\
+94  & 119 & 84  & 87  & 94  & 92  & 93  & 86  & 104 & 113 \\ \hline
+\end{tabular}
+\end{footnotesize}
+\end{frame}
+
+\begin{frame}
   \frametitle{Goodness of Fit}
   A \alert{goodness of fit} test is used to test the hypothesis
   that an observed frequency distribution fits (or conforms to)
