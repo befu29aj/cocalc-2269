@@ -432,6 +432,9 @@ INPUT ./diagrams/grades1.png
 INPUT ./diagrams/grades2.png
 INPUT ./diagrams/grades2.png
 INPUT ./diagrams/grades2.png
+INPUT ./diagrams/faithful.png
+INPUT ./diagrams/faithful.png
+INPUT ./diagrams/faithful.png
 INPUT ./diagrams/linear-regression.png
 INPUT ./diagrams/linear-regression.png
 INPUT ./diagrams/linear-regression.png
@@ -442,7 +445,9 @@ INPUT fs-11-Correlation.aux
 INPUT ./fs-11-Correlation.out
 INPUT ./fs-11-Correlation.out
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
