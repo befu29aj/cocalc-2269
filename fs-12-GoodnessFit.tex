@@ -132,7 +132,8 @@ alternative hypothesis: two-sided
 
 Warning message: 
 In ks.test((iq - mean(iq))/sd(iq), pnorm) : 
-  ties should not be present for the Kolmogorov-Smirnov test
+  ties should not be present for 
+  the Kolmogorov-Smirnov test
 \end{alltt}
 \end{frame}
 
@@ -140,12 +141,15 @@ In ks.test((iq - mean(iq))/sd(iq), pnorm) :
   \frametitle{Goodness of Fit}
   A \alert{goodness of fit} test is used to test the hypothesis
   that an observed frequency distribution fits (or conforms to)
-  some claimed distribution.
+  some claimed distribution. We now know how to apply the
+  Kolmogorov-Smirnov goodness of fit test for a continuous
+  distribution. We will now learn how to apply a test for a
+  categorical distribution. 
 
   \begin{description}
-  \item[$H_{0}$] The frequency counts agree with the claimed
+  \item[null hypothesis] $H_{0}:$ The frequency counts agree with the claimed
     distribution.
-  \item[$H_{1}$]  The frequency counts do not agree with the claimed
+  \item[alternative hypothesis] $H_{a}:$ The frequency counts do not agree with the claimed
     distribution.
   \end{description}
 
