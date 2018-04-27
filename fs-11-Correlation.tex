@@ -414,7 +414,7 @@ Since our test statistic is
   Here is how you can do the hypothesis testing in R Statistics.
   Let $y$ be the years after 1900 and $d$ be the days after January 1
   when the tripod breaks the ice. Try the command
-  \textrm{summary(lm(d~y))}. The output is on the next slide. Notice
+  \texttt{summary(lm(d~y))}. The output is on the next slide. Notice
   the $p$-value. It clearly suggests that we should reject $H_{0}$.
 \end{frame}
 
@@ -1025,9 +1025,9 @@ Consequently, the confidence interval
   b_{1}-E<\beta_{1}<b_{1}+E
 \end{equation}
 is $(10.10996,11.34932)$
-\end{frame}
 The R Statistics command \texttt{confint(lm(y~x),'x',level=0.95)} will
 give you the same result.
+\end{frame}
 
 \begin{frame}
   \frametitle{Prediction Interval for Linear Regression}
@@ -1056,23 +1056,28 @@ confidence level of $1-\alpha=0.95$? The error in this case is
     \label{eq:miiniphu}
     \bar{y}-E<y<\bar{y}+E
   \end{equation}
-is $(64.72368,88.06192)$. 
+  is $(64.72368,88.06192)$.
+
+  \bigskip
+
+  The R Statistics command \texttt{predict(lm(y{\texttildelow}x),data.frame(x=4.5),level=0.95,interval="predict")}
+  will give you the same result.
 \end{frame}
 
-\begin{frame}[fragile,fragile]
-  \frametitle{In R Statistics}
-  In R Statistics, you can find the confidence interval for the slope
-  of the regression line as follows,
-\begin{alltt}
-confint(lm(faithful[[2]]~faithful[[1]]),'faithful[[1]]',level=0.95)
-\end{alltt}
-  You can find the confidence interval of the prediction for the
-  waiting time as follows, assuming that the eruption lasted for four
-  minutes,
-\begin{alltt}
+% \begin{frame}[fragile,fragile]
+%   \frametitle{In R Statistics}
+%   In R Statistics, you can find the confidence interval for the slope
+%   of the regression line as follows,
+% \begin{alltt}
+% confint(lm(faithful[[2]]~faithful[[1]]),'faithful[[1]]',level=0.95)
+% \end{alltt}
+%   You can find the confidence interval of the prediction for the
+%   waiting time as follows, assuming that the eruption lasted for four
+%   minutes,
+% \begin{alltt}
 
-\end{alltt}
-\end{frame}
+% \end{alltt}
+% \end{frame}
 
 \begin{frame}
   \frametitle{Flow Chart for Linear Regression Hypothesis Testing}

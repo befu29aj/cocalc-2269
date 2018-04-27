@@ -9,7 +9,8 @@
     "wrapfig"
     "colortbl"
     "color"
-    "alltt")
+    "alltt"
+    "textcomp")
    (TeX-add-symbols
     '("binomialCoefficient" 2)
     '("ubung" 0)
