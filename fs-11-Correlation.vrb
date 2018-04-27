@@ -1,8 +1,12 @@
-\frametitle{Regression Line Example}
-  Here is some R Statistics code:
+\frametitle{In R Statistics}
+  In R Statistics, you can find the confidence interval for the slope
+  of the regression line as follows,
 \begin{alltt}
-a<-runif(500,0,1) \newline
-b<-rnorm(500,a,0.2) \newline
-plot(a,b) \newline
-abline(lm(b~a),col="red")
+confint(lm(faithful[[2]]~faithful[[1]]),'faithful[[1]]',level=0.95)
+\end{alltt}
+  You can find the confidence interval of the prediction for the
+  waiting time as follows, assuming that the eruption lasted for four
+  minutes,
+\begin{alltt}
+
 \end{alltt}
