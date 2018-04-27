@@ -27,19 +27,19 @@
   \titlepage
 \end{frame}
 
-\begin{frame}
-  \frametitle{Instructor Note}
-  I want to change this from emphasis on correlation coefficients and
-  using the critical values on the Pearson correlation coefficient
-  table to doing a proper hypothesis test for the slope $b_{1}$ with a
-  null hypothesis $\beta_{1}=0$. This way you can find a confidence
-  interval for $\beta_{1}$ and a prediction interval for $\hat{y}$
-  (see Devore and Peck's textbook); and the integration with R
-  Statistics is much better. There is also a natural segue to ANOVA
-  with the F-test in R Statistics on linear correlation. Course
-  Outline wants both. It also wants you to do the Kolmogorov-Smirnoff
-  test for normality.
-\end{frame}
+% \begin{frame}
+%   \frametitle{Instructor Note}
+%   I want to change this from emphasis on correlation coefficients and
+%   using the critical values on the Pearson correlation coefficient
+%   table to doing a proper hypothesis test for the slope $b_{1}$ with a
+%   null hypothesis $\beta_{1}=0$. This way you can find a confidence
+%   interval for $\beta_{1}$ and a prediction interval for $\hat{y}$
+%   (see Devore and Peck's textbook); and the integration with R
+%   Statistics is much better. There is also a natural segue to ANOVA
+%   with the F-test in R Statistics on linear correlation. Course
+%   Outline wants both. It also wants you to do the Kolmogorov-Smirnoff
+%   test for normality.
+% \end{frame}
 
 \begin{frame}
   \frametitle{Correlation}
@@ -1009,11 +1009,13 @@ These numbers were gathered from the R Statistics command
   of 
 \begin{equation}
   \label{eq:gaeyiegh}
-E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}=\notag
+% E=t_{\frac{\alpha}{2}}\frac{s_{e}\sqrt{\sum{}x^{2}}}{\sqrt{n}\left(\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}\right)}=\notag
+E=t_{\frac{\alpha}{2}}\frac{s_{e}}{s_{x}\sqrt{n-1}}=\notag
 \end{equation}
 \begin{equation}
   \label{eq:eevievuo}
-  1.968789\cdot\frac{5.914\cdot{}60.51297}{\sqrt{272}\cdot\left(3661.819-\frac{899988.1}{272}\right)}=0.12101
+  % 1.968789\cdot\frac{5.914\cdot{}60.51297}{\sqrt{272}\cdot\left(3661.819-\frac{899988.1}{272}\right)}=0.12101
+  1.968789\cdot\frac{5.914}{3.4878\sqrt{272-1}}=0.61968
 \end{equation}
 
 Consequently, the confidence interval
@@ -1041,7 +1043,32 @@ confidence level of $1-\alpha=0.95$? The error in this case is
   \label{eq:suquiequ}
   E=t_{\frac{\alpha}{2}}s_{e}\sqrt{1+\frac{1}{n}+\frac{(x-\bar{x})^{2}}{\sum{}x^{2}-\frac{\left(\sum{}x\right)^{2}}{n}}}
 \end{equation}
+\end{frame}
 
+\begin{frame}
+  \frametitle{Prediction Interval for Linear Regression}
+  Plugging in the numbers from the faithful example, the confidence
+  interval
+  \begin{equation}
+    \label{eq:miiniphu}
+    \bar{y}-E<y<\bar{y}+E
+  \end{equation}
+is $(64.72368,88.06192)$. 
+\end{frame}
+
+\begin{frame}[fragile,fragile]
+  \frametitle{In R Statistics}
+  In R Statistics, you can find the confidence interval for the slope
+  of the regression line as follows,
+\begin{alltt}
+confint(lm(faithful[[2]]~faithful[[1]]),'faithful[[1]]',level=0.95)
+\end{alltt}
+  You can find the confidence interval of the prediction for the
+  waiting time as follows, assuming that the eruption lasted for four
+  minutes,
+\begin{alltt}
+
+\end{alltt}
 \end{frame}
 
 \begin{frame}
