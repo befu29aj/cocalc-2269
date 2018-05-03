@@ -647,11 +647,16 @@ to reject the null hypothesis.
 
 \begin{frame}[fragile]
   \frametitle{R Commands for Goodness of Fit Test}
+Multinomial goodness of fit tests (goodness of fit tests for a
+categorical distribution) are usually right-tailed using the
+chi-squared distribution. To find the critical value on the last
+slide, use the R command \texttt{qchisq(0.95,8)}. To perform the
+goodness of fit test in R Statistics, use the following commands.
 \begin{alltt}
-o<-c(52,28,20,18,8,9,11,7,9) \newline
-s<-seq(1,9,1) \newline
-bf<-log(1+(1/s))/log(10) \newline
-e<-bf*162 \newline
+o<-c(52,28,20,18,8,9,11,7,9) 
+s<-seq(1,9,1) 
+bf<-log(1+(1/s))/log(10) 
+e<-bf*162 
 chisq.test(o,p=bf)
 \end{alltt}
 \end{frame}
