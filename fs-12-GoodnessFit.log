@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  26 APR 2018 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  3 MAY 2018 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1162,7 +1162,7 @@ Overfull \hbox (20.38533pt too wide) in paragraph at lines 16--16
 File: ./diagrams/conttable.png Graphic file (type png)
 
 <use ./diagrams/conttable.png>
-Package pdftex.def Info: ./diagrams/conttable.png used on input line 856.
+Package pdftex.def Info: ./diagrams/conttable.png used on input line 861.
 (pdftex.def)             Requested size: 298.6201pt x 146.85081pt.
  [30
 
@@ -1190,11 +1190,11 @@ Package pdftex.def Info: ./diagrams/conttable.png used on input line 856.
 \tf@snm=\write8
 \openout8 = `fs-12-GoodnessFit.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1021.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1021.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1026.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1026.
  (./fs-12-GoodnessFit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1021.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1021.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1026.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1026.
 
 Package rerunfilecheck Info: File `fs-12-GoodnessFit.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1203,7 +1203,7 @@ Package rerunfilecheck Info: File `fs-12-GoodnessFit.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1021.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1026.
  ) 
 Here is how much of TeX's memory you used:
  20141 strings out of 493029
@@ -1228,7 +1228,7 @@ si9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on fs-12-GoodnessFit.pdf (35 pages, 307693 bytes).
+Output written on fs-12-GoodnessFit.pdf (35 pages, 308015 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  267 compressed objects within 3 object streams
