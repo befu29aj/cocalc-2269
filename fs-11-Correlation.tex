@@ -459,19 +459,21 @@ F-statistic: 10.43 on 1 and 96 DF,  p-value: 0.001695
 \end{frame}
 
 \begin{frame}
-  \frametitle{Hypothesis Testing in R}
-  $s_{e}$ is one measure of the relationship between $x$-values and
-  $y$-values. The correlation coefficient $r$ is another one. In the R
-  summary it is called ``Multiple R-squared'' and equals $r^{2}$. The
-  reason why it is squared is because one could say that the
-  correlation accounts for $r^{2}$ of the variation in the $y$-values.
-  In the Nenana example, which year it is accounts for 9.8\% of the
-  variation in the number of days it takes for the ice to break.
-
-  \bigskip
-
-  Some statisticians prefer ``Adjusted R-squared'' which penalizes
-  larger numbers of parameters.
+  \frametitle{Coefficient of Determination}
+  \begin{itemize}
+  \item In the R summary the coefficient of determination is called
+    ``Multiple R-squared'' and equals $r^{2}$. The reason why it is
+    squared is because one could say that the correlation accounts for
+    $r^{2}$ of the variation in the $y$-values.
+  \item $r^{2}$ is called the \alert{coefficient of determination}. In
+    the Nenana example, which year it is accounts for 9.8\% of the
+    variation in the number of days it takes for the ice to break.
+  \item Remember that knowing $r^{2}$ does not tell you whether $r$ is
+    positive or negative---you can look at the slope of the regression
+    line for that information.
+  \item Some statisticians prefer ``Adjusted R-squared'' which
+    penalizes larger numbers of parameters.
+  \end{itemize}
 \end{frame}
 
 \begin{frame}
