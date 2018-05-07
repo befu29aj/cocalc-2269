@@ -399,6 +399,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 OUTPUT fs-13-anova.vrb
 INPUT fs-13-anova.vrb
 INPUT fs-13-anova.vrb
+OUTPUT fs-13-anova.vrb
+INPUT fs-13-anova.vrb
+INPUT fs-13-anova.vrb
 OUTPUT fs-13-anova.nav
 OUTPUT fs-13-anova.toc
 OUTPUT fs-13-anova.snm
