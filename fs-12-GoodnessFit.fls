@@ -386,6 +386,9 @@ INPUT ./diagrams/conttable.png
 OUTPUT fs-12-GoodnessFit.vrb
 INPUT fs-12-GoodnessFit.vrb
 INPUT fs-12-GoodnessFit.vrb
+OUTPUT fs-12-GoodnessFit.vrb
+INPUT fs-12-GoodnessFit.vrb
+INPUT fs-12-GoodnessFit.vrb
 OUTPUT fs-12-GoodnessFit.nav
 OUTPUT fs-12-GoodnessFit.toc
 OUTPUT fs-12-GoodnessFit.snm
