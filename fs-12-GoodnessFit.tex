@@ -857,6 +857,31 @@ Use degree of freedom $(r-1)\cdot{}(c-1)$.
   \end{figure}
 \end{frame}
 
+\begin{frame}[fragile]
+  \frametitle{Test of Independence}
+Now let's do this in R Statistics. Here is the data:  
+
+\begin{verbatim}
++------------+------+-------+---------+
+|Nicotine    |Gum   |Patch  |Inhaler  |
++------------+------+-------+---------+
+|Smoking     |191   |263    |95       |
++------------+------+-------+---------+
+|Not Smoking |59    |57     |27       |
++------------+------+-------+---------+
+\end{verbatim}
+
+Consider the following commands and output:
+\begin{verbatim}
+> nicotine<-matrix(c(191,59,263,57,95,27),ncol=3)
+> table<-as.table(nicotine)
+> chisq.test(table)
+	Pearson's Chi-squared test
+data:  table
+X-squared = 3.0618, df = 2, p-value = 0.2163
+\end{verbatim}
+\end{frame}
+
 % Statistical Literacy and Critical Thinking
 % 2.	Terminology I he table in Exercise 1 is called a contingency table or two-way table. Why is the term contingency used? Why is the terminology of two-way table used?
 % 3.	Degrees of Freedom and Critical Value For the hypothesis test in Exercise 1. the test statistic is 3.062. Find the number of degrees of freedom used to find the critical value, then find the critical value. Assume a 0.05 significance level.
