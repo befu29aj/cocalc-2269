@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  8 MAY 2018 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  8 MAY 2018 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,11 +1231,7 @@ Overfull \hbox (24.21489pt too wide) in paragraph at lines 26--26
 ]
 \openout4 = `fs-13-anova.vrb'.
 
- (./fs-13-anova.vrb)
-Overfull \vbox (13.65764pt too high) detected at line 243
- []
-
-[15
+ (./fs-13-anova.vrb) [15
 
 ]
 \openout4 = `fs-13-anova.vrb'.
@@ -1304,7 +1300,7 @@ type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmtt9.pfb>
-Output written on fs-13-anova.pdf (22 pages, 233727 bytes).
+Output written on fs-13-anova.pdf (22 pages, 233735 bytes).
 PDF statistics:
  230 PDF objects out of 1000 (max. 8388607)
  173 compressed objects within 2 object streams
