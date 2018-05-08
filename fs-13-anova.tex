@@ -37,16 +37,23 @@ separate the sample data into the different categories.
 
 \bigskip
 
-Consider the R Statistics code on the following page. It corresponds
-to the narrative in Triola, page 562. The result is a test statistic
-following the $F$-distribution and a $p$-value that can be compared to
-the significance level. This type of ANOVA is always a right-hand
-one-tailed test.
-% http://pages.stat.wisc.edu/~yandell/st571/R/anova.pdf
+In order to conduct one-way ANOVA, the requirements are (informally)
+that
+\begin{itemize}
+\item the samples are independent
+\item the populations are normally distributed, and
+\item the population variances are approximately equal.
+\end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
   \frametitle{Analysis of Variance}
+  Consider the following R Statistics code. It corresponds to the
+  narrative in Triola, page 562. The result is a test statistic
+  following the $F$-distribution and a $p$-value that can be compared
+  to the significance level. This type of ANOVA is always a right-hand
+  one-tailed test.
+% http://pages.stat.wisc.edu/~yandell/st571/R/anova.pdf
 \begin{scriptsize}
 \begin{alltt}
 l<-c(85,90,107,85,100,97,101,64,111,100,76,136,100,90,135,104,149,99,1
@@ -130,6 +137,31 @@ NULL must go.''
 \end{frame}
 
 \begin{frame}
+  \frametitle{Degrees of Freedom for the $F$-Distribution}
+% nice explanation of one-way anova: https://people.richland.edu/james/lecture/m113/anova.html
+  A variable that follows an $F$-distribution is the ratio of two
+  independent chi-square variables divided by their respective degrees
+  of freedom. Therefore, the $F$-distribution has two different
+  degrees of freedom, one for the numerator and one for the
+  denominator.
+  \begin{itemize}
+  \item Are all of the data values within any one group the same? No!
+    So there is some within group variation. The within group is
+    sometimes called the error group.
+  \item Are all the sample means between the groups the same? No! So
+    there is some between group variation. The between group is
+    sometimes called the treatment group.
+  \end{itemize}
+  There are two sources of variation here. The between group and the
+  within group. Let there be $k$ groups and $N$ data points within
+  those $k$ groups. The between group degree of freedom (for the
+  numerator) is $k-1$, just as it was for a categorical
+  goodness-of-fit test. The within group degree of freedom (for the
+  denominator) is $N-k$, just as it was for linear regression with
+  $k=2$.
+\end{frame}
+
+\begin{frame}
   \frametitle{One-Way ANOVA in Microsoft Excel}
 For instructions, see {\tiny \texttt{http://www.excel-easy.com/examples/anova.html}}.
   \begin{figure}[h]
@@ -194,17 +226,16 @@ Residuals 211 5023.4  23.807 \newline
 
 \begin{frame}[fragile]
   \frametitle{ANOVA Exercise}
-  Susan predicts that students will learn most effectively with a
-  constant background sound, as opposed to an unpredictable sound
-  or no sound at all. She randomly divides twenty-four students
-  into three groups of eight. All students study a passage of text
-  for 30 minutes. Those in group 1 study with background sound at
-  a constant volume in the background. Those in group 2 study with
-  noise that changes volume periodically. Those in group 3 study
-  with no sound at all. After studying, all students take a 10
-  point multiple choice test over the material. Test the
-  appropriate null hypothesis using one-way ANOVA at a 0.05
-  significance level.
+  {\ubung} Susan predicts that students will learn most effectively
+  with a constant background sound, as opposed to an unpredictable
+  sound or no sound at all. She randomly divides twenty-four students
+  into three groups of eight. All students study a passage of text for
+  30 minutes. Those in group 1 study with background sound at a
+  constant volume in the background. Those in group 2 study with noise
+  that changes volume periodically. Those in group 3 study with no
+  sound at all. After studying, all students take a 10 point multiple
+  choice test over the material. Test the appropriate null hypothesis
+  using one-way ANOVA at a 0.05 significance level.
 
 \begin{footnotesize}
 \begin{verbatim}
