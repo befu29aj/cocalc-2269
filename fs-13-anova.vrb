@@ -1,6 +1,6 @@
-\frametitle{ANOVA Exercise} Susan predicts that students will learn most effectively with a constant background sound, as opposed to an unpredictable sound or no sound at all. She randomly divides twenty-four students into three groups of eight. All students study a passage of text for 30 minutes. Those in group 1 study with background sound at a constant volume in the background. Those in group 2 study with noise that changes volume periodically. Those in group 3 study with no sound at all. After studying, all students take a 10 point multiple choice test over the material. Test the appropriate null hypothesis using one-way ANOVA at a 0.05 significance level.
-
-\begin{footnotesize}
-\begin{verbatim} +----------------+---+---+---+---+---+---+---+---+ | constant sound | 7 | 4 | 6 | 8 | 6 | 6 | 2 | 9 | +----------------+---+---+---+---+---+---+---+---+ | random sound | 5 | 5 | 3 | 4 | 4 | 7 | 2 | 2 | +----------------+---+---+---+---+---+---+---+---+ | no sound | 2 | 4 | 7 | 1 | 2 | 1 | 5 | 5 | +----------------+---+---+---+---+---+---+---+---+
-\end{verbatim}
-\end{footnotesize}
+\frametitle{ANOVA Exercise}
+  {\ubung} Copy and past the comma-separated value data (in cm) on the
+  next slide. You have eight graduate students. They each measure the
+  height of kindergarten children (six years of age, when there is no
+  significant height difference between girls and boys). Can you rely
+  on their measuring techniques to be consistent?
