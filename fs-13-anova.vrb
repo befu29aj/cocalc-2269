@@ -1,24 +1,13 @@
-\frametitle{ANOVA Exercise}
-  Susan predicts that students will learn most effectively with a
-  constant background sound, as opposed to an unpredictable sound
-  or no sound at all. She randomly divides twenty-four students
-  into three groups of eight. All students study a passage of text
-  for 30 minutes. Those in group 1 study with background sound at
-  a constant volume in the background. Those in group 2 study with
-  noise that changes volume periodically. Those in group 3 study
-  with no sound at all. After studying, all students take a 10
-  point multiple choice test over the material. Test the
-  appropriate null hypothesis using one-way ANOVA at a 0.05
-  significance level.
-
-\begin{footnotesize}
+\frametitle{Final Exam Practice}
+% Triola, page 515
+  {\ubung} Listed below are numbers of enrolled students (in
+  thousands) and numbers of burglaries for randomly selected large
+  colleges in a recent year (based on data from the New York Times).
+  Find the best predicted number of burglaries for Ohio State, which
+  had an enrollment of 51,800 students. Does a 95\% confidence
+  interval for the predicted value contain 329, which was the actual
+  number of burglaries?
 \begin{verbatim}
-+----------------+---+---+---+---+---+---+---+---+
-| constant sound | 7 | 4 | 6 | 8 | 6 | 6 | 2 | 9 |
-+----------------+---+---+---+---+---+---+---+---+
-| random sound   | 5 | 5 | 3 | 4 | 4 | 7 | 2 | 2 |
-+----------------+---+---+---+---+---+---+---+---+
-| no sound       | 2 | 4 | 7 | 1 | 2 | 1 | 5 | 5 |
-+----------------+---+---+---+---+---+---+---+---+
+enrolment<-c(32,31,53,28,27,36,42,30,34,46)
+burglaries<-c(103,103,86,57,32,131,157,20,27,161)
 \end{verbatim}
-\end{footnotesize}

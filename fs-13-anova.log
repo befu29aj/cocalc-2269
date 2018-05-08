@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  8 MAY 2018 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.23)  8 MAY 2018 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,9 +1250,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--193
 
 ] [18
 
-] [19
+]
+\openout4 = `fs-13-anova.vrb'.
 
-] [20
+ (./fs-13-anova.vrb) [19
+
+]
+[20
 
 ]
 \tf@nav=\write6
@@ -1264,22 +1268,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--193
 \tf@snm=\write8
 \openout8 = `fs-13-anova.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 304.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 304.
  (./fs-13-anova.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 304.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 304.
 Package rerunfilecheck Info: File `fs-13-anova.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 304.
  ) 
 Here is how much of TeX's memory you used:
- 20055 strings out of 493029
- 397010 string characters out of 6136234
+ 20057 strings out of 493029
+ 397042 string characters out of 6136234
  465211 words of memory out of 5000000
  23050 multiletter control sequences out of 15000+600000
  15765 words of font info for 59 fonts, out of 8000000 for 9000
@@ -1295,7 +1300,7 @@ onts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt9.pfb>
-Output written on fs-13-anova.pdf (20 pages, 224270 bytes).
+Output written on fs-13-anova.pdf (20 pages, 224817 bytes).
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  159 compressed objects within 2 object streams
