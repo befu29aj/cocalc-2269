@@ -1,13 +1,11 @@
 \frametitle{Final Exam Practice}
-% Triola, page 515
-  {\ubung} Listed below are numbers of enrolled students (in
-  thousands) and numbers of burglaries for randomly selected large
-  colleges in a recent year (based on data from the New York Times).
-  Find the best predicted number of burglaries for Ohio State, which
-  had an enrollment of 51,800 students. Does a 95\% confidence
-  interval for the predicted value contain 329, which was the actual
-  number of burglaries?
-\begin{verbatim}
-enrolment<-c(32,31,53,28,27,36,42,30,34,46)
-burglaries<-c(103,103,86,57,32,131,157,20,27,161)
-\end{verbatim}
+  {\ubung} Listed below are speeds (mi/h) measured from southbound
+  traffic on 1-280 near Cupertino, California (based on data from
+  SigAlert). This simple random sample was obtained at 3:30 p.m.
+  on a weekday. Use a 0.05 significance level to test the claim
+  that the sample is from a population with a mean that is less
+  than the speed limit of 65 mi/h.
+
+\begin{alltt}
+speed<-c(62,61,61,57,61,54,59,58,59,69,60,67)
+\end{alltt}
