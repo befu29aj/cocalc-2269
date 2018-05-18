@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1525969545 "fs-13-anova.tex" "fs-13-anova.pdf" "fs-13-anova" 1525969547
+["pdflatex"] 1526488375 "fs-13-anova.tex" "fs-13-anova.pdf" "fs-13-anova" 1526488377
   "/etc/texmf/web2c/texmf.cnf" 1503313332 1464 a4af512f3aaf20a97ae1601d19d817c4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -218,17 +218,17 @@
   "diagrams/lead_h.png" 1515691629 18577 9cf0c798f6dd501c17f481daaab57000 ""
   "diagrams/lead_l.png" 1515691629 23384 29d90e99908d654a0ce4491e8cc98cba ""
   "diagrams/lead_m.png" 1515691629 20257 e08c4edd47a6a3d67f04c5ac40b0c76c ""
-  "fs-13-anova.aux" 1525969546 4271 5bf1d65db4ff1a2e457a0242d277b02b ""
-  "fs-13-anova.nav" 1525969546 2543 671a0e01e985a5b7c446f9c42aa89208 ""
-  "fs-13-anova.out" 1525969546 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "fs-13-anova.tex" 1525969543 15072 03f8c72417bf42a111c335361cd50fb6 ""
+  "fs-13-anova.aux" 1526488376 4271 5bf1d65db4ff1a2e457a0242d277b02b ""
+  "fs-13-anova.nav" 1526488376 2543 671a0e01e985a5b7c446f9c42aa89208 ""
+  "fs-13-anova.out" 1526488376 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "fs-13-anova.tex" 1526488372 15043 4754a302da45f8a1f0dea7db667a2430 ""
   "teachbeamer.sty" 1524862914 2393 a982d25e8139d5d37fbbba1cb50e6cfa ""
   (generated)
   "fs-13-anova.pdf"
-  "fs-13-anova.log"
-  "fs-13-anova.vrb"
   "fs-13-anova.snm"
   "fs-13-anova.nav"
-  "fs-13-anova.toc"
-  "fs-13-anova.out"
   "fs-13-anova.aux"
+  "fs-13-anova.toc"
+  "fs-13-anova.log"
+  "fs-13-anova.vrb"
+  "fs-13-anova.out"
