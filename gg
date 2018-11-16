@@ -1,9 +1,0 @@
-#!/usr/bin/perl
-$cm=$ARGV[0];
-system "git add .";
-# print "git add .\n";
-system "git commit -am \"$cm\"";
-# print "git commit -am \"$cm\"\n";
-system "git push";
-# print "git push\n";
-print "git add . && git commit -am \"$cm cocalc\" && git push\n";
